@@ -1,0 +1,52 @@
+
+:root  {
+       
+    --bg-hue:0; 
+    --nav-hue:220;      
+    --footer-hue:220;
+    --gray-hue :240;
+    --primary-hue :216;
+    --secondary-hue:144;
+    --hover-hue :144;
+
+    --bg-color:hsl(var(--bg-hue),0%,0%);
+    --nav-color:hsl(var(--nav-hue),100%,70%);
+    --footer-color:hsl(var(--footer-hue),100%,70%);
+    --main-color:hsl(var(--primary-hue),54%,26%);
+    --main-color-variant:hsl(var(--primary-hue),50%,16%);
+    --secondary-color:hsl(var(--secondary-hue),47%,43%);
+    --hover-color:hsl(var(--hover-hue),100%,70%);   
+
+    --color-gray-100: hsl(var(--gray-hue),47%,94%);
+    --color-gray-200: hsl(var(--gray-hue),26%,75%);
+    --color-gray-300: hsl(var(--gray-hue),24%,64%);
+    --color-gray-400: hsl(var(--gray-hue),16%,41%);
+    --color-gray-500: hsl(var(--gray-hue),44%,25%);
+    --color-gray-600: hsl(var(--gray-hue),48%,15%);
+
+    --container-width-lg:80%;
+    --container-width-md:90%;
+    --transition:all 500ms ease; 
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+  font-family: 'Montserrat',sans-serif;
+  color: var(--color-gray-200);
+  line-height: 1.7;
+  overflow-x: hidden;
+  background: var(--bg-color);
+
+
+}

@@ -1,0 +1,23 @@
+.programming{
+    margin-top: 1rem;
+    width: 98vw;
+}
+
+.programming__container{
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+    height: 10rem;
+    align-items: center;
+
+}
+
+.programming__pdf a{
+    background: var(--main-color);
+    font-size: 2rem;
+    border: 2px solid transparent;
+    transition: var(--transition);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    
+}

@@ -1,0 +1,14 @@
+.video{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 80vw;
+    margin-left: 10rem;
+    background: var(--main-color);
+
+}
+
+.video__component{
+    width: 1080px;
+    height: 720px;
+}

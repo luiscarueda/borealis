@@ -1,0 +1,11 @@
+.programs{
+    margin-top: 4rem;
+    }
+
+.programs .programs__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+    margin-top: 4rem;
+
+}

@@ -1,0 +1,22 @@
+.FAQCard{
+    background: var(--color-gray-500);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+.FAQCard__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FAQCard__icon{
+    background: transparent;
+    color: var(--color-gray-100);
+    font-size: 1.5rem;
+}
+.FAQCard p {
+    margin-top: 1.5rem;
+}
+
+

@@ -1,0 +1,45 @@
+.container{
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+h1,h2,h3,h4,h5 {
+  line-height: 1.2;
+  color: var(--color-gray-100);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: var(--color-gray-100);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo{
+  width: 7rem;
+  display: block;
+}
+
+.initial{
+  border: 2px solid whitesmoke;
+}
+
+.btn{
+  color: var(--color-gray-100);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  background: var(--main-color);
+  border-radius: 1.5rem;
+  transition: var(--transition);
+
+
+}

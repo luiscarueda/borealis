@@ -1,0 +1,16 @@
+.servicescard{
+    background: var(--color-gray-500);
+    border: 2px solid transparent;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+    width: 16rem;
+    height: 25rem;
+}
+
+.servicescard:hover{
+    background: transparent;
+    border-color: var(--color-gray-400);
+    cursor: default;
+}

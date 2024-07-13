@@ -1,0 +1,24 @@
+.descriptionleft__image{
+    border-radius: 50%;
+    overflow: hidden;
+    transform: skew(15deg);
+    transition: var(--transition);
+}
+
+.descriptionleft__image :hover{
+    transform: skew(0);
+}
+
+.descriptionleft__container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
+
+.descriptionleft__content h1{
+    margin-bottom: 2rem;
+}
+
+.descriptionleft__content p{
+    margin-bottom: 2rem;
+}
