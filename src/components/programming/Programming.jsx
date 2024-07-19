@@ -8,8 +8,8 @@ const Programming = () => {
     <section className='programming initial'>
         <div className='container programming__container'>
           <div className='programming__content'>
-            <h4>ESTA ES LA PROGRAMACION DEL MES</h4>
-            <h2>DESCARGALA YA</h2>
+            <h4>This is the schedule of the month</h4>
+            <h2>DOWNLOAD IT NOW</h2>
           </div>           
           <div className="programming__pdf">
             <a href={pdf} download target='_blank' rel='noreferrer noopener'><MdOutlinePictureAsPdf /></a>

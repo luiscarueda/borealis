@@ -5,7 +5,7 @@
     transition: var(--transition);
 }
 
-.descriptionright__image :hover{
+.descriptionright__image:hover{
     transform: skew(0);
 }
 

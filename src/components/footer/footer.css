@@ -71,3 +71,6 @@
 .footer__copyright small{
     color: var(--color-gray-400);
 }
+.footer__copyright span{
+    cursor: pointer;
+}

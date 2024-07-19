@@ -11,9 +11,9 @@
 
    export const mainheaderData = [
 
-    { hook: 'ABOUTUS',
-      title:'WELCOME TO',
-      text:'La mejor academia de Baile en B.C',
+    { hook: 'ABOUT US',
+      title:'WELCOME TO BOREALIS ',
+      text:'LATIN DANCE',
       imgUrl: images.photoMain,
     },
     ]
@@ -21,8 +21,8 @@
 
   export const headerData = [
 
-      { title: 'ABOUTUS',
-        text:'lorem1',
+      { title: 'ABOUT ME',
+        text:'UNA BREVE HISTORIA DE MI',
         imgUrl: images.photo01,
        },
 
@@ -45,51 +45,52 @@
     export const aboutData = [
 
       { title: 'STORY',
-        text:'loreml kdjvldgjlk fgjdflkgjfl gkhfjglk hjghkfgjh klfjghlfkjhflkgj jkff flkjfglkjfkfjl dflkjds jdkytuy',
+        text:'Borealis Latin Dance, founded a year ago by a young Colombian in Canada, has quickly become a vibrant hub for Latin dance enthusiasts. Offering a fusion of passion, rhythm, and cultural exchange, the academy embodies the spirit of Latin America in the heart of Canada. Through dynamic classes and community events, Borealis Latin Dance introduces students to salsa, bachata, and more, fostering a welcoming atmosphere where everyone can connect through movement. With its commitment to excellence and inclusivity, Borealis Latin Dance is not just a dance studio but a celebration of diversity and joy, enriching the local cultural tapestry.',
         imgUrl: images.photo05,
        },
 
        { title:'MISION',
-       text:'lorem2ñllmñlkjlh',
+       text:'Our mission is to celebrate diversity and joy through dance, offering inclusive classes and community events that promote cultural exchange and excellence in Latin dance, creating a welcoming space where everyone can connect and express themselves through movement.',
        imgUrl:images.photo06,
      },
 
      { title:'VISION',
-        text:'loremhjlkjlkjlkjlkjlkjlkjlkjlk3',
+        text:'By 2030, Borealis Latin Dance envisions becoming a leading cultural hub in Canada, renowned for its excellence in Latin dance education and vibrant community engagement. We aspire to inspire thousands of individuals through our dynamic programs, fostering a deep appreciation for Latin culture and creating lasting connections through the universal language of dance.',
         imgUrl:images.photo07,
       },     
     ] ; 
 
     export const footerLinksData = [
       {
-          title: "Products",
+          title: "A",
           links: [
-              { name: "AirForkjhkjhkjghjhgce1", link: "/" },
-              { name: "Air Max 1", link: "/" },
-              { name: "Air Jordan 1", link: "/" },
-              { name: "Air Force 2", link: "/" },
-              
-              
+              { name: "B", link: "/" },
+              { name: "C", link: "/" },
+              { name: "D", link: "/" },
+              { name: "E", link: "/" },         
+       
           ],
       },
       {
-          title: "Help",
+          title: "F",
           links: [
-              { name: "About us", link: "/" },
-              { name: "FAQs", link: "/" },
-              { name: "How it works", link: "/" },
-              { name: "Privacy policy", link: "/" },
-              { name: "Payment policy", link: "/" },
+              { name: "G", link: "/" },
+              { name: "H", link: "/" },
+              { name: "I", link: "/" },
+              { name: "J", link: "/" },
+              { name: "K", link: "/" },
           ],
       },
       {
           title: "Get in touch",
-          links: [
-              { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-              { name: "+92554862354", link: "tel:+92554862354" },
+          links : [
+             { name: "bailaborealis@gmail.com", link: "mailto:bailaborealis@gmail.com" },
+             { name: "+1 587-566-0135", link: "tel:+1 587-566-0135" },
           ],
-      },
-  ];
+        }, 
+      ];
+      
+  
 
   export const programsData = [
     {
@@ -116,34 +117,36 @@
 export const faqsData = [
   {
       
-      question: "How often should I exercise?",
-      answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+      question: "What dance styles does Borealis Latin Dance offer?",
+      answer: "We offer classes in salsa, bachata, and other Latin dance styles."
   },
   {
       
-      question: "What time of day is best to work out?",
-      answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+      question: "Do I need prior experience to join the classes?",
+      answer: "No, our classes are designed for all levels, from beginners to advanced dancers."
   },
   {
       
-      question: "How long should my workouts be?",
-      answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+      question: "How can I sign up for a class?",
+      answer: "You can sign up for our classes through our website or by visiting our academy."
   },
   {
       
-      question: "Do I need to warm up before my workouts?",
-      answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+      question: "Do you offer private lessons in addition to group classes?",
+      answer: "Yes, we offer private lessons for those seeking more personalized attention."
   },
+ 
   {
       
-      question: "Should I do strength training, cardio or both?",
-      answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
-  },
-  {
-    
-      question: "Should I lift weights for strength training?",
-      answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
-  }
+    question: "Do you organize community or social events?",
+    answer: "Yes, we regularly organize community and social events to foster interaction and cultural exchange."
+},
+{
+      
+  question: "What should I bring to a dance class?",
+  answer: "We recommend wearing comfortable clothing and appropriate dance shoes. Also, bring your enthusiasm and willingness to learn."
+},
+  
 ]
 
  export const imagesData = [

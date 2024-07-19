@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 1rem;
     gap: 3rem;
 
 }
@@ -10,9 +11,15 @@
 .contact__wrapper{
     width: fit-content;
     display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
+.google{
+    width:600px;
+    height: 450px;
+   
+}
 .contact__wrapper a{
     background: var(--main-color);
     font-size: 2rem;
@@ -20,6 +27,38 @@
     transition: var(--transition);
     padding: 2rem;
     border-radius: 1.5rem;
+}
+
+.contact__form{
+     display: flex;
+    max-width: 70rem;
+    margin: 1rem auto;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.cta__form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta__form-input input {
+    width: 100%;
+    padding: 1.5rem;
+    color: var(--main-color);
+    background: var(--color-gray-300);
+    border-radius: 0.8rem;
+    margin: .7rem 0;
+
+
+}
+
+
+
+.contact__form-content{
+    display: flex;
+    flex-direction: column;
 }
 
 

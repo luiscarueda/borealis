@@ -15,14 +15,14 @@ const Footer = () => {
              <Link to='/' className='logo'>
               <img src={Logo}  alt="footer logo" />
              </Link>
-                <p>SIGUEME EN MIS REDES SOCIALES.</p>
+                <p>FOLLOW ME ON MY SOCIAL NETWORKS.</p>
             <div className="footer__socials">
               <a href='https://www.facebook.com/borealislatindance?locale=es_LA' target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
               <a href='https://www.instagram.com/borealislatindance/' target='_blank' rel='noreferrer noopener'><FaInstagram /></a>              
             </div>
           </article>
            
-          <article className='footer__article '>
+          <article className='footer__article initial '>
               {footerLinksData.map((section) =>(
                 <div key={section.title}>
                  <h4>{section.title}</h4>
@@ -37,7 +37,7 @@ const Footer = () => {
               ))}             
             </article>
         </div>
-        <div className="footer__copyright"> DESARROLLADO POR  L<small>UIS</small> CARLOS RUEDA 2024
+        <div className="footer__copyright"> Developed by <a href='mailto:luiscrueda.ing@gmail.com'><span>L<strong>UIS</strong> CARLOS RUEDA 2024</span></a>
         </div>
     </footer>
   )

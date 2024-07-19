@@ -1,6 +1,11 @@
 .programming{
     margin-top: 1rem;
     width: 98vw;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    background: var(--gradient-bar);
+
 }
 
 .programming__container{
@@ -9,6 +14,7 @@
     justify-content: space-evenly;
     height: 10rem;
     align-items: center;
+   
 
 }
 

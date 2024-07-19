@@ -29,7 +29,7 @@ img {
 }
 
 .initial{
-  border: 2px solid whitesmoke;
+  border: 2px solid var(--color-gray-100);
 }
 
 .btn{
@@ -40,6 +40,8 @@ img {
   background: var(--main-color);
   border-radius: 1.5rem;
   transition: var(--transition);
-
-
+}
+.btn:hover{
+  background: var(--secondary-color);
+  color: var(--color-gray-600);
 }

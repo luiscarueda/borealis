@@ -22,10 +22,8 @@ const About = () => {
       <Descriptionleft title={aboutData[2].title}
                        text={aboutData[2].text}
                        imgUrl={aboutData[2].imgUrl}
-      />
-          
-
-      
+      />     
+               
      </div>
   )
 }

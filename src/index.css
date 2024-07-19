@@ -26,9 +26,13 @@
 
     --container-width-lg:80%;
     --container-width-md:90%;
-    --transition:all 500ms ease; 
-
+    --transition:all 500ms ease;
+    
+    --gradient-bar : radial-gradient(circle at 50% 50%, #1F3B68 0%, #000000 62%, #6699FF 90%);
+              
+   
 }
+
 
 *{
     margin: 0;
@@ -47,6 +51,4 @@
   line-height: 1.7;
   overflow-x: hidden;
   background: var(--bg-color);
-
-
-}
+  }
