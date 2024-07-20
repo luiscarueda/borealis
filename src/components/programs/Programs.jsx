@@ -12,7 +12,7 @@ const Programs = () => {
   return (
     <section className='programs'>
       <div className="container programs__container">
-        <SectionHead icon={<FaCrown/>} title='PROGRAMAS'/>
+        <SectionHead icon={<FaCrown/>} title='PROGRAMS'/>
         <div className='programs__wrapper'>
           {programsData.map((programs,index)=>(
             <div key={index}>
