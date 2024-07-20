@@ -1,15 +1,14 @@
-
 .logo{
     width: 7rem;
     display: block;
 }
-
 .footer{
     background: var(--footer-color);
     margin-top: 7rem;
     padding-top: 7rem;
     font-size: 0.9rem;
     color: var(--color-gray-100);
+    font-family: var(--secondary-font);
 }
 .footer__container{
     display: grid;
@@ -21,26 +20,19 @@
     grid-template-columns:  1fr 1fr 1fr;
     gap: 5rem;
 }
-
 .footer__article ul {
     padding-right: 2rem;
 }
-
 .footer__article ul li {
     display: flex;
     flex-wrap: wrap;
 }
-
-
-
-
 .footer__socials{
     margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
     align-items: center;
 }
-
 .footer__socials a{
     background: var(--color-gray-100);
     padding: 0.7rem;
@@ -52,13 +44,11 @@
 .footer__socials a svg{
     color: var(--color-gray-600);
 }
-
-.footer__socials a :hover {
-    border-color: var(--color-gray-100);
-    background: transparent;
+.footer__socials a:hover {
+    border-color: var(--main-color-variant);
+    background: var(--hover-color);
     cursor: pointer;
 }
-
 .footer__copyright{
      text-align: center;
      color: var(--color-gray-100);
@@ -67,7 +57,6 @@
      margin-top: 5rem;
      gap: 2rem;
 }
-
 .footer__copyright small{
     color: var(--color-gray-400);
 }

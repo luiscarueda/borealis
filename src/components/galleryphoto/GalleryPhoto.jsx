@@ -6,11 +6,18 @@ import { imagesData } from '../../constants/data';
 
 const GalleryPhoto = () => {
   return (
-    <div className='galleryphoto'>
+    <div className='galleryphoto '>
         <ReactImageGallery 
         items={imagesData}
         showBullets={true}
-        showThumbnails={false}
+        showNav={false}
+        showThumbnails={false}                
+        showFullscreenButton={true}
+        slideDuration={2000}
+        slideInterval={1000}
+        showIndex={true}
+        lazyLoad={true}
+        
 
         />
     </div>

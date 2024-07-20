@@ -8,6 +8,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 100;
+    font-size: 1.1rem;
 }
 
 .nav__container{
@@ -47,9 +48,9 @@ nav {
     height: 1.2rem;
     background: var(--nav-color);
     position: absolute;
-    left: calc(50%-0.6rem);
+    left: calc(50%-0.5rem);
     transform: rotate(45deg);
-    margin-top: 0.6rem;
+    margin-top: 0.5rem;
 
 }
 

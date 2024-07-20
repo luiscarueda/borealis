@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
           </article>
            
-          <article className='footer__article initial '>
+          <article className='footer__article  '>
               {footerLinksData.map((section) =>(
                 <div key={section.title}>
                  <h4>{section.title}</h4>

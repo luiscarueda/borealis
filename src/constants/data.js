@@ -22,22 +22,22 @@
   export const headerData = [
 
       { title: 'ABOUT ME',
-        text:'UNA BREVE HISTORIA DE MI',
+        text:'A short history about me',
         imgUrl: images.photo01,
        },
 
        { title:'PLANS',
-       text:'lorem2',
+       text:'Our options',
        imgUrl:images.photo02,
      },
 
      { title:'GALLERY',
-        text:'lorem3',
+        text:'In action',
         imgUrl:images.photo03,
       },
 
       { title:'CONTACT',
-        text:'Inscribete ya ',
+        text:'Sign up now',
         imgUrl:images.photo04,
       },      
     ] ; 
@@ -62,23 +62,19 @@
 
     export const footerLinksData = [
       {
-          title: "A",
+          title: "ACADEMY",
           links: [
-              { name: "B", link: "/" },
-              { name: "C", link: "/" },
-              { name: "D", link: "/" },
-              { name: "E", link: "/" },         
-       
+              { name: "story", link: "/about" },
+              { name: "mision", link: "/about" },
+              { name: "vision", link: "/about" },                     
           ],
       },
       {
-          title: "F",
+          title: "SERVICES",
           links: [
-              { name: "G", link: "/" },
-              { name: "H", link: "/" },
-              { name: "I", link: "/" },
-              { name: "J", link: "/" },
-              { name: "K", link: "/" },
+              { name: "programs", link: "/plans" },
+              { name: "FAQs", link: "/plans" },
+              { name: "gallery", link: "/Gallery" },             
           ],
       },
       {

@@ -5,7 +5,7 @@ import pdf from '../../assets/july2024.jpg'
 
 const Programming = () => {
   return (
-    <section className='programming initial'>
+    <section className='programming '>
         <div className='container programming__container'>
           <div className='programming__content'>
             <h4>This is the schedule of the month</h4>
