@@ -6,3 +6,28 @@
     align-items: flex-start;
 
 }
+
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+ { 
+    .FAQs__wrapper{
+         grid-template-columns:  1fr; 
+    }      
+ }    
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{
+    .FAQs__wrapper{
+        gap: 1rem;
+        margin-top: 3rem;
+   }      
+        
+}
+
+
+
+ 

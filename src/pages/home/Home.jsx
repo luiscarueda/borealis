@@ -1,14 +1,12 @@
 import './home.css'
 import { Header , Programming, Video} from '../../components'
 
-
 const Home = () => {
   return (
     <main>
-      <Header/>
+      <Header />
       <Video/>
       <Programming/>  
-     
     </main>
   )
 }

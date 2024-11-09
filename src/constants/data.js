@@ -1,5 +1,4 @@
-  import images from "./images";
-  
+  import images from "./images";   
 
   export const navlinksData = [
     { label: "Home", path: '/'},
@@ -10,7 +9,6 @@
    ];
 
    export const mainheaderData = [
-
     { hook: 'ABOUT US',
       title:'WELCOME TO BOREALIS ',
       text:'LATIN DANCE',
@@ -18,23 +16,21 @@
     },
     ]
 
-
   export const headerData = [
-
       { title: 'ABOUT ME',
         text:'A short history about me',
         imgUrl: images.photo01,
        },
 
        { title:'PLANS',
-       text:'Our options',
-       imgUrl:images.photo02,
+         text:'MONTHLY MEMBERSHIPS',
+         imgUrl:images.photo02,
      },
 
-     { title:'GALLERY',
+       { title:'GALLERY',
         text:'In action',
         imgUrl:images.photo03,
-      },
+       },
 
       { title:'CONTACT',
         text:'Sign up now',
@@ -43,7 +39,6 @@
     ] ; 
 
     export const aboutData = [
-
       { title: 'STORY',
         text:'Borealis Latin Dance, founded a year ago by a young Colombian in Canada, has quickly become a vibrant hub for Latin dance enthusiasts. Offering a fusion of passion, rhythm, and cultural exchange, the academy embodies the spirit of Latin America in the heart of Canada. Through dynamic classes and community events, Borealis Latin Dance introduces students to salsa, bachata, and more, fostering a welcoming atmosphere where everyone can connect through movement. With its commitment to excellence and inclusivity, Borealis Latin Dance is not just a dance studio but a celebration of diversity and joy, enriching the local cultural tapestry.',
         imgUrl: images.photo05,
@@ -61,7 +56,7 @@
     ] ; 
 
     export const footerLinksData = [
-      {
+       {
           title: "ACADEMY",
           links: [
               { name: "story", link: "/about" },
@@ -84,68 +79,68 @@
              { name: "+1 587-566-0135", link: "tel:+1 587-566-0135" },
           ],
         }, 
-      ];
-      
+      ];     
   
-
   export const programsData = [
     {
-        title: "1 course",
-        info: "This is the day that the lord has made. We will rejoice!",
-        price: '$70'
-        
+        title: "1 Course",
+        info: "Access to 1 course (1 class per week,for 4 weeks)",
+        price: '$60 +GST'        
     },
     {
         title: "full membership",
-        info: "This is the day that the lord has made. We will rejoice!",
-        price: '$140'
-        
+        info: "Access to all courses from your level or below  (4 weeks each) ",
+        price: '$140 + GST'        
     },
-
     {
         title: "2 courses",
-        info: "This is the day that the lord has made. We will rejoice!",
-        price: '$100'
-        
+        info: "Access  to 2 courses   (2 class per week, for 4 weeks each)  ",
+        price: '$100 + GST'        
+    },
+    {
+      title: "1 course",
+      info: "Access to 1 course (4 weeks) of Level 2 or 3",
+      price: '$70'      
+    },
+    {
+      title: "full membership",
+      info: "Access up to 6 courses from your Level or below  (4 weeks each) ",
+      price: '$140'      
+    },
+    {
+      title: "2 courses",
+      info: "Access  to 2 courses (4 weeks each)from  Level 2 or 3  ",
+      price: '$100'      
     }
-]
+   ]
 
 export const faqsData = [
-  {
-      
+    {
       question: "What dance styles does Borealis Latin Dance offer?",
       answer: "We offer classes in salsa, bachata, and other Latin dance styles."
-  },
-  {
-      
+    },
+    {      
       question: "Do I need prior experience to join the classes?",
       answer: "No, our classes are designed for all levels, from beginners to advanced dancers."
-  },
-  {
-      
+    },
+    {     
       question: "How can I sign up for a class?",
       answer: "You can sign up for our classes through our website or by visiting our academy."
-  },
-  {
-      
+    },
+    {      
       question: "Do you offer private lessons in addition to group classes?",
       answer: "Yes, we offer private lessons for those seeking more personalized attention."
-  },
- 
-  {
-      
-    question: "Do you organize community or social events?",
-    answer: "Yes, we regularly organize community and social events to foster interaction and cultural exchange."
-},
-{
-      
-  question: "What should I bring to a dance class?",
-  answer: "We recommend wearing comfortable clothing and appropriate dance shoes. Also, bring your enthusiasm and willingness to learn."
-},
-  
+    }, 
+    {      
+      question: "Do you organize community or social events?",
+      answer: "Yes, we regularly organize community and social events to foster interaction and cultural exchange."
+    },
+    {      
+      question: "What should I bring to a dance class?",
+      answer: "We recommend wearing comfortable clothing and appropriate dance shoes. Also, bring your enthusiasm and willingness to learn."
+    },  
 ]
-
- export const imagesData = [
+export const imagesData = [
   {
     original: images.photogallery01,
     thumbnail: "https://picsum.photos/250/150/",
@@ -171,4 +166,3 @@ export const faqsData = [
     thumbnail: "https://picsum.photos/id/1015/250/150/",
   },
 ];
-

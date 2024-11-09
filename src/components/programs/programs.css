@@ -2,10 +2,21 @@
     margin-top: 4rem;
     }
 
-.programs .programs__wrapper{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1px;
+.programs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     margin-top: 4rem;
 
+}
+
+.programs__card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.programs__wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

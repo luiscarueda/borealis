@@ -3,12 +3,12 @@ import { Link,NavLink } from 'react-router-dom'
 import { navlinksData } from '../../constants/data'
 import { MdOutlineClose } from "react-icons/md";
 import { FaBars } from "react-icons/fa6";
-import Logo from '../../assets/4.png'
-import { useState } from 'react';
-
-
+import Logo from '../../assets/4.png';
+import {useState} from 'react';
+import ReactSwitch from 'react-switch';
 
 const Navbar = () => {
+  
   const [isNavShowing,setIsNavShowing] = useState(false);
   return (
     <nav>            
@@ -27,15 +27,18 @@ const Navbar = () => {
                     )
                   })
                   }                    
-                </ul>
+                </ul> 
+                 <ReactSwitch/>
+                <select name="language" id="language">
+                  <option value="en">EN</option>
+                  <option value="es">ES</option>
+                </select>               
                 <button className="nav__toggle-btn" onClick={()=> setIsNavShowing
                   (!isNavShowing)}>
                     {
                       isNavShowing ? <MdOutlineClose/>: <FaBars/>
-                    }
-                   
-                  
-                </button>
+                    }                
+                 </button>
             </div>
     </nav>
   )

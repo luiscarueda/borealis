@@ -15,7 +15,8 @@ const FAQs = () => {
             <FAQCard
             key={faqs.question} 
             question={faqs.question} 
-            answer={faqs.answer}/>
+            answer={faqs.answer}
+            />
           ))}
         </div>
       </div>

@@ -5,20 +5,16 @@
     align-items: center;
     margin-left: 1rem;
     gap: 3rem;
-
 }
-
 .contact__wrapper{
     width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-
 .google{
     width:600px;
-    height: 450px;
-   
+    height: 450px;   
 }
 .contact__wrapper a{
     width: 80px;
@@ -29,13 +25,10 @@
     padding: 1rem;
     border-radius: 1.5rem;    
 }
-
 .contact__wrapper a:hover{
     cursor: pointer;
     background: var(--secondary-color);
 }
-
-
 .contact__form{
      display: flex;
     max-width: 70rem;
@@ -44,14 +37,10 @@
     gap: 1rem;
     padding-top: 1rem;
 }
-
 .cta__form-input{
     display: flex;
     flex-direction: column;
 }
-
-
-
 .cta__form-input input {
     width: 100%;
     padding: 1.5rem;
@@ -64,16 +53,11 @@
     border-color: chartreuse;
     background: var(--color-gray-400);
 }
-
-
 .contact__form-content{
     display: flex;
     flex-direction: column;
 }
-
 .cta__form-content button {
     margin-top: 2rem;
     padding-top: 4rem;
 }
-
-

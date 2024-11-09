@@ -16,9 +16,7 @@ const GalleryPhoto = () => {
         slideDuration={2000}
         slideInterval={1000}
         showIndex={true}
-        lazyLoad={true}
-        
-
+        lazyLoad={true}   
         />
     </div>
   )

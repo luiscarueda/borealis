@@ -3,11 +3,11 @@ import './about.css'
 import { headerData } from '../../constants/data'
 import { aboutData } from '../../constants/data'
 
-
 const About = () => {
+   
   return (
-    <div>
-      <Headeraux title={headerData[0].title} 
+    <div className='initial'>
+      <Headeraux  title={headerData[0].title} 
                  text={headerData[0].text}
                  imgUrl={headerData[0].imgUrl} 
       />

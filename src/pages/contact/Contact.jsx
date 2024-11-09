@@ -3,8 +3,6 @@ import './contact.css'
 import { headerData } from '../../constants/data'
 import { IoLogoWhatsapp } from "react-icons/io";
 
-
-
 const Contact = () => {
   return (
     <div> 

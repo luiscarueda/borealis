@@ -1,7 +1,7 @@
 nav {
     height: 4rem;
     width: 100vw;
-    background: var(--nav-color);
+    background-color: var(--nav-color);
     display: grid; 
     place-items: center;
     position: fixed;
@@ -10,7 +10,6 @@ nav {
     z-index: 100;
     font-size: 1.1rem;
 }
-
 .nav__container{
     height: 10%;
     display: flex;
@@ -18,26 +17,20 @@ nav {
     align-items: center;
     position: relative;
 }
-
 .nav__links{
     display: flex;
     gap: 3rem;
     align-items: center;
 }
-
 .nav__links a:hover{
     color: var(--hover-color);
 }
-
 .nav__links a{
     transition: var(--transition);
 }
-
-
 .active-nav{
     position: relative;
 }
-
 .nav__toggle-btn{
     display: none;
 }
@@ -51,17 +44,17 @@ nav {
     left: calc(50%-0.5rem);
     transform: rotate(45deg);
     margin-top: 0.5rem;
-
 }
 
-@media screen and (max-width:1024px) {
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px) {
     .nav__toggle-btn{
         display: inline-block;
         background: transparent;
         font-size: 1.8rem;
         cursor: pointer;
     }
-
      .nav__toggle-btn svg{
         color: var(--color-gray-100);
     }
@@ -75,7 +68,6 @@ nav {
     .active-nav, .active-nav::after{
         display: none;
     }
-
     .nav__links li{
         height: 4rem;
         width: 100%;
@@ -90,15 +82,12 @@ nav {
         align-items: center;
         padding: 1rem 5rem 1rem 3rem;
     }
-
     .show__nav {
         display: flex;
     }
     .hide__nav {
         display: none;
     }
-
-
 }
     
 

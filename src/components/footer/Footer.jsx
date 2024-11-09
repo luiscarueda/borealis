@@ -37,7 +37,7 @@ const Footer = () => {
               ))}             
             </article>
         </div>
-        <div className="footer__copyright"> Developed by <a href='mailto:luiscrueda.ing@gmail.com'><span>L<strong>UIS</strong> CARLOS RUEDA 2024</span></a>
+        <div className="footer__copyright"> Developed by <a href='mailto:luiscrueda.ing@gmail.com'><span>L<strong>UIS</strong> C@RLOS RUEDA </span></a>
         </div>
     </footer>
   )

@@ -1,11 +1,13 @@
 .programming{
-    margin-top: 1rem;
-    width: 98vw;
+    margin-top: 1rem;    
+    width: 90vw;
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
     background: var(--gradient-bar);
-
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
 }
 
 .programming__container{
@@ -24,6 +26,37 @@
     border: 2px solid transparent;
     transition: var(--transition);
     padding: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1.5rem;    
+}
+
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+{   
+    .programming__container{
+        display: flex;        
+        width: 80vw;
+        justify-content: space-evenly;
+        height: 10rem;
+        align-items: center;      
+     }
+}
     
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{
+    .programming__container{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;      
+        gap: 1rem;
+        align-items: center;          
+    }
+
+    .programming__pdf{
+        margin-top: 2rem;
+    }
+
 }
