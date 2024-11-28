@@ -9,7 +9,7 @@ const Programs = () => {
     <section className='programs'>
       <div className="container programs__container">
         <SectionHead icon={<FaCrown/>} title='PROGRAMS'/>
-        <div className='programs__wrapper '>          
+         <div className='programs__wrapper '>          
           {programsData.map((programs,index)=>(
             <div key={index} className='programs__card '>
                <ServicesCard 
@@ -18,9 +18,8 @@ const Programs = () => {
                price={programs.price}
                />
             </div>          
-           ))}
-          
-        </div>       
+           ))}          
+         </div>       
       </div>     
     </section>
   )

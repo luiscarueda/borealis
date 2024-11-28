@@ -6,10 +6,10 @@ import { aboutData } from '../../constants/data'
 const About = () => {
    
   return (
-    <div className='initial'>
+    <div className='about'>
       <Headeraux  title={headerData[0].title} 
-                 text={headerData[0].text}
-                 imgUrl={headerData[0].imgUrl} 
+                  text={headerData[0].text}
+                  imgUrl={headerData[0].imgUrl} 
       />
       <Descriptionleft title={aboutData[0].title}
                        text={aboutData[0].text}

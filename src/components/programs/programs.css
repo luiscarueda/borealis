@@ -1,15 +1,13 @@
 .programs{
     margin-top: 4rem;
+    background: var(--gradient-bg);
     }
-
 .programs {
     display: flex;
     flex-direction: row;
     gap: 10px;
     margin-top: 4rem;
-
 }
-
 .programs__card{
     display: flex;
     flex-direction: column;

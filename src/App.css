@@ -1,18 +1,15 @@
 .initial{
   border: 1px solid var(--color-gray-500);
 }
-
 .container{
   width: var(--container-width-lg);
   max-width: 1920px;
   margin-inline: auto;
 }
-
 .logo{
   width: 7rem;
   display: block;
 }
-
 .btn{
   color: var(--color-gray-100);
   width: fit-content;
@@ -26,25 +23,20 @@
   background: var(--secondary-color);
   color: var(--color-gray-600);
 }
-
 .gradient__text{
   background: var(--gradient-bar);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
 h1,h2,h3,h4,h5 {
   font-family: var(--primary-font);
   line-height: 1.6;
   color: var(--color-gray-100);
 }
-
 h2 {
   font-size: 2.5rem;
 }
-
 h4{
   font-size: 1.2rem;
 }
@@ -55,7 +47,6 @@ a {
   color: var(--color-gray-100);
   font-size: 1.1rem;
 }
-
 p {
   font-size: 1.2rem;
   font-family: var(--secondary-font);
@@ -65,12 +56,10 @@ img {
   width: 100%;
   object-fit: cover;
 }
-
 .slide-top {
 	-webkit-animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) NaNs both;
 	        animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) NaNs both;
 }
-
  @-webkit-keyframes slide-top {
     0% {
       -webkit-transform: translateY(0);

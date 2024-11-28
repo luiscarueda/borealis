@@ -10,8 +10,11 @@ const Plans = () => {
                   text={headerData[1].text}
                   imgUrl={headerData[1].imgUrl}
                 />
-      <Programs/>       
-      <FAQs/>          
+                <div className='plans'>
+                   <Programs/>       
+                   <FAQs/>   
+                </div>
+            
       
     </div>
   )

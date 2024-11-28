@@ -1,0 +1,18 @@
+.gallery{ 
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding-top: 20px;
+        margin-top: 3rem;
+        margin-left: 10rem;
+        width: 300px;  
+        height: 47rem;    
+    }
+.image{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    width: 40rem;
+    height: 40rem;
+}
+  

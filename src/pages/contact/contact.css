@@ -1,3 +1,7 @@
+.contact{
+    background: var(--gradient-bg);
+}
+
 .contact__container{
     display: flex;
     flex-direction: row;
@@ -5,12 +9,14 @@
     align-items: center;
     margin-left: 1rem;
     gap: 3rem;
+
 }
 .contact__wrapper{
     width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+   
 }
 .google{
     width:600px;

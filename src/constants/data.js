@@ -1,14 +1,16 @@
   import images from "./images";   
 
-  export const navlinksData = [
-    { label: "Home", path: '/'},
-    { label: "About",path: '/about'},    
-    { label: "Plans",path: '/plans'},
-    { label: "Gallery", path: '/Gallery'},
-    { label: "Contact", path: '/contact'},   
+  export const NAVLINKS = [
+    { label: "Home",    path: '/'        },
+    { label: "About",   path: '/about'   },    
+    { label: "Plans",   path: '/plans'   },
+    { label: "Gallery", path: '/Gallery' },
+    { label: "Contact", path: '/contact' },
+    { label: "Posts",   path: '/allposts'},
+
    ];
 
-   export const mainheaderData = [
+   export const MAINHEADER= [
     { hook: 'ABOUT US',
       title:'WELCOME TO BOREALIS ',
       text:'LATIN DANCE',

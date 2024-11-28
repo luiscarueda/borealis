@@ -4,7 +4,7 @@
     display: grid;
     place-items: flex-start;
     margin-top: 4rem ;
-    background: var(--main-color-variant);
+    background: var(--gradient-bg);
 }
 .main__header-container{
     height: 60vw;

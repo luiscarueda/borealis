@@ -1,6 +1,6 @@
 import './navbar.css'
 import { Link,NavLink } from 'react-router-dom'
-import { navlinksData } from '../../constants/data'
+import { NAVLINKS } from '../../constants/data'
 import { MdOutlineClose } from "react-icons/md";
 import { FaBars } from "react-icons/fa6";
 import Logo from '../../assets/4.png';
@@ -17,7 +17,7 @@ const Navbar = () => {
                     <img src={Logo} alt="logo" />
                 </Link>
                 <ul className= {`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
-                  {navlinksData.map(({label,path },index)=>{
+                  {NAVLINKS.map(({label,path },index)=>{
                     return(
                       <li key={index}>
                         <NavLink to={path} className={({isActive})=>isActive?'active-nav': ''}>
@@ -41,7 +41,5 @@ const Navbar = () => {
                  </button>
             </div>
     </nav>
-  )
-}
-
+  )}
 export default Navbar

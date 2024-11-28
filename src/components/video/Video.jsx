@@ -4,7 +4,7 @@ import Videoprueba from '../../assets/video1.mp4'
 
 const Video = () => {
   return (
-    <div className='video initial'>
+    <div className='video '>
         <ReactPlayer className='video__component'
           url={Videoprueba}
           controls 
