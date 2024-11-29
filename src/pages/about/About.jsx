@@ -1,29 +1,28 @@
 import {  Descriptionleft, Descriptionright, Headeraux } from '../../components'
 import './about.css'
-import { headerData } from '../../constants/data'
-import { aboutData } from '../../constants/data'
+import { HEADER } from '../../constants/data'
+import { ABOUT  } from '../../constants/data'
 
 const About = () => {
    
   return (
     <div className='about'>
-      <Headeraux  title={headerData[0].title} 
-                  text={headerData[0].text}
-                  imgUrl={headerData[0].imgUrl} 
+      <Headeraux  title={HEADER[0].title} 
+                  text={HEADER[0].text}
+                  imgUrl={HEADER[0].imgUrl} 
       />
-      <Descriptionleft title={aboutData[0].title}
-                       text={aboutData[0].text}
-                       imgUrl={aboutData[0].imgUrl}
+      <Descriptionleft title={ABOUT[0].title}
+                       text={ABOUT[0].text}
+                       imgUrl={ABOUT[0].imgUrl}
       />
-      <Descriptionright title={aboutData[1].title}
-                        text={aboutData[1].text}
-                       imgUrl={aboutData[1].imgUrl}
+      <Descriptionright title={ABOUT[1].title}
+                        text={ABOUT[1].text}
+                        imgUrl={ABOUT[1].imgUrl}
       />
-      <Descriptionleft title={aboutData[2].title}
-                       text={aboutData[2].text}
-                       imgUrl={aboutData[2].imgUrl}
-      />     
-               
+      <Descriptionleft title={ABOUT[2].title}
+                       text={ABOUT[2].text}
+                       imgUrl={ABOUT[2].imgUrl}
+      />                   
      </div>
   )
 }

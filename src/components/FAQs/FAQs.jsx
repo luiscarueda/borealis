@@ -1,5 +1,5 @@
 import './faqs.css'
-import { faqsData } from '../../constants/data';
+import { FAQS } from '../../constants/data';
 import SectionHead from '../SectionHead/SectionHead';
 import { FaQuestion } from 'react-icons/fa';
 import { FAQCard } from '../../UI';
@@ -11,7 +11,7 @@ const FAQs = () => {
       <div className="FAQ__container container">
         <SectionHead icon={<FaQuestion/>} title='FAQS'/>
         <div className="FAQs__wrapper">
-          {faqsData.map((faqs)=>(
+          {FAQS.map((faqs)=>(
             <FAQCard
             key={faqs.question} 
             question={faqs.question} 

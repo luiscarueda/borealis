@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import Logo from '../../assets/4.png'
-import { footerLinksData } from '../../constants/data';
+import { FOOTERLINKS } from '../../constants/data';
 
 
 
@@ -22,13 +22,14 @@ const Footer = () => {
             </div>
           </article>
            
-          <article className='footer__article  '>
-              {footerLinksData.map((section) =>(
+          <article className='footer__article'>
+              {FOOTERLINKS.map((section) =>(
                 <div key={section.title}>
                  <h4>{section.title}</h4>
                  <ul >
                   {section.links.map((link,index)=>(
                     <li key={index}>
+                      
                       <a href={link.link}>{link.name}</a>
                     </li>
                   ))}

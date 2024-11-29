@@ -1,14 +1,14 @@
 import { Headeraux } from '../../components'
 import './contact.css'
-import { headerData } from '../../constants/data'
+import { HEADER } from '../../constants/data'
 import { IoLogoWhatsapp } from "react-icons/io";
 
 const Contact = () => {
   return (
     <div> 
-      <Headeraux title={headerData[3].title} 
-                 text={headerData[3].text}
-                 imgUrl={headerData[3].imgUrl} 
+      <Headeraux title={HEADER[3].title} 
+                 text={HEADER[3].text}
+                 imgUrl={HEADER[3].imgUrl} 
       />
       <section className="contact">
         <section className="container contact__container">

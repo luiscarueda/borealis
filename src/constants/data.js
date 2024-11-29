@@ -7,18 +7,17 @@
     { label: "Gallery", path: '/Gallery' },
     { label: "Contact", path: '/contact' },
     { label: "Posts",   path: '/allposts'},
-
    ];
 
    export const MAINHEADER= [
-    { hook: 'ABOUT US',
-      title:'WELCOME TO BOREALIS ',
-      text:'LATIN DANCE',
-      imgUrl: images.photoMain,
-    },
+     { hook: 'ABOUT US',
+       title:'WELCOME TO BOREALIS ',
+       text:'LATIN DANCE',
+       imgUrl: images.photoMain,
+     },
     ]
 
-  export const headerData = [
+  export const HEADER = [
       { title: 'ABOUT ME',
         text:'A short history about me',
         imgUrl: images.photo01,
@@ -40,7 +39,7 @@
       },      
     ] ; 
 
-    export const aboutData = [
+    export const ABOUT = [
       { title: 'STORY',
         text:'Borealis Latin Dance, founded a year ago by a young Colombian in Canada, has quickly become a vibrant hub for Latin dance enthusiasts. Offering a fusion of passion, rhythm, and cultural exchange, the academy embodies the spirit of Latin America in the heart of Canada. Through dynamic classes and community events, Borealis Latin Dance introduces students to salsa, bachata, and more, fostering a welcoming atmosphere where everyone can connect through movement. With its commitment to excellence and inclusivity, Borealis Latin Dance is not just a dance studio but a celebration of diversity and joy, enriching the local cultural tapestry.',
         imgUrl: images.photo05,
@@ -57,7 +56,7 @@
       },     
     ] ; 
 
-    export const footerLinksData = [
+    export const FOOTERLINKS= [
        {
           title: "ACADEMY",
           links: [
@@ -83,7 +82,7 @@
         }, 
       ];     
   
-  export const programsData = [
+  export const PROGRAMS= [
     {
         title: "1 Course",
         info: "Access to 1 course (1 class per week,for 4 weeks)",
@@ -116,7 +115,7 @@
     }
    ]
 
-export const faqsData = [
+export const FAQS = [
     {
       question: "What dance styles does Borealis Latin Dance offer?",
       answer: "We offer classes in salsa, bachata, and other Latin dance styles."
@@ -142,7 +141,7 @@ export const faqsData = [
       answer: "We recommend wearing comfortable clothing and appropriate dance shoes. Also, bring your enthusiasm and willingness to learn."
     },  
 ]
-export const imagesData = [
+export const IMAGES = [
   {
     original: images.photogallery01,
     thumbnail: "https://picsum.photos/250/150/",

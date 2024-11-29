@@ -1,5 +1,5 @@
 import './programs.css'
-import { programsData } from '../../constants/data';
+import {PROGRAMS } from '../../constants/data';
 import SectionHead from '../SectionHead/SectionHead';
 import { FaCrown } from 'react-icons/fa';
 import { ServicesCard } from '../../UI';
@@ -9,8 +9,8 @@ const Programs = () => {
     <section className='programs'>
       <div className="container programs__container">
         <SectionHead icon={<FaCrown/>} title='PROGRAMS'/>
-         <div className='programs__wrapper '>          
-          {programsData.map((programs,index)=>(
+         <div className='programs__wrapper '> 
+         {PROGRAMS.map((programs,index)=>(
             <div key={index} className='programs__card '>
                <ServicesCard 
                title={programs.title} 
@@ -18,7 +18,8 @@ const Programs = () => {
                price={programs.price}
                />
             </div>          
-           ))}          
+           ))} 
+                  
          </div>       
       </div>     
     </section>

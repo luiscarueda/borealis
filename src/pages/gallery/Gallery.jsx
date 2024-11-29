@@ -1,7 +1,7 @@
 import { Headeraux} from '../../components'
 import './gallery.css'
-import {headerData} from '../../constants/data'
-import { imagesData } from '../../constants/data';
+import {HEADER} from '../../constants/data'
+import { IMAGES } from '../../constants/data';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -14,9 +14,9 @@ import {Navigation,Pagination,EffectFade} from 'swiper/modules';
 const Gallery = () => {
   return (
     <div>
-      <Headeraux  title={headerData[2].title} 
-                  text={headerData[2].text}
-                  imgUrl={headerData[2].imgUrl}
+      <Headeraux  title={HEADER[2].title} 
+                  text={HEADER[2].text}
+                  imgUrl={HEADER[2].imgUrl}
       />
      <Swiper
       effect={'fade'}
@@ -29,7 +29,7 @@ const Gallery = () => {
       onSwiper={(swiper) => console.log(swiper)}
      >
       {
-        imagesData.map((slide,index)=>(
+        IMAGES.map((slide,index)=>(
           <SwiperSlide key={index} className='gallery'>
            <div className='image '>
              <img src={slide.original} alt="avatar" />
