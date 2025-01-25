@@ -1,3 +1,14 @@
 .posts{
-    color: azure;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 150px;  
+    background-color: rgb(33, 141, 19);
+    margin-top: 5%;
+}
+.post__item{
+    display: flex;
+    flex-direction: row;    
+}
+.test{
+    color: black;
 }

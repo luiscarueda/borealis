@@ -18,7 +18,7 @@
     ]
 
   export const HEADER = [
-      { title: 'ABOUT ME',
+       { title: 'ABOUT ME',
         text:'A short history about me',
         imgUrl: images.photo01,
        },
@@ -26,17 +26,23 @@
        { title:'PLANS',
          text:'MONTHLY MEMBERSHIPS',
          imgUrl:images.photo02,
-     },
+       },
 
        { title:'GALLERY',
         text:'In action',
         imgUrl:images.photo03,
        },
 
-      { title:'CONTACT',
+       { title:'CONTACT',
         text:'Sign up now',
         imgUrl:images.photo04,
-      },      
+       },
+       { title:'LATEST',
+        text:'All the Borealis News',
+        imgUrl:images.photo04,
+       },
+
+
     ] ; 
 
     export const ABOUT = [

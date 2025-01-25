@@ -4,6 +4,7 @@ import Plans from "./plans/Plans";
 import Gallery from "./gallery/Gallery";
 import Contact from "./contact/Contact";
 import AllPosts from "./allposts/AllPosts";
+import OnePost from "./onepost/OnePost";
 
 export {
     Home,
@@ -11,5 +12,6 @@ export {
     Plans,
     Gallery,
     Contact,
-    AllPosts    
+    AllPosts,
+    OnePost,       
 }

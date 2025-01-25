@@ -5,8 +5,6 @@ import { FaInstagram } from "react-icons/fa";
 import Logo from '../../assets/4.png'
 import { FOOTERLINKS } from '../../constants/data';
 
-
-
 const Footer = () => {
   return (
     <footer className='footer'>
@@ -23,7 +21,7 @@ const Footer = () => {
           </article>
            
           <article className='footer__article'>
-              {FOOTERLINKS.map((section) =>(
+          {FOOTERLINKS.map((section) =>(
                 <div key={section.title}>
                  <h4>{section.title}</h4>
                  <ul >
@@ -34,9 +32,9 @@ const Footer = () => {
                     </li>
                   ))}
                   </ul>
-                </div>
-              ))}             
-            </article>
+                </div>  
+              ))}            
+        </article>
         </div>
         <div className="footer__copyright"> Developed by <a href='mailto:luiscrueda.ing@gmail.com'><span>L<strong>UIS</strong> C@RLOS RUEDA </span></a>
         </div>
