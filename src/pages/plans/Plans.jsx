@@ -1,4 +1,4 @@
-import { FAQs, Headeraux, Programs} from '../../components'
+import { Headeraux, Programs} from '../../components'
 import './plans.css'
 import { HEADER } from '../../constants/data'
 
@@ -9,13 +9,10 @@ const Plans = () => {
       <Headeraux  title={HEADER[1].title} 
                   text={HEADER[1].text}
                   imgUrl={HEADER[1].imgUrl}
-                />
-                <div className='plans'>
-                   <Programs/>       
-                   <FAQs/>   
-                </div>
-            
-      
+      />
+      <div className='plans'>
+         <Programs/>                          
+      </div>              
     </div>
   )
 }

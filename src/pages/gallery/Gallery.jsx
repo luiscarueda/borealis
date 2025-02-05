@@ -2,6 +2,7 @@ import { Headeraux} from '../../components'
 import './gallery.css'
 import {HEADER} from '../../constants/data'
 import { IMAGES } from '../../constants/data';
+import {Video} from '../../components';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -18,6 +19,7 @@ const Gallery = () => {
                   text={HEADER[2].text}
                   imgUrl={HEADER[2].imgUrl}
       />
+     <Video/>
      <Swiper
       effect={'fade'}
       grabCursor={true}

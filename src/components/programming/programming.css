@@ -1,25 +1,36 @@
-.programming{
-    margin-top: 1rem;    
+.programming{    
+    margin-top: 40rem;    
     width: 90vw;
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
     background: var(--gradient-bar);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-left: 4rem;
-}
-
+   }
 .programming__container{
     display: flex;
+    margin-top: 6rem;
     width: 80vw;
     justify-content: space-evenly;
     height: 10rem;
-    align-items: center;
-   
+    align-items: center; 
+   }
+.programming__content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80rem;
+    background-color: aqua;
+   }
 
-}
-
+.programming__pdf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+}  
 .programming__pdf a{
     background: var(--main-color);
     font-size: 2rem;
@@ -27,6 +38,14 @@
     transition: var(--transition);
     padding: 2rem;
     border-radius: 1.5rem;    
+}
+.programming__image{
+        
+    width: fit-content;
+    height: 500px;
+    margin-left: 8rem;
+    
+
 }
 
 

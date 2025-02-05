@@ -37,8 +37,8 @@ const AllPosts = () => {
            <article key={post.slug.current} >              
                 <span key={index} className='post__item'>
                  <div>{post.title}</div>
-                 <div>{post.publishedAt}</div>
-                 <img src={post.mainImage.asset.url} />                 
+                 <img src={post.mainImage.asset.url} />
+                 <div>{post.publishedAt}</div>                                  
                 </span>              
                 <button>
                   <Link to={"/allposts/"+ post.slug.current } key={post.slug.current}className='test'>read  article </Link>

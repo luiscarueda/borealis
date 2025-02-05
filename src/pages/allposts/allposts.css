@@ -1,13 +1,13 @@
 .posts{
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    gap: 150px;  
-    background-color: rgb(33, 141, 19);
+    grid-template-columns: repeat(3, 250px);
+    gap: 100px;  
+    background: var(--gradient-bg);
     margin-top: 5%;
 }
 .post__item{
     display: flex;
-    flex-direction: row;    
+    flex-direction: column;    
 }
 .test{
     color: black;

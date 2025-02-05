@@ -1,25 +1,25 @@
   import images from "./images";   
 
   export const NAVLINKS = [
-    { label: "Home",    path: '/'        },
-    { label: "About",   path: '/about'   },    
-    { label: "Plans",   path: '/plans'   },
-    { label: "Gallery", path: '/Gallery' },
-    { label: "Contact", path: '/contact' },
-    { label: "Posts",   path: '/allposts'},
+    { label: "About",      path: '/'        },
+    { label: "Schedule",   path: '/schedule'}, 
+    { label: "Enroll",     path: '/enroll'  },   
+    { label: "Gallery",    path: '/Gallery' },
+    { label: "Contact",    path: '/contact' },
+    { label: "Posts",      path: '/allposts'},
    ];
 
-   export const MAINHEADER= [
+  export const MAINHEADER= [
      { hook: 'ABOUT US',
        title:'WELCOME TO BOREALIS ',
        text:'LATIN DANCE',
        imgUrl: images.photoMain,
      },
-    ]
+   ]
 
   export const HEADER = [
-       { title: 'ABOUT ME',
-        text:'A short history about me',
+       { title: 'SCHEDULE',
+        text:'your month',
         imgUrl: images.photo01,
        },
 
@@ -39,15 +39,13 @@
        },
        { title:'LATEST',
         text:'All the Borealis News',
-        imgUrl:images.photo04,
+        imgUrl:images.photo05,
        },
-
-
     ] ; 
 
-    export const ABOUT = [
+  export const ABOUT = [
       { title: 'STORY',
-        text:'Borealis Latin Dance, founded a year ago by a young Colombian in Canada, has quickly become a vibrant hub for Latin dance enthusiasts. Offering a fusion of passion, rhythm, and cultural exchange, the academy embodies the spirit of Latin America in the heart of Canada. Through dynamic classes and community events, Borealis Latin Dance introduces students to salsa, bachata, and more, fostering a welcoming atmosphere where everyone can connect through movement. With its commitment to excellence and inclusivity, Borealis Latin Dance is not just a dance studio but a celebration of diversity and joy, enriching the local cultural tapestry.',
+        text:'Borealis Latin Dance, founded a year ago by a young Colombian in Canada, has quickly become a vibrant hub for Latin dance enthusiasts. Offering a fusion of passion, rhythm, and cultural exchange, the academy embodies the spirit of Latin America in the heart of Canada. Through dynamic classes and community events, Borealis Latin Dance introduces students to salsa, bachata, and more. ',
         imgUrl: images.photo05,
        },
 
@@ -62,7 +60,7 @@
       },     
     ] ; 
 
-    export const FOOTERLINKS= [
+  export const FOOTERLINKS= [
        {
           title: "ACADEMY",
           links: [
@@ -74,8 +72,8 @@
       {
           title: "SERVICES",
           links: [
-              { name: "programs", link: "/plans" },
-              { name: "FAQs", link: "/plans" },
+              { name: "programs", link: "/enroll" },
+              { name: "FAQs", link: "/enroll" },
               { name: "gallery", link: "/Gallery" },             
           ],
       },
@@ -83,7 +81,8 @@
           title: "Get in touch",
           links : [
              { name: "bailaborealis@gmail.com", link: "mailto:bailaborealis@gmail.com" },
-             { name: "+1 587-566-0135", link: "tel:+1 587-566-0135" },
+             { name: "+1 236-457-5567", link: "tel:+1 236-457-5567" },
+             { name: "Second Floor 1040 Richter St, Kelowna", link: "tel:+1 236-457-5567" },
           ],
         }, 
       ];     
