@@ -1,13 +1,21 @@
 .gallery{ 
         display: flex;
-        justify-content: end;
-        align-items: end;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
         padding-top: 20px;
         margin-top: 3rem;
         margin-left: 10rem;
         width: 300px;  
         height: 47rem;    
     }
+.gallery__principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20rem;
+
+}
 .image{
     display: flex;
     justify-content: end;

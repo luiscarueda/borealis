@@ -9,6 +9,8 @@ import Descriptionright from "./descriptionright/Descriptionright";
 import Testimonials from "./testimonials/Testimonials";
 import Programming from "./programming/Programming";
 import Video from "./video/Video";
+import Classess from "./classess/Classess";
+import ClassessCard from "./classesscard/ClassessCard";
 
 export {
     Navbar,
@@ -21,5 +23,7 @@ export {
     Descriptionright,
     Testimonials,    
     Programming,
-    Video        
+    Video,
+    Classess,
+    ClassessCard      
 }

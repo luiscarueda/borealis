@@ -7,6 +7,7 @@
     { label: "Gallery",    path: '/Gallery' },
     { label: "Contact",    path: '/contact' },
     { label: "Posts",      path: '/allposts'},
+    { label: "Story",      path: '/story'},
    ];
 
   export const MAINHEADER= [
@@ -148,11 +149,11 @@ export const FAQS = [
 ]
 export const IMAGES = [
   {
-    original: images.photogallery01,
+    original: images.photogallery02,
     thumbnail: "https://picsum.photos/250/150/",
   },
   {
-    original: images.photogallery02,
+    original: images.photogallery01,
     thumbnail: "https://picsum.photos/id/115/1010/250/150/",
   },
   {

@@ -39,13 +39,16 @@
     padding: 2rem;
     border-radius: 1.5rem;    
 }
-.programming__image{
-        
+.programming__image{        
     width: fit-content;
     height: 500px;
-    margin-left: 8rem;
-    
+    margin-left: 8rem; 
 
+}
+
+.title{
+    display: flex;
+    justify-content: center;
 }
 
 

@@ -1,4 +1,7 @@
-.testname{
-    color: beige;
-    margin-top: 60px;
+
+.onepost{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 8rem;
 }

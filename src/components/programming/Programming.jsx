@@ -11,8 +11,8 @@ const Programming = () => {
       <div >
         <div >           
             <img className='programming__image' src= {calendar} alt="calendar" />               
-            <div className='programming__pdf initial'>
-              <h4 className='initial'>download pdf</h4>
+            <div className='programming__pdf'>
+              <h4 className='title '>download pdf</h4>
               <a className ='btn'href={pdf} 
                  download target='_blank' rel='noreferrer noopener '>
                 <MdOutlinePictureAsPdf />

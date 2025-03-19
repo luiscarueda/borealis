@@ -12,6 +12,7 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/pagination'
 import {Navigation,Pagination,EffectFade} from 'swiper/modules';
 
+
 const Gallery = () => {
   return (
     <div>
@@ -20,16 +21,18 @@ const Gallery = () => {
                   imgUrl={HEADER[2].imgUrl}
       />
      <Video/>
-     <Swiper
+      <div className='gallery__principal'>
+      <Swiper
       effect={'fade'}
       grabCursor={true}
-      pagination={true}
+      pagination={{ clickable: true }}      
       navigation={true}     
       modules={[Navigation,Pagination,EffectFade]}
-      spaceBetween={30}    
+      spaceBetween={50}    
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
      >
+      
       {
         IMAGES.map((slide,index)=>(
           <SwiperSlide key={index} className='gallery'>
@@ -39,8 +42,8 @@ const Gallery = () => {
           </SwiperSlide>
         ))}   
      </Swiper>    
+      </div>         
     </div>
   )
 }
-
 export default Gallery

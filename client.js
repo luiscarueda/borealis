@@ -6,10 +6,4 @@ export const client = createClient({
         apiVersion:   '2024-10-01',
         useCdn:        true,
         token:        'skLLFrbB0ClUMPLVhPFUoE0k0qnmSmoktLBkZXu3tho1D7I1aGxKKzSvdvtekqNKOFJpvt4VTywuRESU8rsPzC3x6XPsfn4Ppeu7N4mDQGI5VlXGWwHPUcYoAKsTiba3g018aRWpzZp9cs9vRfywbdf6daIP5tZQjeePIvhEf6QDOyAL9PQJ' ,
-                                   });  
-
-const urlFor = (source) => {
-        return builder.image(source)
- }
- 
-
+       });   

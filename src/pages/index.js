@@ -5,6 +5,7 @@ import Contact from "./contact/Contact";
 import AllPosts from "./allposts/AllPosts";
 import OnePost from "./onepost/OnePost";
 import Schedule from "./schedule/Schedule";
+import Story from "./story/Story";
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     Contact,
     AllPosts,
     OnePost,
-    Schedule,      
+    Schedule,
+    Story,      
 }
