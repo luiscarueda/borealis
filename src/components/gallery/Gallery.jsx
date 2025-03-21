@@ -1,27 +1,18 @@
-import { Headeraux} from '../../components'
-import './gallery.css'
-import {HEADER} from '../../constants/data'
+import React from 'react';
+import './gallery.css';
+import {Swiper,SwiperSlide} from 'swiper/react';
 import { IMAGES } from '../../constants/data';
-import {Video} from '../../components';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
-import 'swiper/css/pagination'
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import {Navigation,Pagination,EffectFade} from 'swiper/modules';
-
-
 const Gallery = () => {
   return (
-    <div>
-      <Headeraux  title={HEADER[2].title} 
-                  text={HEADER[2].text}
-                  imgUrl={HEADER[2].imgUrl}
-      />
-     <Video/>
-      <div className='gallery__principal'>
+    <div>    
+        <div className='gallery__principal'>
       <Swiper
       effect={'fade'}
       grabCursor={true}
@@ -42,8 +33,11 @@ const Gallery = () => {
           </SwiperSlide>
         ))}   
      </Swiper>    
-      </div>         
+    </div>         
+
+    
     </div>
   )
 }
+
 export default Gallery

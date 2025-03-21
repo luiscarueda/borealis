@@ -5,9 +5,9 @@ import { HEADER } from '../../constants/data'
 const Schedule = () => {
   return (
     <div>
-       <Headeraux  title={HEADER[0].title} 
-                  text={HEADER[0].text}
-                  imgUrl={HEADER[0].imgUrl}
+       <Headeraux  title={HEADER[1].title} 
+                  text={HEADER[1].text}
+                  imgUrl={HEADER[1].imgUrl}
        />
        <Programming/>
     </div>

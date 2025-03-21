@@ -4,8 +4,7 @@ import { NAVLINKS } from '../../constants/data'
 import { MdOutlineClose } from "react-icons/md";
 import { FaBars } from "react-icons/fa6";
 import {useState} from 'react';
-import   Logo from '../../assets/4.png';
-import ReactSwitch from 'react-switch';
+import  Logo from '../../assets/4.png';
 
 const Navbar = () => {
   
@@ -27,12 +26,8 @@ const Navbar = () => {
                   )
                 })
               }                    
-            </ul> 
-                 <ReactSwitch/>
-                <select name="language" id="language">
-                  <option value="en">EN</option>
-                  <option value="es">ES</option>
-                </select>               
+            </ul>                 
+                          
                 <button className="nav__toggle-btn" onClick={()=> setIsNavShowing
                   (!isNavShowing)}>
                     {

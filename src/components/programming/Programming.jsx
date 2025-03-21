@@ -2,7 +2,7 @@ import './programming.css'
 import { MdOutlinePictureAsPdf } from "react-icons/md";
 import pdf from '../../assets/july2024.jpg'
 import calendar from '../../assets/july2024.jpg'
-import {FAQs} from '../../components'
+
 
 
 const Programming = () => {
@@ -18,7 +18,7 @@ const Programming = () => {
                 <MdOutlinePictureAsPdf />
               </a>
             </div>
-          <FAQs/>  
+          
         </div>          
       </div>        
     </section>

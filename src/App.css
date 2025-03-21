@@ -8,8 +8,13 @@
 }
 .logo{
   width: 7rem;
-  display: block;
+  display: block;  
 }
+.logo:hover{
+  background: var(--secondary-color);
+  color: var(--color-gray-600);
+}
+
 .btn{
   color: var(--color-gray-100);
   width: fit-content;

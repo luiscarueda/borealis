@@ -6,9 +6,9 @@ import { HEADER } from '../../constants/data'
 const Plans = () => {
   return (
     <div>
-      <Headeraux  title={HEADER[1].title} 
-                  text={HEADER[1].text}
-                  imgUrl={HEADER[1].imgUrl}
+      <Headeraux  title={HEADER[2].title} 
+                  text={HEADER[2].text}
+                  imgUrl={HEADER[2].imgUrl}
       />
       <div className='plans'>
          <Programs/>                          

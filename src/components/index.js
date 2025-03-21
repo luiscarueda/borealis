@@ -11,6 +11,7 @@ import Programming from "./programming/Programming";
 import Video from "./video/Video";
 import Classess from "./classess/Classess";
 import ClassessCard from "./classesscard/ClassessCard";
+import Google from "./google/Google";
 
 export {
     Navbar,
@@ -25,5 +26,6 @@ export {
     Programming,
     Video,
     Classess,
-    ClassessCard      
+    ClassessCard,
+    Google      
 }

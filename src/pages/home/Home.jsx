@@ -1,13 +1,13 @@
 import './home.css'
-import { Classess, Header } from '../../components'
-
+import { Google, Header, Programming, Programs } from '../../components'
 
 const Home = () => {
   return (
     <main>
       <Header />
-      <Classess/>
-       
+      <Programming/>
+      <Programs/> 
+      <Google/>                 
     </main>
   )
 }

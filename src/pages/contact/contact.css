@@ -18,10 +18,7 @@
     gap: 2rem;
    
 }
-.google{
-    width:600px;
-    height: 450px;   
-}
+
 .contact__wrapper a{
     width: 80px;
     background: var(--main-color);

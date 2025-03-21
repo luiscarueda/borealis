@@ -1,13 +1,12 @@
   import images from "./images";   
 
   export const NAVLINKS = [
-    { label: "About",      path: '/'        },
+    { label: "About",      path: '/about'   },    
     { label: "Schedule",   path: '/schedule'}, 
-    { label: "Enroll",     path: '/enroll'  },   
-    { label: "Gallery",    path: '/Gallery' },
-    { label: "Contact",    path: '/contact' },
+    { label: "Enroll",     path: '/enroll'  },
+    { label: "Classes",    path: '/classes'},
     { label: "Posts",      path: '/allposts'},
-    { label: "Story",      path: '/story'},
+    { label: "Contact",    path: '/contact' },            
    ];
 
   export const MAINHEADER= [
@@ -19,29 +18,34 @@
    ]
 
   export const HEADER = [
-       { title: 'SCHEDULE',
+       { title: 'ABOUT',
         text:'your month',
         imgUrl: images.photo01,
        },
 
-       { title:'PLANS',
+       { title:'SCHEDULE',
          text:'MONTHLY MEMBERSHIPS',
          imgUrl:images.photo02,
        },
 
-       { title:'GALLERY',
+       { title:'ENROLL',
         text:'In action',
         imgUrl:images.photo03,
        },
 
-       { title:'CONTACT',
+       { title:'CLASSES',
         text:'Sign up now',
         imgUrl:images.photo04,
        },
-       { title:'LATEST',
+       { title:'POSTS',
         text:'All the Borealis News',
         imgUrl:images.photo05,
        },
+       { title:'CONTACT',
+        text:'All the Borealis News',
+        imgUrl:images.photo05,
+       },
+
     ] ; 
 
   export const ABOUT = [
