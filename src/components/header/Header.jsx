@@ -7,7 +7,8 @@ const Header = () => {
       <div className="container main__header-container">
         <section className='main__header-left'>
           <h1>{MAINHEADER[0].title}</h1>
-          <p>{MAINHEADER[0].text}</p>      
+          <p>{MAINHEADER[0].text}</p>
+          <h4>{MAINHEADER[0].hook}</h4>      
     
         </section>
         <section className='main__header-right '>

@@ -1,0 +1,13 @@
+.oneclass{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+    margin-top: 8rem;
+    gap: 10px;
+}
+
+.oneclass__image{
+    width: 400px;
+    height: 400px;
+}

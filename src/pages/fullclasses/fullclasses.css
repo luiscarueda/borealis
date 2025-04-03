@@ -1,0 +1,15 @@
+.fullclasses{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);    
+    gap: 100px; 
+    background: var(--gradient-bg); 
+    margin-top: 5%;
+    margin-left: 8rem;
+}
+.fullclasses__item{
+    display: flex;
+    flex-direction: column;    
+}
+.test{
+    color: black;
+}

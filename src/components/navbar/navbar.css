@@ -9,6 +9,7 @@ nav {
     left: 0;
     z-index: 100;
     font-size: 1.1rem;
+    
 }
 .nav__container{
     height: 10%;
@@ -23,16 +24,18 @@ nav {
     align-items: center;
     margin-right: 8rem;
 }
-.nav__links a:hover{
-    color: var(--hover-color);
-    border-radius: 2%;
-    border-color: cadetblue;
-    
-    
-}
+
 .nav__links a{
     transition: var(--transition);
+    padding: 6px 4px;
+    border-radius: 5px;
 }
+.nav__links a:hover{
+    color: var(--nav-color);    
+    background: var(--hover-color);          
+}
+
+
 .active-nav{
     position: relative;
 }

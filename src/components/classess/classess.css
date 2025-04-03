@@ -1,8 +1,0 @@
-.classess{
-    width: 100vw;
-    height: 60vw;
-    display: grid;
-    place-items: flex-start;
-    margin-top: 4rem ;
-    background: var(--gradient-bg); 
-}

@@ -9,9 +9,8 @@ import Descriptionright from "./descriptionright/Descriptionright";
 import Testimonials from "./testimonials/Testimonials";
 import Programming from "./programming/Programming";
 import Video from "./video/Video";
-import Classess from "./classess/Classess";
-import ClassessCard from "./classesscard/ClassessCard";
 import Google from "./google/Google";
+import Dropdown from "./dropdown/Dropdown";
 
 export {
     Navbar,
@@ -25,7 +24,6 @@ export {
     Testimonials,    
     Programming,
     Video,
-    Classess,
-    ClassessCard,
-    Google      
+    Google,
+    Dropdown     
 }

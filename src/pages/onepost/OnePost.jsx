@@ -13,7 +13,7 @@ const OnePost = () => {
     const [onePost,setOnePost] =useState(null);
     const { slug } = useParams();
     useEffect(() => 
-    {
+     {
         client.fetch(
             `*[slug.current == "${slug}"]
              { title,
@@ -35,11 +35,10 @@ const OnePost = () => {
    
         if (!onePost) return <div>Loading...</div>  ;            
          return (
-            <div className='onepost initial'> 
-               <h1 className='initial'>hola mundo</h1>            
+            <div className='onepost initial'>                      
                <h1 className='initial'>{onePost.title}</h1>            
                <h2 className='initial'>{onePost.publishedAt}</h2>
-               <img src={urlFor(onePost.mainImage).width(100).height(100).blur(5).url()} alt="" />          
+               <img src={urlFor(onePost.mainImage).width(100).height(100).blur(2).url()} alt="" />          
                <PortableText
                  value={onePost.body}
                />       

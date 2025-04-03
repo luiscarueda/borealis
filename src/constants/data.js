@@ -1,16 +1,25 @@
-  import images from "./images";   
+  import images from "./images";  
 
   export const NAVLINKS = [
     { label: "About",      path: '/about'   },    
     { label: "Schedule",   path: '/schedule'}, 
     { label: "Enroll",     path: '/enroll'  },
-    { label: "Classes",    path: '/classes'},
+    { label: "Classes",    path: '/fullclasses'},
     { label: "Posts",      path: '/allposts'},
     { label: "Contact",    path: '/contact' },            
    ];
+  
+  export const CLASSESDROPDOWN = [
+    { label: "Salsa1",      path: '/classes'},
+    { label: "Salsa2",      path: '/classes'},
+    { label: "Salsa3",      path: '/classes' },  
+    { label: "Bachata1",    path: '/classes'   },    
+    { label: "Bachata2",    path: '/classes'}, 
+    { label: "Bachata3",    path: '/classes'  },             
+   ];
 
   export const MAINHEADER= [
-     { hook: 'ABOUT US',
+     { hook: 'DISCOVER THE FIRE OF SALSA AND BACHATA IN KELOWNA',
        title:'WELCOME TO BOREALIS ',
        text:'LATIN DANCE',
        imgUrl: images.photoMain,
@@ -34,7 +43,7 @@
        },
 
        { title:'CLASSES',
-        text:'Sign up now',
+        text:'From Beginner to Advanced',
         imgUrl:images.photo04,
        },
        { title:'POSTS',
@@ -92,16 +101,11 @@
         }, 
       ];     
   
-  export const PROGRAMS= [
+  export const PROGRAMS= [    
     {
         title: "1 Course",
         info: "Access to 1 course (1 class per week,for 4 weeks)",
         price: '$60 +GST'        
-    },
-    {
-        title: "full membership",
-        info: "Access to all courses from your level or below  (4 weeks each) ",
-        price: '$140 + GST'        
     },
     {
         title: "2 courses",
@@ -109,23 +113,13 @@
         price: '$100 + GST'        
     },
     {
-      title: "1 course",
-      info: "Access to 1 course (4 weeks) of Level 2 or 3",
-      price: '$70'      
+        title: "full membership",
+        info: "Access to all courses from your level or below  (4 weeks each) ",
+        price: '$140 + GST'        
     },
-    {
-      title: "full membership",
-      info: "Access up to 6 courses from your Level or below  (4 weeks each) ",
-      price: '$140'      
-    },
-    {
-      title: "2 courses",
-      info: "Access  to 2 courses (4 weeks each)from  Level 2 or 3  ",
-      price: '$100'      
-    }
    ]
 
-export const FAQS = [
+  export const FAQS = [
     {
       question: "What dance styles does Borealis Latin Dance offer?",
       answer: "We offer classes in salsa, bachata, and other Latin dance styles."
@@ -150,30 +144,30 @@ export const FAQS = [
       question: "What should I bring to a dance class?",
       answer: "We recommend wearing comfortable clothing and appropriate dance shoes. Also, bring your enthusiasm and willingness to learn."
     },  
-]
-export const IMAGES = [
-  {
+   ]
+  export const IMAGES = [
+   {
     original: images.photogallery02,
     thumbnail: "https://picsum.photos/250/150/",
-  },
-  {
+   },
+   {
     original: images.photogallery01,
     thumbnail: "https://picsum.photos/id/115/1010/250/150/",
-  },
-  {
+   },
+   {
     original: images.photogallery03,
     thumbnail: "https://picsum.photos/id/1012/250/150/",
-  },
-  {
+   },
+   {
     original: images.photogallery04,
     thumbnail: "https://picsum.photos/id/1013/250/150/",
-  },
-  {
+   },
+   {
     original: images.photogallery05,
     thumbnail: "https://picsum.photos/id/1014/250/150/",
-  },
-  {
+   },
+   {
     original: images.photogallery06,
     thumbnail: "https://picsum.photos/id/1015/250/150/",
-  },
-];
+   },
+ ];

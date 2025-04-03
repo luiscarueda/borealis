@@ -13,6 +13,7 @@
 .logo:hover{
   background: var(--secondary-color);
   color: var(--color-gray-600);
+  border-radius: 5px;
 }
 
 .btn{
@@ -27,6 +28,7 @@
 .btn:hover{
   background: var(--secondary-color);
   color: var(--color-gray-600);
+  cursor: pointer;
 }
 .gradient__text{
   background: var(--gradient-bar);

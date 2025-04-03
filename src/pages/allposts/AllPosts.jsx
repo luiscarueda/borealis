@@ -13,7 +13,7 @@ const AllPosts = () => {
              {
                 title,
                 slug,
-                publishedAt,
+                publishedat,
                 mainImage{
                     asset->{
                         _id,
@@ -32,7 +32,7 @@ const AllPosts = () => {
                       text={HEADER[4].text}
                       imgUrl={HEADER[4].imgUrl}
          />       
-        <div className='posts'> 
+        <div className='posts' > 
          { allPosts && allPosts.map((post,index) => (
            <article key={post.slug.current} >              
                 <span key={index} className='post__item'>
@@ -40,13 +40,12 @@ const AllPosts = () => {
                  <img src={post.mainImage.asset.url} />
                  <div>{post.publishedAt}</div>                                  
                 </span>              
-                <button>
+                <button className='btn'>
                   <Link to={"/allposts/"+ post.slug.current } key={post.slug.current}className='test'>read  article </Link>
                 </button>                             
            </article>
           ))}    
-        </div>     
-        
+        </div>            
     </div>
    )
  }
