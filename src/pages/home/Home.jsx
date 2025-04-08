@@ -3,7 +3,7 @@ import { Google, Header, Programming, Programs } from '../../components'
 
 const Home = () => {
   return (
-    <main>
+    <main>      
       <Header />
       <Programming/>
       <Programs/> 

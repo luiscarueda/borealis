@@ -6,9 +6,9 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Contact = () => {
   return (
     <div> 
-      <Headeraux title={HEADER[5].title} 
-                 text={HEADER[5].text}
-                 imgUrl={HEADER[5].imgUrl} 
+      <Headeraux title={HEADER[4].title} 
+                 text={HEADER[4].text}
+                 imgUrl={HEADER[4].imgUrl} 
       />
       <section className="contact">
         <section className="container contact__container">

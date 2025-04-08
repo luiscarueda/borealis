@@ -6,9 +6,10 @@
   max-width: 1920px;
   margin-inline: auto;
 }
-.logo{
+.logo {
   width: 7rem;
   display: block;  
+  border-color: aqua;
 }
 .logo:hover{
   background: var(--secondary-color);

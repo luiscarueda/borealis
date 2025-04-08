@@ -8,15 +8,15 @@ nav {
     top: 0;
     left: 0;
     z-index: 100;
-    font-size: 1.1rem;
-    
+    font-size: 1.1rem;    
 }
 .nav__container{
     height: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
+    position: fixed;
+    width: 100vw;
 }
 .nav__links{
     display: flex;

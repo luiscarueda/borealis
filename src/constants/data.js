@@ -2,8 +2,7 @@
 
   export const NAVLINKS = [
     { label: "About",      path: '/about'   },    
-    { label: "Schedule",   path: '/schedule'}, 
-    { label: "Enroll",     path: '/enroll'  },
+    { label: "Schedule",   path: '/schedule'},     
     { label: "Classes",    path: '/fullclasses'},
     { label: "Posts",      path: '/allposts'},
     { label: "Contact",    path: '/contact' },            
@@ -31,46 +30,38 @@
         text:'your month',
         imgUrl: images.photo01,
        },
-
        { title:'SCHEDULE',
          text:'MONTHLY MEMBERSHIPS',
          imgUrl:images.photo02,
-       },
-
-       { title:'ENROLL',
-        text:'In action',
-        imgUrl:images.photo03,
-       },
-
+       },    
        { title:'CLASSES',
         text:'From Beginner to Advanced',
-        imgUrl:images.photo04,
+        imgUrl:images.photo03,
        },
        { title:'POSTS',
         text:'All the Borealis News',
-        imgUrl:images.photo05,
+        imgUrl:images.photo04,
        },
        { title:'CONTACT',
         text:'All the Borealis News',
         imgUrl:images.photo05,
        },
-
     ] ; 
 
   export const ABOUT = [
       { title: 'STORY',
         text:'Borealis Latin Dance, founded a year ago by a young Colombian in Canada, has quickly become a vibrant hub for Latin dance enthusiasts. Offering a fusion of passion, rhythm, and cultural exchange, the academy embodies the spirit of Latin America in the heart of Canada. Through dynamic classes and community events, Borealis Latin Dance introduces students to salsa, bachata, and more. ',
-        imgUrl: images.photo05,
+        imgUrl: images.photo06,
        },
 
        { title:'MISION',
        text:'Our mission is to celebrate diversity and joy through dance, offering inclusive classes and community events that promote cultural exchange and excellence in Latin dance, creating a welcoming space where everyone can connect and express themselves through movement.',
-       imgUrl:images.photo06,
+       imgUrl:images.photo07,
      },
 
      { title:'VISION',
         text:'By 2030, Borealis Latin Dance envisions becoming a leading cultural hub in Canada, renowned for its excellence in Latin dance education and vibrant community engagement. We aspire to inspire thousands of individuals through our dynamic programs, fostering a deep appreciation for Latin culture and creating lasting connections through the universal language of dance.',
-        imgUrl:images.photo07,
+        imgUrl:images.photo08,
       },     
     ] ; 
 
@@ -86,8 +77,8 @@
       {
           title: "SERVICES",
           links: [
-              { name: "programs", link: "/enroll" },
-              { name: "FAQs", link: "/enroll" },
+              { name: "programs", link: "/about" },
+              { name: "FAQs", link: "/about" },
               { name: "gallery", link: "/Gallery" },             
           ],
       },
@@ -105,17 +96,17 @@
     {
         title: "1 Course",
         info: "Access to 1 course (1 class per week,for 4 weeks)",
-        price: '$60 +GST'        
+        price: '$65 CAD'        
     },
     {
         title: "2 courses",
         info: "Access  to 2 courses   (2 class per week, for 4 weeks each)  ",
-        price: '$100 + GST'        
+        price: '$110 CAD'        
     },
     {
         title: "full membership",
         info: "Access to all courses from your level or below  (4 weeks each) ",
-        price: '$140 + GST'        
+        price: '$150 CAD'        
     },
    ]
 

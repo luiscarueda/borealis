@@ -1,4 +1,4 @@
-import { Programming, Headeraux } from '../../components'
+import { Programming, Headeraux, FAQs } from '../../components'
 import './schedule.css'
 import { HEADER } from '../../constants/data'
 
@@ -9,7 +9,8 @@ const Schedule = () => {
                   text={HEADER[1].text}
                   imgUrl={HEADER[1].imgUrl}
        />
-       <Programming/>
+      <Programming/>
+      <FAQs/> 
     </div>
   )
 }

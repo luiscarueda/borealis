@@ -3,7 +3,6 @@ import About from "./about/About";
 import Schedule from "./schedule/Schedule";
 import AllPosts from "./allposts/AllPosts";
 import Contact from "./contact/Contact";
-import Plans from "./plans/Plans";
 import OnePost from "./onepost/OnePost";
 import OneClass from "./oneclass/OneClass";
 import FullClasses from "./fullclasses/FullClasses";
@@ -13,8 +12,7 @@ export {
     About,
     Schedule,    
     AllPosts,
-    Contact,
-    Plans,          
+    Contact,              
     OnePost,
     OneClass,
     FullClasses              

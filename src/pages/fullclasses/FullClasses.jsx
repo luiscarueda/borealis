@@ -5,6 +5,7 @@ import { HEADER } from '../../constants/data';
 import { useState,useEffect } from 'react';
 import {client} from '../../../client'
 import { Link } from 'react-router-dom';
+import {Programs} from '../../components';
 
 const FullClasses = () => {
 
@@ -29,9 +30,9 @@ const FullClasses = () => {
 
   return (
     <div>
-      <Headeraux  title={HEADER[3].title} 
-                      text={HEADER[3].text}
-                      imgUrl={HEADER[3].imgUrl}
+      <Headeraux  title={HEADER[2].title} 
+                      text={HEADER[2].text}
+                      imgUrl={HEADER[2].imgUrl}
       />
        <div className='fullclasses' > 
          { fullclasses && fullclasses.map((classes,index) => (
@@ -46,7 +47,8 @@ const FullClasses = () => {
                 </button>                      
            </article>
           ))}    
-        </div>        
+        </div>
+      <Programs/>            
                  
     </div>
   )

@@ -28,9 +28,9 @@ const AllPosts = () => {
 
   return (
     <div>
-       <Headeraux  title={HEADER[4].title} 
-                      text={HEADER[4].text}
-                      imgUrl={HEADER[4].imgUrl}
+       <Headeraux  title={HEADER[3].title} 
+                      text={HEADER[3].text}
+                      imgUrl={HEADER[3].imgUrl}
          />       
         <div className='posts' > 
          { allPosts && allPosts.map((post,index) => (

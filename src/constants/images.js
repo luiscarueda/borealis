@@ -1,13 +1,15 @@
 import Logo from '../assets/logo.png'
+
 import photoMain from '../assets/1.png'
 import photoMainPrueba from '../assets/pexels-tobiasbjorkli-1819650.jpg'
-import photo01 from '../assets/277616026_523757029216446_4872032218209402266_n.jpg'
-import photo02 from '../assets/440058896_17883684897027021_6313590064957743906_n.jpg'
+import photo01 from '../assets/beautiful-scenery-aurora-borealis-night-sky-tromso-lofoten-islands-norway.jpg'
+import photo02 from '../assets/vibrant-colorful-aurora-borealis-background-great-wallpaper.jpg'
 import photo03 from '../assets/vibrant-colorful-aurora-borealis-background-great-wallpaper.jpg'
-import photo04 from '../assets/contactimage.jpg'
-import photo05 from '../assets/440058896_17883684897027021_6313590064957743906_n.jpg'
-import photo06 from '../assets/277419234_2227766837362666_5328174784955876220_n.jpg'
-import photo07 from '../assets/397091111_1378115932822935_2482104645738666640_n.jpg'
+import photo04 from '../assets/vibrant-colorful-aurora-borealis-background-great-wallpaper.jpg'
+import photo05 from '../assets/367454917_10159377721382441_7429480615407460428_n.jpg'
+import photo06 from '../assets/440058896_17883684897027021_6313590064957743906_n.jpg'
+import photo07 from '../assets/277616026_523757029216446_4872032218209402266_n.jpg'
+import photo08 from '../assets/277616026_523757029216446_4872032218209402266_n.jpg'
 import photogallery01 from '../assets/gallery01.jpg'
 import photogallery02 from '../assets/gallery02.jpg'
 import photogallery03 from '../assets/gallery04.jpg'
@@ -24,6 +26,7 @@ export default {
     photo05,
     photo06,
     photo07,
+    photo08,
     photogallery01,
     photogallery02,
     photogallery03,

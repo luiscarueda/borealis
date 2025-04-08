@@ -4,7 +4,7 @@
 }
 .footer{
     background: var(--footer-color);
-    margin-top: 7rem;
+    margin-top: 5rem;
     padding-top: 7rem;
     font-size: 0.9rem;
     color: var(--color-gray-100);
@@ -51,9 +51,9 @@
 .footer__copyright{
      text-align: center;
      color: var(--color-gray-100);
-     padding: 1.5rem 0;
-     border-top: 2px solid var(--main-color-variant);
-     margin-top: 5rem;
+     padding: 1rem 0;
+     border-top: 1px solid var(--main-color-variant);
+     margin-top: 2rem;
      gap: 2rem;
 }
 .footer__copyright small{

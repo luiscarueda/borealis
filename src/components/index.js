@@ -11,6 +11,7 @@ import Programming from "./programming/Programming";
 import Video from "./video/Video";
 import Google from "./google/Google";
 import Dropdown from "./dropdown/Dropdown";
+import Background from "./background/Background";
 
 export {
     Navbar,
@@ -25,5 +26,6 @@ export {
     Programming,
     Video,
     Google,
-    Dropdown     
+    Dropdown,
+    Background    
 }
