@@ -1,9 +1,10 @@
 import './home.css'
-import { Google, Header, Programming, Programs } from '../../components'
+import { Hero, Header, Programming, Programs,Google } from '../../components'
 
 const Home = () => {
   return (
-    <main>      
+    <main>
+      <Hero/>        
       <Header />
       <Programming/>
       <Programs/> 

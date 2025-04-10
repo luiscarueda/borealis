@@ -1,6 +1,6 @@
 .main__header{
     width: 100vw;
-    height: 60vw;
+    height: 100vw;
     display: grid;
     place-items: flex-start;
     margin-top: 4rem ;

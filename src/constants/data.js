@@ -161,4 +161,6 @@
     original: images.photogallery06,
     thumbnail: "https://picsum.photos/id/1015/250/150/",
    },
- ];
+   ];
+
+ 

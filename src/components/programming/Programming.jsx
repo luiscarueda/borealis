@@ -8,7 +8,7 @@ import calendar from '../../assets/july2024.jpg'
 const Programming = () => {
   return (
     <section className='programming'>
-      <div >
+      <div className='programming__container'>
         <div >           
             <img className='programming__image' src= {calendar} alt="calendar" />               
             <div className='programming__pdf'>

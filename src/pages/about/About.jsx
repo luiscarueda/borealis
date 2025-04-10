@@ -1,11 +1,10 @@
 import React from 'react'
 import './about.css'
-import { Descriptionleft, Descriptionright, Video} from '../../components'
+import { Descriptionleft, Descriptionright} from '../../components'
 import { ABOUT  } from '../../constants/data'
 import Gallery from '../../components/gallery/Gallery'
 import { HEADER } from '../../constants/data';
 import { Headeraux } from '../../components';
-
 
 const About = () => {
   return (
@@ -13,8 +12,7 @@ const About = () => {
         <Headeraux  title={HEADER[0].title} 
                       text={HEADER[0].text}
                       imgUrl={HEADER[0].imgUrl}
-        />           
-           
+        />                     
     <div className='about'>    
        <Descriptionleft  title={ABOUT[0].title}
                          text={ABOUT[0].text}
@@ -29,8 +27,7 @@ const About = () => {
                          imgUrl={ABOUT[2].imgUrl}
        />                   
       </div>
-      <Gallery/> 
-      <Video/>         
+      <Gallery/>               
     </div>
   )
 }

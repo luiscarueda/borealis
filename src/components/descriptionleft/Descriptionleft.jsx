@@ -1,7 +1,5 @@
 import './descriptionleft.css'
 
-
-
 const Descriptionleft = ({title,text,imgUrl}) => {
   return (
     <section className='descriptionleft'>

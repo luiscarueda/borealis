@@ -6,12 +6,13 @@ import Headeraux from "./headeraux/Headeraux";
 import Footer from "./footer/Footer";
 import Descriptionleft from "./descriptionleft/Descriptionleft";
 import Descriptionright from "./descriptionright/Descriptionright";
-import Testimonials from "./testimonials/Testimonials";
 import Programming from "./programming/Programming";
 import Video from "./video/Video";
 import Google from "./google/Google";
 import Dropdown from "./dropdown/Dropdown";
 import Background from "./background/Background";
+import BackgroundData from "./backgrounddata/BackgroundData";
+import Hero from "./hero/Hero";
 
 export {
     Navbar,
@@ -21,11 +22,12 @@ export {
     Headeraux,
     Footer,
     Descriptionleft,
-    Descriptionright,
-    Testimonials,    
+    Descriptionright,      
     Programming,
     Video,
     Google,
     Dropdown,
-    Background    
+    Background,
+    BackgroundData,
+    Hero  
 }

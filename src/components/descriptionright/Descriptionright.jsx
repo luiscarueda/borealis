@@ -1,6 +1,5 @@
 import './descriptionright.css'
 
-
 const Descriptionright = ({title,text,imgUrl}) => {
   return (
 <section>

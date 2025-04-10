@@ -4,7 +4,7 @@
 }
 .footer{
     background: var(--footer-color);
-    margin-top: 5rem;
+    
     padding-top: 7rem;
     font-size: 0.9rem;
     color: var(--color-gray-100);
@@ -53,11 +53,11 @@
      color: var(--color-gray-100);
      padding: 1rem 0;
      border-top: 1px solid var(--main-color-variant);
-     margin-top: 2rem;
+     margin-top: 3rem;
      gap: 2rem;
 }
 .footer__copyright small{
-    color: var(--color-gray-400);
+    color: var(--color-gray-200);
 }
 .footer__copyright span{
     cursor: pointer;

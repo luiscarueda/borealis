@@ -1,0 +1,41 @@
+.backgrounddata{
+    margin: 0px 0px;
+    margin-top: 0px;
+}
+.backgrounddata__text{
+    color: rgb(11, 90, 238) ;
+    font-size: 200px;
+    font-weight: 600;
+    line-height: 220px;    
+}
+.backgrounddata__text p{
+    color: var(--gradient-bar-1);
+    font-size: 100px;
+}
+.backgrounddata__dot{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center; 
+    gap: 50px;   
+}
+.backgrounddata__dots{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    background: #fcfbfb;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.hero-dot.blue{
+    background: rgb(46, 42, 248);
+}
+.background__play{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

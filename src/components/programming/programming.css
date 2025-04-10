@@ -1,21 +1,18 @@
 .programming{    
-    margin-top: 40rem;    
-    width: 90vw;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 2rem;
-    background: var(--gradient-bar);
+    width: 100vw;
+    height: 100vh;        
+    background: var(--gradient-bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 4rem;
+    
    }
 .programming__container{
     display: flex;
-    margin-top: 6rem;
-    width: 80vw;
     justify-content: space-evenly;
-    height: 10rem;
+    background: var(--gradient-bg);      
+    width: 100vw;    
+    height: 100vh;
     align-items: center; 
    }
 .programming__content{
