@@ -18,9 +18,9 @@
    ];
 
   export const MAINHEADER= [
-     { hook: 'DISCOVER THE FIRE OF SALSA AND BACHATA IN KELOWNA',
-       title:'WELCOME TO BOREALIS ',
-       text:'LATIN DANCE',
+     { hook: 'SALSA AND BACHATA CLASSES IN KELOWNA ',
+       title:'WELCOME TO ',
+       text:'BOREALIS LATIN DANCE',
        imgUrl: images.photoMain,
      },
    ]
@@ -161,6 +161,4 @@
     original: images.photogallery06,
     thumbnail: "https://picsum.photos/id/1015/250/150/",
    },
-   ];
-
- 
+   ]; 

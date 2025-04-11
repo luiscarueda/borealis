@@ -1,7 +1,7 @@
 .programming{    
     width: 100vw;
-    height: 100vh;        
-    background: var(--gradient-bg);
+    height: 100vh;            
+    background: var(--bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
 .programming__container{
     display: flex;
     justify-content: space-evenly;
-    background: var(--gradient-bg);      
+    background: var(--footer-color);      
     width: 100vw;    
     height: 100vh;
     align-items: center; 
@@ -38,11 +38,9 @@
 }
 .programming__image{        
     width: fit-content;
-    height: 500px;
+    height: 400 px;
     margin-left: 8rem; 
-
 }
-
 .title{
     display: flex;
     justify-content: center;

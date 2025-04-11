@@ -6,7 +6,7 @@ const Home = () => {
     <main>
       <Hero/>        
       <Header />
-      <Programming/>
+      <Programming/>      
       <Programs/> 
       <Google/>                 
     </main>

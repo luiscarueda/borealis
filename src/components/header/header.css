@@ -2,17 +2,18 @@
     width: 100vw;
     height: 100vw;
     display: grid;
-    place-items: flex-start;
-    margin-top: 4rem ;
+    place-items: flex-start ;
+    margin-top: 1rem ;
     background: var(--gradient-bg);
 }
 .main__header-container{
-    height: 60vw;
+    height: 100vw;
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
     justify-content: flex-start;
-    gap: 2rem;
+    gap: 1rem;
 }
 .main__header-left{
     margin-top: 1rem;

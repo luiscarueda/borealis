@@ -1,6 +1,6 @@
 .backgrounddata{
     margin: 0px 0px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .backgrounddata__text{
     color: rgb(11, 90, 238) ;
@@ -16,7 +16,7 @@
     margin-top: 5px;
     display: flex;
     justify-content: center; 
-    gap: 50px;   
+    gap: 40px;   
 }
 .backgrounddata__dots{
     display: flex;
@@ -35,7 +35,16 @@
     background: rgb(46, 42, 248);
 }
 .background__play{
-    display: flex;
+    display: flex;    
     align-items: center;
     gap: 20px;
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    
+    
 }

@@ -6,9 +6,9 @@ import { useEffect } from 'react';
 
 const Hero = () => {
     let BACKGROUND = [
-      { text1: "WELCOME",   text2: 'TO BOREALIS' },      
-      { text1: "THE FIRE",  text2: 'IN KELOWNA'  },
-      { text1: "HELLO",     text2: 'WORLD'  },            
+      { text1: "FEEL",   text2: 'THE RITHM' },      
+      { text1: "SALSA AND",  text2: 'BACHATA'  },
+      { text1: "REGISTER",     text2: 'NOW'  },            
      ];
     const [heroCount,setHeroCount]=useState(0);
     const [playStatus,setPlayStatus]=useState(false);

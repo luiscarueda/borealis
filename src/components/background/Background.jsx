@@ -6,7 +6,7 @@ import Videoprueba from '../../assets/video1.mp4'
 const Background = ({playStatus,heroCount}) => {
   if (playStatus) {
     return ( 
-             <video  className='background fade-in'autoPlay loop muted>
+             <video  className='background fade-in video'autoPlay loop muted>
               <source src={Videoprueba} type='video/mp4'/>
              </video>
         )    

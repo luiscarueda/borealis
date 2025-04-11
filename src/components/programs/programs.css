@@ -4,8 +4,7 @@
 .programs {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    margin-top: 2rem;
+    gap: 10px;    
 }
 .programs__card{
     display: flex;

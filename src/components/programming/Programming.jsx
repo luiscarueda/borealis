@@ -3,11 +3,9 @@ import { MdOutlinePictureAsPdf } from "react-icons/md";
 import pdf from '../../assets/july2024.jpg'
 import calendar from '../../assets/july2024.jpg'
 
-
-
 const Programming = () => {
   return (
-    <section className='programming'>
+    <section className='container programming'>
       <div className='programming__container'>
         <div >           
             <img className='programming__image' src= {calendar} alt="calendar" />               

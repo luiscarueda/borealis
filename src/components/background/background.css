@@ -5,12 +5,22 @@
     left: 0;  
     right: 0; 
     top: 0;
-    bottom: 0;
+    bottom:20% ;
     position: fixed;    
     padding: none;
     object-fit: cover;
-    z-index: -1;
-    
+    z-index: -1;    
+}
+.video{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: left;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 20rem;    
+    background: var(--gradient-bg);
+    object-fit: contain;
+
 }
 
 @keyframes fadeIn {
