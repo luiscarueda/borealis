@@ -7,9 +7,9 @@ import { FOOTERLINKS } from '../../constants/data';
 
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <section className='footer'>
         <div className="footer__container container">
-          <article>
+          <article className='footer__logo'>
              <Link to='/' className='logo'>
               <img src={Logo}  alt="footer logo" />
              </Link>
@@ -18,10 +18,9 @@ const Footer = () => {
               <a href='https://www.facebook.com/borealislatindance?locale=es_LA' target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
               <a href='https://www.instagram.com/borealislatindance/' target='_blank' rel='noreferrer noopener'><FaInstagram /></a>              
             </div>
-          </article>
-           
+          </article>           
           <article className='footer__article'>
-          {FOOTERLINKS.map((section) =>(
+           {FOOTERLINKS.map((section) =>(
                 <div key={section.title}>
                  <h4>{section.title}</h4>
                  <ul >
@@ -29,15 +28,15 @@ const Footer = () => {
                     <li key={index}>                      
                       <a href={link.link}>{link.name}</a>
                     </li>
-                  ))}
-                  </ul>
+                   ))}
+                 </ul>
                 </div>  
               ))}            
-        </article>
+           </article>
         </div>
         <div className="footer__copyright"> Developed by <a href='mailto:luiscrueda.ing@gmail.com'><span>L<strong>UIS</strong> C@RLOS RUEDA </span></a>
-        </div>
-    </footer>
+      </div>
+    </section>
   )
 }
 

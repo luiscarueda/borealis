@@ -16,7 +16,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
-    width: 100vw;
+    width: 100vw;        
 }
 .nav__links{
     display: flex;

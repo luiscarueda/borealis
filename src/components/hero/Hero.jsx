@@ -4,7 +4,7 @@ import Background from '../background/Background'
 import BackgroundData from '../backgrounddata/BackgroundData';
 import { useEffect } from 'react';
 
-const  Hero = () => {
+const  Hero = () => { 
     let BACKGROUND = [
       { text1: "FEEL",   text2: 'THE RITHM' },      
       { text1: "SALSA AND",  text2: 'BACHATA'  },
@@ -20,19 +20,19 @@ const  Hero = () => {
          }, [])    
     
   return (
-    <div className='container'>
+  <div className='hero'>
+    <div className='container hero__container'>
         <Background     heroCount={heroCount}
                         playStatus={playStatus}                         
-        />
+         />
         <BackgroundData heroCount={heroCount}
                         playStatus={playStatus}
                         setHeroCount={setHeroCount}                        
                         setPlayStatus={setPlayStatus}
-                        BACKGROUND ={BACKGROUND[heroCount]}                      
-                        
-        />
+                        BACKGROUND ={BACKGROUND[heroCount]}                
+         />
     </div>
+  </div>
   )
 }
-
 export default Hero

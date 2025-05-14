@@ -25,3 +25,21 @@
 .swiper{
     margin-bottom: 4rem;
 }
+
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+ { 
+         
+ }    
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{
+   .image{
+    width:  20rem;
+    height: 30rem;
+   }
+    }       

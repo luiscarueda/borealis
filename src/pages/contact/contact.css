@@ -9,8 +9,8 @@
     align-items: center;
     margin-left: 1rem;
     gap: 3rem;
-
 }
+
 .contact__wrapper{
     margin: 1rem 6rem;
     width: fit-content;
@@ -65,3 +65,39 @@
     margin-top: 2rem;
     padding-top: 4rem;
 }
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+{   
+  
+}    
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{
+    .contact__container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        gap: 3rem;
+    }
+    .contact__form-content button{
+        margin-top: 1rem;
+    }
+    .contact__wrapper{
+        margin: 1rem 6rem;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+       
+    }
+
+
+} 

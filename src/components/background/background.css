@@ -3,11 +3,11 @@
     height: 100vh;    
     float: left;
     overflow-y: hidden;
+    position: relative;
     top: 20px; 
     bottom:20%;
     left: 200px;  
-    right: 0;          
-    position: relative; 
+    right: 0;           
     padding: none;
     object-fit: contain;
     z-index: -10;    

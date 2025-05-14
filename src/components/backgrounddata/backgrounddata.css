@@ -2,15 +2,19 @@
     position: absolute;
     margin: 0px 0px;
     margin-top: 20px;
+    z-index: 10;    
 }
-.backgrounddata__text{
-    color: var(--gradient-bar-1);
+.backgrounddata__text{    
+    color: var(--gradient-bar);
     font-size: 200px;
     font-weight: 600;
     line-height: 220px;    
 }
-.backgrounddata__text p{
-    color: var(--gradient-bar);
+.backgrounddata__text p{    
+    background: var(--main-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;       
     font-size: 100px;
 }
 .backgrounddata__dot{
@@ -51,9 +55,12 @@
     margin-right: 20px;
     margin-bottom: 30px;
     padding-bottom: 10px;
-    padding-left: 20px;      
+    padding-left: 20px;
+     
 }
 
 .background__image{
     cursor: pointer;
+    
+
 }
