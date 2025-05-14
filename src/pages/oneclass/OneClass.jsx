@@ -38,14 +38,19 @@ const OneClass = () => {
 
   return (
     <div className='oneclass'>
-         <h1 className>{oneclass.title}</h1>
-         <div className='oneclass__image'>
+      <div className='flex__center oneclass__left'>
+           <h1 className>{oneclass.title}</h1>
+           <div className='oneclass__image'>
             <img src={urlFor(oneclass.mainImage.asset.url)} alt="" />
         </div>
-        <h2>CAD</h2> 
-        <h2>{oneclass.price}</h2>                   
-        <PortableText value={oneclass.description}/>
-        <button className='btn'>REGISTER NOW</button> 
+      </div>
+      <div className="oneclass__right">
+             <PortableText value={oneclass.description}/>
+             <h2>{oneclass.price}</h2>
+             <h2>CAD</h2>
+              <button className='btn'>REGISTER NOW</button> 
+              <button className='btn'>BACK TO CLASSES</button>
+      </div>                                       
     </div>
   )
 }

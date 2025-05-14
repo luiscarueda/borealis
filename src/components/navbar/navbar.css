@@ -53,10 +53,15 @@ nav {
     transform: rotate(45deg);
     margin-top: 0.5rem;
 }
+.divisory__line{
+    border-bottom: 1px solid var(--main-color);
+}
 
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px) {
+
+
     .nav__toggle-btn{
         display: inline-block;
         background: transparent;
@@ -72,21 +77,23 @@ nav {
         right: 0;
         flex-direction: column;
         gap: 0;
-    }
+     }
     .active-nav, .active-nav::after{
         display: none;
     }
+
     .nav__links li{
         height: 4rem;
         width: 100%;
         box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+      
     }
-
     .nav__links li a {
-        background-color: var(--nav-color);
+        background-color: var(--main-color);
         height: 100%;
         width: 100%;
         display: flex;
+        justify-content: start;
         align-items: center;
         padding: 1rem 5rem 1rem 3rem;
     }
@@ -96,4 +103,4 @@ nav {
     .hide__nav {
         display: none;
     }
-} 
+}

@@ -5,8 +5,8 @@ import calendar from '../../assets/july2024.jpg'
 
 const Programming = () => {
   return (
-    <section className='container programming'>
-      <div className='programming__container'>
+    <section className='programming'>
+      <div className='container programming__container'>
         <div >           
             <img className='programming__image' src= {calendar} alt="calendar" />               
             <div className='programming__pdf'>
@@ -15,8 +15,7 @@ const Programming = () => {
                  download target='_blank' rel='noreferrer noopener '>
                 <MdOutlinePictureAsPdf />
               </a>
-            </div>
-          
+            </div>          
         </div>          
       </div>        
     </section>

@@ -1,13 +1,16 @@
 .oneclass{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;    
-    margin-top: 4rem;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;   
+    gap: 10px;       
+    margin: 2rem 4rem;   
 }
 
 .oneclass__image{
     width: 400px;
     height: 400px;
+}
+
+.oneclass__left{
+    margin-top: 1rem;
 }

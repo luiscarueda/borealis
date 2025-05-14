@@ -35,14 +35,25 @@ const OnePost = () => {
    
         if (!onePost) return <div>Loading...</div>  ;            
          return (
-            <div className='onepost initial'>                      
-               <h1 className='initial'>{onePost.title}</h1>            
-               <h2 className='initial'>{onePost.publishedAt}</h2>
-               <img src={urlFor(onePost.mainImage).width(100).height(100).blur(2).url()} alt="" />          
-               <PortableText
-                 value={onePost.body}
-               />       
-            </div>
+          <>
+          <section className='onepost initial'>
+            <div className='container onepost__container'>
+              <div className='onepost__content flex__center'>
+                <h1 className='gradient__text'>{onePost.title}</h1>            
+                <h2 >{onePost.publishedAt}</h2>
+                <PortableText
+                   value={onePost.body}
+                />       
+              </div>
+              <div className='onepost__image initial'>
+                <img src={urlFor(onePost.mainImage).width(200).height(200).blur(2).url()} alt="" />          
+              </div>             
+             </div>
+
+              
+            </section>
+          </>
+            
   )
 }
 export default OnePost

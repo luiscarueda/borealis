@@ -26,7 +26,7 @@
     --color-gray-500: hsl(var(--gray-hue),44%,25%);
     --color-gray-600: hsl(var(--gray-hue),48%,15%);
 
-    --container-width-lg:80%;
+    --container-width-lg:84%;
     --container-width-md:90%;
     --transition:all 500ms ease ;
     

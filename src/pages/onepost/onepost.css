@@ -1,7 +1,14 @@
-
-.onepost{
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    margin-top: 4rem;
+.onepost{         
+    margin-top: 6rem;
 }
+.onepost__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+.onepost__image{
+    width: 100vw;
+    height: 100vh;
+}
+   

@@ -4,9 +4,9 @@ import { Hero, Header, Programming, Programs,Google } from '../../components'
 const Home = () => {
   return (
     <main>
-      <Hero/>        
+      <Hero/>       
       <Header />
-      <Programming/>      
+      <Programming/>             
       <Programs/> 
       <Google/>                 
     </main>

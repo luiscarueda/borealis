@@ -15,7 +15,7 @@ const FullClasses = () => {
         `*[_type == 'classes']
          {
             title,
-            slug,             
+            slug,                      
             mainImage{
                 asset->{
                     _id,
@@ -34,24 +34,23 @@ const FullClasses = () => {
                       text={HEADER[2].text}
                       imgUrl={HEADER[2].imgUrl}
       />
-       <div className='fullclasses' > 
+       <div className='fullclasses ' > 
          { fullclasses && fullclasses.map((classes,index) => (
-           <article key={classes.slug.current} >              
+           <article className='fullclasses__card'key={classes.slug.current}>              
                 <span key={index} className='fullclasses__item'>
-                 <h2>{classes.title}</h2>
-                 <img src={classes.mainImage.asset.url} />
-                                                              
-                </span>             
-                <button className='btn'>
+                   <h2>{classes.title}</h2>                   
+                   <div className='fullclasses__image'>
+                    <img src={classes.mainImage.asset.url} />
+                   </div>                    
+                 <button className='btn'>
                   <Link to={"/fullclasses/"+ classes.slug.current } key={classes.slug.current}>read more</Link>
-                </button>                      
+                </button>                                                             
+                </span>                                              
            </article>
           ))}    
         </div>
-      <Programs/>            
-                 
+      <Programs/>                           
     </div>
   )
-}
-
+ }
 export default FullClasses

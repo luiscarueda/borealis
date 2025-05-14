@@ -7,8 +7,7 @@ import {useState} from 'react';
 import  Logo from '../../assets/4.png';
 
 const Navbar = () => {  
-  const [isNavShowing,setIsNavShowing] = useState(false);
-  const [dropdown, setDropdown]=useState(false);  
+  const [isNavShowing,setIsNavShowing] = useState(false);  
 
   return (
     <>            
@@ -17,25 +16,24 @@ const Navbar = () => {
               <img src={Logo} alt="logo"/>
         </Link>        
             <ul className= {`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
-              {NAVLINKS.map((item,index)=>{  
-                                                
+              {NAVLINKS.map((item,index)=>{                                                 
                 return(
                   <li key={index}>
-                    <NavLink to={item.path} className={({isActive})=>isActive?'active-nav': ''}>
-                      {item.label}
-                    </NavLink>                    
+                    <NavLink to={item.path} className={
+                                            ({isActive})=>isActive?'active-nav': ''}
+                              onClick={()=> setIsNavShowing (prev=>!prev)}
+                    >
+                    {item.label}</NavLink>                    
                   </li>                      
                   )
                 })
               }                    
-            </ul> 
-                                           
-        <button className="nav__toggle-btn" onClick={()=> setIsNavShowing
-                  (!isNavShowing)}>
-                    {
-                      isNavShowing ? <MdOutlineClose/>: <FaBars/>
-                    }                
-        </button>                        
+            </ul>
+                                               
+        <button className="nav__toggle-btn" onClick={()=> setIsNavShowing (prev=>!prev)}>
+                { isNavShowing ? <MdOutlineClose/>: <FaBars/> }                
+        </button>
+                               
       </nav>
     </>
   )}

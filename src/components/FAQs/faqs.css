@@ -5,6 +5,9 @@
     gap: 1.5rem 5rem;
     align-items: flex-start;   
 }
+.FAQ__container {
+    margin-bottom: 2rem;
+}
 
 /*MEDIA QUERIES (medium screens)*/
 

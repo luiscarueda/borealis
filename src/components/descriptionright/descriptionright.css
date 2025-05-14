@@ -23,3 +23,22 @@
 .descriptionright__content p{
     margin-bottom: 2rem;
 }
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+ { 
+    .descriptionright__container{
+        display: grid;
+       grid-template-columns: 1fr;
+    }       
+ }    
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px){
+    .descriptionright__container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }       
+}

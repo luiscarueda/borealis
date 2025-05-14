@@ -12,6 +12,7 @@
 
 }
 .contact__wrapper{
+    margin: 1rem 6rem;
     width: fit-content;
     display: flex;
     flex-direction: column;

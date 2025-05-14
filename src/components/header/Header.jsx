@@ -5,8 +5,8 @@ import { MAINHEADER } from '../../constants/data'
 const Header = () => {
   return (
     <div className='main__header '>
-      <div className="container main__header-container ">
-        <section className='main__header-left initial'>
+      <div className="container main__header-container  ">
+        <section className='main__header-left '>
           <h1>{MAINHEADER[0].title}</h1>
           <p>{MAINHEADER[0].text}</p>
           <h4>{MAINHEADER[0].hook}</h4>      
@@ -18,7 +18,6 @@ const Header = () => {
           </div>
         </section>
       </div>      
-    
   </div> 
   )
 }

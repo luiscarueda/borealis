@@ -3,12 +3,11 @@
     display: block;
 }
 .footer{
-    background: var(--footer-color);
-    
+    background: var(--footer-color);    
     padding-top: 7rem;
     font-size: 0.9rem;
     color: var(--color-gray-100);
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font);        
 }
 .footer__container{
     display: grid;

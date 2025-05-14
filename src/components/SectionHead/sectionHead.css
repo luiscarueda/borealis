@@ -1,9 +1,11 @@
 section{
-    margin-top: 10rem;
+    margin-top: 4rem;
 }
 .sectionhead{
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 4rem;
     gap: 1rem;    
 }
 .sectionhead span{

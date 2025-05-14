@@ -1,16 +1,34 @@
 .fullclasses{
     display: grid;
-    grid-template-columns: repeat(3, 250px);    
-    gap: 100px; 
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2,550px);
+    justify-content: center;  
+    gap: 200px 50px; 
     background: var(--gradient-bg); 
     margin-top: 5%;
     margin-left: 8rem;
+    object-fit: contain;
+    overflow: hidden;
+}
+fullclasses__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: end;
+    height: 80vh;
 }
 .fullclasses__item{
     display: flex;
     flex-direction: column;
-    height: 200px;   
+    gap: 1rem;     
 }
+
+.fullclasses__image{
+    object-fit: contain;
+    overflow-y: hidden;
+    margin-bottom: 1rem;
+}
+
 .test{
     color: black;
 }
