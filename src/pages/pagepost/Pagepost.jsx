@@ -2,54 +2,74 @@ import React, { useState } from 'react'
 import './pagepost.css'
 import { useEffect } from 'react'
 import { client } from '../../../client'
+import { Link } from 'react-router-dom'
+import {format} from 'date-fns'
 
 const Pagepost = () => {
-  const [stories, setStories] = useState([]);
+const [pagepost,setPagePost] = useState([]);
   useEffect(() => {
-    client.fetch()
+  client.fetch(
+    `*[_type == 'post']|order(publishedAt desc)
+     {
+        title,
+        slug,
+        publishedAt,
+        mainImage{asset->{_id,url}
+     }    
+    }`
+  )
+  .then  ((data) => setPagePost(data))
+  .catch (console.error);
   
-    return () => {
-      second
-    }
-  }, [third])
-  
+   }, []);  
 
   return (
-    <>
-    <section>
-      <article>
-        <img src="" alt="" />
-        <div>
-           <h1>HOLA</h1>
-           <p>lorem ipsum</p>
-           <button>READ MORE</button>
-        </div>
-      </article>
-      <section className='pagepost__post'>
-        <article>
-          <img src="" alt="" />
-          <div>
-            <p>date</p>
-            <h1>TITLE</h1>
-            <p>lorem ipsum</p>
-          </div>
-        </article>
-        <article>
-          <img src="" alt="" />
-          <div>
-            <p>date</p>
-            <h1>TITLE</h1>
-            <p>lorem ipsum</p>
-          </div>
-        </article>
-      </section>
-      <div>
-         <button className='btn'>Read All Blog Posts</button>  
-      </div>
-             
-    </section>
-        
+    <>      
+      <div className="pagepost">
+        <div className="container " >  
+          {
+            pagepost[0]&&(
+            <div className='pagepost__container'>
+              
+
+             <a href={`/onepost/${pagepost[0].slug}`}>
+                 <section className='pagepost__left'>
+                   <h1>{pagepost[0].title}</h1>
+                   <h4>{format(new Date(pagepost[0].publishedAt),'dd MMMM yyyy')}</h4>
+                   <img src={pagepost[0].mainImage.asset.url} alt="" />
+                 </section>
+             </a>
+                <section className="pagepost__right">
+                  <div className='pagepost__post'>
+                  <img src={pagepost[1].mainImage.asset.url} />
+                  <div className='pagepost__content '>
+                    <h2>{pagepost[1].title}</h2>
+                    <h4>{format(new Date(pagepost[1].publishedAt),'dd MMMM yyyy')}</h4>   
+                    <button className='btn'>read more</button>              
+                  </div>                    
+                </div>
+                  <div className='pagepost__post'>
+                   <img src={pagepost[2].mainImage.asset.url} />
+                   <div className="pagepost__content">
+                   <h2>{pagepost[2].title}</h2>
+                   <h4>{format(new Date(pagepost[2].publishedAt),'dd MMMM yyyy')}</h4>
+                   <button className='btn'>read more</button>
+                   </div>
+                  </div>
+                  <Link to={"/allposts/"}>
+                        <button className='btn'>read all blog posts</button>
+                  </Link>
+                </section>             
+            </div>      
+        )
+      }
+    </div>        
+   </div> 
+
     </>
+    
+
+  
   )
 }
 

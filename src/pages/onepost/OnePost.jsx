@@ -4,6 +4,7 @@ import { client } from '../../../client';
 import { useParams } from 'react-router-dom';
 import imageUrlBuilder from '@sanity/image-url';
 import {PortableText} from '@portabletext/react';
+import { Link } from 'react-router-dom';
 
 const builder = imageUrlBuilder(client)
 function urlFor(source) {
@@ -43,7 +44,10 @@ const OnePost = () => {
                 <h2 >{onePost.publishedAt}</h2>
                 <PortableText
                    value={onePost.body}
-                />       
+                />
+              <Link to={"/pagepost/"}>
+              <button className='btn'>Back to Posts</button>
+              </Link>    
               </div>
               <div className='onepost__image initial'>
                 <img src={urlFor(onePost.mainImage).width(200).height(200).blur(2).url()} alt="" />          

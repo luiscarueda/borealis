@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 import {Programs} from '../../components';
 
 const FullClasses = () => {
-
   const [fullclasses,setFullClasses] = useState([]);
+
   useEffect(() => {
     client.fetch(
         `*[_type == 'classes']
@@ -17,10 +17,7 @@ const FullClasses = () => {
             title,
             slug,                      
             mainImage{
-                asset->{
-                    _id,
-                    url
-                }
+                asset->{_id,url}
             }
         }`
     )

@@ -4,7 +4,7 @@
     { label: "About",      path: '/about'   },    
     { label: "Schedule",   path: '/schedule'},     
     { label: "Classes",    path: '/fullclasses'},
-    { label: "Posts",      path: '/allposts'},
+    { label: "Posts",      path: '/pagepost'},
     { label: "Contact",    path: '/contact' },            
    ];
   

@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.png'
+import Logo from '../assets/3.png'
 
 import photoMain from '../assets/1.png'
 import photoMainPrueba from '../assets/pexels-tobiasbjorkli-1819650.jpg'

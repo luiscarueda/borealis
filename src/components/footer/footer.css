@@ -1,5 +1,8 @@
 .logo{
+    background: var(--gradient-bg);
     box-shadow: 2px 2px 3px 2px var(--secondary-color);
+    margin: 2rem 0;
+    border-radius: 10%;
 }
 .footer{
     background: var(--footer-color);    

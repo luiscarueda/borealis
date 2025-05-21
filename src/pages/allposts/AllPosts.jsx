@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 import {client} from '../../../client'
    
 const AllPosts = () => {
-      const [allPosts, setAllPosts] = useState([]);
+  const [allPosts, setAllPosts] = useState([]);
       useEffect(() => {
         client.fetch(
             `*[_type == 'post']
              {
                 title,
                 slug,
-                publishedat,
+                publishedAt,
                 mainImage{
                     asset->{
                         _id,
@@ -25,7 +25,6 @@ const AllPosts = () => {
           .then((data) => setAllPosts(data))
           .catch (err=>console.error(err));
            }, []); 
-
   return (
     <div>
        <Headeraux  title={HEADER[3].title} 
@@ -36,8 +35,8 @@ const AllPosts = () => {
          { allPosts && allPosts.map((post,index) => (
            <article key={post.slug.current} >              
                 <span key={index} className='post__item'>
-                 <div>{post.title}</div>
-                 <img src={post.mainImage.asset.url} />
+                 <div>{post.title}</div> 
+                 <img src={post.mainImage.asset.url} />               
                  <div>{post.publishedAt}</div>                                  
                 </span>              
                 <button className='btn'>

@@ -5,6 +5,7 @@ import { useEffect,useState } from 'react';
 import { client } from '../../../client';
 import imageUrlBuilder from '@sanity/image-url';
 import {PortableText} from '@portabletext/react';
+import { Link } from 'react-router-dom';
 
 const builder = imageUrlBuilder(client)
 function urlFor(source) {
@@ -48,8 +49,11 @@ const OneClass = () => {
              <PortableText value={oneclass.description}/>
              <h2>{oneclass.price}</h2>
              <h2>CAD</h2>
-              <button className='btn'>REGISTER NOW</button> 
-              <button className='btn'>BACK TO CLASSES</button>
+              <button className='btn'>REGISTER NOW</button>              
+              <button className='btn'>
+                  <Link to={"/fullclasses/" } >BACK TO CLASSES</Link>
+                </button>   
+              
       </div>                                       
     </div>
   )

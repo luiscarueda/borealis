@@ -14,6 +14,7 @@
     "@sanity/block-content-to-react": "^3.0.0",
     "@sanity/client": "^6.22.5",
     "@sanity/image-url": "^1.1.0",
+    "date-fns": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
