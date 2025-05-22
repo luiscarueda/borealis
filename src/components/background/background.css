@@ -22,7 +22,6 @@
     margin-right: 2rem;  
     background: var(--gradient-bg);
     object-fit: contain;
-
 }
 
 @keyframes fadeIn {

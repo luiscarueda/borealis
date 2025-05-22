@@ -3,7 +3,7 @@
   export const NAVLINKS = [
     { label: "About",      path: '/about'   },    
     { label: "Schedule",   path: '/schedule'},     
-    { label: "Classes",    path: '/fullclasses'},
+    { label: "Enroll",    path: '/fullclasses'},
     { label: "Posts",      path: '/pagepost'},
     { label: "Contact",    path: '/contact' },            
    ];
@@ -18,10 +18,9 @@
    ];
 
   export const MAINHEADER= [
-     { hook: 'SALSA AND BACHATA CLASSES IN KELOWNA ',
-       title:'WELCOME TO ',
-       text:'BOREALIS LATIN DANCE',
-       imgUrl: images.photoMain,
+     {  title:'WELCOME TO ',
+        hook: 'SALSA AND BACHATA CLASSES IN KELOWNA ',             
+        imgUrl: images.photoMain,
      },
    ]
 
@@ -31,17 +30,18 @@
         imgUrl: images.photo01,
        },
        { title:'SCHEDULE',
-         text:'MONTHLY MEMBERSHIPS',
+         text:'Monthly Memberships',
          imgUrl:images.photo02,
        },    
-       { title:'CLASSES',
-        text:'From Beginner to Advanced',
+       { title:'ENROLL',
+        text:'Come and Enjoy',
         imgUrl:images.photo03,
-       },
-       { title:'POSTS',
-        text:'All the Borealis News',
+       },       
+       { title:'LATEST POSTS',
+        text:'Stay with us',
         imgUrl:images.photo04,
        },
+
        { title:'CONTACT',
         text:'All the Borealis News',
         imgUrl:images.photo05,
@@ -87,7 +87,7 @@
           links : [
              { name: "bailaborealis@gmail.com", link: "mailto:bailaborealis@gmail.com" },
              { name: "+1 236-457-5567", link: "tel:+1 236-457-5567" },
-             { name: "Second Floor 1040 Richter St, Kelowna", link: "tel:+1 236-457-5567" },
+             { name:  "1040 Richter St ,Second Floor, Kelowna", link: "tel:+1 236-457-5567" },
           ],
         }, 
       ];     

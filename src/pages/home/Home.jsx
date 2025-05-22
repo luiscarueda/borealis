@@ -3,12 +3,12 @@ import { Hero, Header, Programming, Programs,Google } from '../../components'
 
 const Home = () => {
   return (
-    <main>
-      <Hero/>       
+    <main>            
       <Header />
       <Programming/>             
       <Programs/> 
-      <Google/>                 
+      <Google/>
+      <Hero/>                 
     </main>
   )
 }

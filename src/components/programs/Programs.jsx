@@ -8,7 +8,7 @@ const Programs = () => {
   return (
     <section className='programs'>
       <div className="container programs__container">
-        <SectionHead icon={<FaCrown/>} title='PROGRAMS'/>
+        <SectionHead icon={<FaCrown/>} title='MEMBERSHIP'/>
          <div className='programs__wrapper '> 
          {PROGRAMS.map((programs,index)=>(
             <div key={index} className='programs__card '>

@@ -8,12 +8,13 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+
 import {Navigation,Pagination} from 'swiper/modules';
 const  Gallery = () => {
   return (
     <div >    
         <div className='gallery__principal'>
-      <Swiper className='swiper'
+      <Swiper className='swiper'      
       slidesPerView={1}
       spaceBetween={30}
       loop={true}      

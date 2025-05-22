@@ -1,12 +1,7 @@
 .descriptionleft__image{
     border-radius: 50%;
     overflow: hidden;
-    transform: skew(15deg);
     transition: var(--transition);
-}
-
-.descriptionleft__image:hover{
-    transform: skew(0);
 }
 
 .descriptionleft__container{

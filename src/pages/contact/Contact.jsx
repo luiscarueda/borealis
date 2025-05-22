@@ -6,7 +6,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Contact = () => {
   return (
     <div> 
-      <Headeraux title={Contact.title} 
+      <Headeraux title={HEADER[4].title} 
                  text={HEADER[4].text}
                  imgUrl={HEADER[4].imgUrl} 
       />
@@ -17,7 +17,7 @@ const Contact = () => {
                         
              <address>
              Visit us at: <br />
-             <strong>Second Floor 1040 Richter St, Kelowna,</strong> <br />British Columbia V1Y 2K5 <br />
+             <strong> 1040 Richter St  Second Floor, Kelowna,</strong> <br />British Columbia V1Y 2K5 <br />
              </address>
           </section>
           <section className='contact__form '>

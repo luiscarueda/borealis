@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import imageUrlBuilder from '@sanity/image-url';
 import {PortableText} from '@portabletext/react';
 import { Link } from 'react-router-dom';
+import {format} from 'date-fns'
 
 const builder = imageUrlBuilder(client)
 function urlFor(source) {
@@ -41,7 +42,7 @@ const OnePost = () => {
             <div className='container onepost__container'>
               <div className='onepost__content flex__center'>
                 <h1 className='gradient__text'>{onePost.title}</h1>            
-                <h2 >{onePost.publishedAt}</h2>
+                <h2 >{format(new Date(onePost.publishedAt),'dd MMMM yyyy')}</h2>
                 <PortableText
                    value={onePost.body}
                 />

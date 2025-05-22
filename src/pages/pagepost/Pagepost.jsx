@@ -3,6 +3,8 @@ import './pagepost.css'
 import { useEffect } from 'react'
 import { client } from '../../../client'
 import { Link } from 'react-router-dom'
+import { Headeraux } from '../../components'
+import { HEADER } from '../../constants/data'
 import {format} from 'date-fns'
 
 const Pagepost = () => {
@@ -26,11 +28,14 @@ const [pagepost,setPagePost] = useState([]);
   return (
     <>      
       <div className="pagepost">
-        <div className="container " >  
+        <div className="container " > 
+        <Headeraux  title={HEADER[3].title} 
+                      text={HEADER[3].text}
+                      imgUrl={HEADER[3].imgUrl}
+         />       
           {
             pagepost[0]&&(
-            <div className='pagepost__container'>
-              
+            <div className='pagepost__container '>                           
 
              <a href={`/onepost/${pagepost[0].slug}`}>
                  <section className='pagepost__left'>
