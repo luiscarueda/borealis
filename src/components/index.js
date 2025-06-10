@@ -13,6 +13,7 @@ import Dropdown from "./dropdown/Dropdown";
 import Background from "./background/Background";
 import BackgroundData from "./backgrounddata/BackgroundData";
 import Hero from "./hero/Hero";
+import Header2 from "./header2/Header2";
 
 export {
     Navbar,
@@ -29,5 +30,6 @@ export {
     Dropdown,
     Background,
     BackgroundData,
-    Hero  
+    Hero,
+    Header2  
 }

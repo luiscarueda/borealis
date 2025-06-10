@@ -6,12 +6,12 @@
     margin-left: 10rem;
     margin-top:  2rem;
     background: var(--gradient-bg);
-
 }
 
 .video__component{
     width: 1080px;
     height: 920px;
+    padding: 1rem;
 }
 
 /*MEDIA QUERIES (medium screens)*/
