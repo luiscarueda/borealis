@@ -14,6 +14,7 @@ import Background from "./background/Background";
 import BackgroundData from "./backgrounddata/BackgroundData";
 import Hero from "./hero/Hero";
 import Header2 from "./header2/Header2";
+import Header3 from "./header3/Header3";
 
 export {
     Navbar,
@@ -31,5 +32,6 @@ export {
     Background,
     BackgroundData,
     Hero,
-    Header2  
+    Header2,
+    Header3 
 }
