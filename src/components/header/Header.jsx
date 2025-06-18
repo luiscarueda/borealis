@@ -1,7 +1,7 @@
 import './header.css'
 import { MAINHEADER } from '../../constants/data'
+import ReactPlayer from 'react-player'
 import Videoprueba from '../../assets/video1.mp4'
-
 
 const Header = () => {
   return (
@@ -12,12 +12,17 @@ const Header = () => {
            <div className="main__header-image">
             <img src={MAINHEADER[0].imgUrl} alt="image" />
            </div>          
-           <h4>{MAINHEADER[0].hook}</h4>       
+           <h3>{MAINHEADER[0].hook}</h3>       
          </section>
-         <section className='main__header-right '>
-            <video  className='fade-in background video'autoPlay loop muted>
-                <source src={Videoprueba} type='video/mp4'/>
-             </video>    
+         <section className='main__header-right fade-in  '>         
+         <ReactPlayer  
+          url={Videoprueba}           
+          muted
+          loop 
+          playing
+          width='70%'
+          height='50%'                 
+        />       
         </section>
       </div>      
   </div> 

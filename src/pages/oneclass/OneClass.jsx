@@ -51,8 +51,8 @@ const OneClass = () => {
              <h2>CAD</h2>
               <button className='btn'>REGISTER NOW</button>              
               <button className='btn'>
-                  <Link to={"/fullclasses/" } >BACK TO CLASSES</Link>
-                </button>   
+                  <Link to={"/fullclasses/" } >BACK TO ENROLL</Link>
+              </button>   
               
       </div>                                       
     </div>

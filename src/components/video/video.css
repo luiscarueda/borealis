@@ -1,16 +1,17 @@
 .video{
     display: flex;
     justify-content: center;
-    height: 60vh;
-    width: 80vw;
-    margin-left: 10rem;
+    height: 80vh;
+    width: 100vw;
+    margin-left: 1rem;
     margin-top:  2rem;
+    margin-bottom: 16rem;
     background: var(--gradient-bg);
 }
 
 .video__component{
-    width: 1080px;
-    height: 920px;
+    width: 1000px;
+    height: 1000px;
     padding: 1rem;
 }
 

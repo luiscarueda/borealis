@@ -6,15 +6,13 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin: 8rem 1rem 2rem;
-   
+    margin: 8rem 1rem 2rem;   
 }
 .pagepost__container{
     margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .pagepost__post{
     display: flex;
     flex-direction: row;
@@ -31,5 +29,3 @@
     margin-left: 4rem;
     margin-bottom: 2rem;
 }
-
-

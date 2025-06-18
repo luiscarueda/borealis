@@ -12,9 +12,6 @@ import Google from "./google/Google";
 import Dropdown from "./dropdown/Dropdown";
 import Background from "./background/Background";
 import BackgroundData from "./backgrounddata/BackgroundData";
-import Hero from "./hero/Hero";
-import Header2 from "./header2/Header2";
-import Header3 from "./header3/Header3";
 
 export {
     Navbar,
@@ -30,8 +27,5 @@ export {
     Google,
     Dropdown,
     Background,
-    BackgroundData,
-    Hero,
-    Header2,
-    Header3 
+    BackgroundData    
 }

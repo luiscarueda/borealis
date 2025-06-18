@@ -6,6 +6,7 @@
     flex-direction: row;
     justify-content: center;
     width: 70%;
+    height: 70%;
 }
 .onepost__image{
     width: 100vw;
