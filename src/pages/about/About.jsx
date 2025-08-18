@@ -8,7 +8,7 @@ import { Headeraux } from '../../components';
 
 const About = () => {
   return (
-    <div>
+    <div className='about'>
         <Headeraux  title={HEADER[0].title} 
                       text={HEADER[0].text}
                       imgUrl={HEADER[0].imgUrl}

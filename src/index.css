@@ -26,8 +26,10 @@
     --color-gray-500: hsl(var(--gray-hue),44%,25%);
     --color-gray-600: hsl(var(--gray-hue),48%,15%);
 
-    --container-width-lg:84%;
+    --container-width-lg:86%;
     --container-width-md:90%;
+    --container-width-sm:98%;
+    
     --transition:all 500ms ease ;
     
     --gradient-bar :   radial-gradient(circle at 50% 50%, #1F3B68 0%, #000000 62%, #6699FF 90%);

@@ -8,8 +8,7 @@ import {client} from '../../../client'
 const AllPosts = () => {
   const [allPosts, setAllPosts] = useState([]);
       useEffect(() => {
-        client.fetch(
-            `*[_type == 'post']
+        const query =`*[_type == 'post']
              {
                 title,
                 slug,
@@ -21,7 +20,7 @@ const AllPosts = () => {
                     }
                 }
             }`
-        )
+        client.fetch(query)
           .then((data) => setAllPosts(data))
           .catch (err=>console.error(err));
            }, []); 

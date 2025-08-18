@@ -1,7 +1,8 @@
-.onepost{         
-    margin-top: 6rem;
+.onepost{
+    background: var(--gradient-bg);            
 }
 .onepost__container{
+    margin-top: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,5 +12,4 @@
 .onepost__image{
     width: 100vw;
     height: 100vh;
-}
-   
+}   

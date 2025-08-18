@@ -1,19 +1,18 @@
-.gallery{ 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    margin-top: 3rem;
-    margin-left: 21rem;
-    width: 300px;  
-    height: 47rem;    
+.gallery{
+  background: var(--gradient-bg);             
 }
-.gallery__principal{
+.gallery__container{
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin-left: 1rem;
+  margin-left: auto;
+  padding-top: 20px;
+  margin-top: 3rem;
+  width: 600px;  
+  height: 40rem;
+}
+.swiper{
+    margin-bottom: 4rem;
 }
 .image{
   display: flex;
@@ -22,9 +21,7 @@
   width: 40rem;
   height: 40rem;
 }
-.swiper{
-    margin-bottom: 4rem;
-}
+
 
 
 /*MEDIA QUERIES (medium screens)*/
@@ -42,4 +39,4 @@
     width:  20rem;
     height: 30rem;
    }
-    }       
+ }       

@@ -9,15 +9,13 @@ import {format} from 'date-fns'
 
 const builder = imageUrlBuilder(client)
 function urlFor(source) {
-  return builder.image(source)}
+return builder.image(source)}
 
 const OnePost = () => {
     const [onePost,setOnePost] =useState(null);
     const { slug } = useParams();
-    useEffect(() => 
-     {
-        client.fetch(
-            `*[slug.current == "${slug}"]
+    useEffect(() => {
+      const query =  `*[slug.current == "${slug}"]
              { title,
                _id,
                slug,
@@ -29,8 +27,8 @@ const OnePost = () => {
                   url
                 }
                }               
-              }`,              
-            )
+              }`      
+        client.fetch(query)
             .then((data)=>setOnePost(data[0]))
             .catch(console.error);
            }, [slug])  
@@ -38,7 +36,7 @@ const OnePost = () => {
         if (!onePost) return <div>Loading...</div>  ;            
          return (
           <>
-          <section className='onepost initial'>
+          <section className='onepost '>
             <div className='container onepost__container'>
               <div className='onepost__content flex__center'>
                 <h1 className='gradient__text'>{onePost.title}</h1>            
@@ -50,7 +48,7 @@ const OnePost = () => {
               <button className='btn'>Back to Posts</button>
               </Link>    
               </div>
-              <div className='onepost__image initial'>
+              <div className='onepost__image '>
                 <img src={urlFor(onePost.mainImage).width(200).height(200).blur(2).url()} alt="" />          
               </div>             
              </div>

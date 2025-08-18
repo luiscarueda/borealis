@@ -1,7 +1,5 @@
-.main__header{          
-    margin-top: -4rem ;
-    background: var(--gradient-bg);
-    margin-bottom: 4rem;
+.main__header{         
+    background: var(--gradient-bg);    
 }
 .main__header-container{
     display: grid;
@@ -12,12 +10,12 @@
     align-content: start;    
     gap: 1rem;
     margin-top: 2rem; 
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding-bottom: 2rem;
     position: relative;   
 }
 .main__header-left {
-    margin-top: 1rem;
+    margin-top: -1rem;
     margin-left: auto;
     position: relative;
     z-index: 10;
@@ -40,7 +38,7 @@
 .main__header-image{
     width: 400px;
     height: 400px;
-    margin-top: -3rem;
+    margin-top: -5rem;
     margin-right: 16rem;
 }
 .main__header-right{
@@ -50,6 +48,7 @@
     left: 700px;
     z-index: 5;
 }
+
 @keyframes fadeIn {
     from{opacity: 0;}
     to {opacity: 1;}
@@ -61,13 +60,17 @@
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
-{   
+{   .container{
+    width: var(--container-width-md);    
+       }
     .main__header{
         height: fit-content;
-        padding: 4rem 0;
+        padding: 4rem 0;    
     }
     .main__header-container{
         gap: 0;
+    }
+    .main__header-right{
     }
   }    
 
@@ -75,12 +78,16 @@
 
 @media screen and (max-width:480px)
 {
+    .container{
+        width: var(--container-width-sm);    
+           }
+
    .main__header{
     margin-top: 0;
     padding: 12rem 0 0;
     height: 100vh;
     }
-    .main__header-container{
+    .main__header-container{        
         display: flex;
         flex-direction: column;
         justify-content: center;        
@@ -88,5 +95,5 @@
     .main__header-image{
         width: 300px;
         height: 300px;
-    }    
+    }   
 } 

@@ -11,21 +11,20 @@ const Contact = () => {
                  imgUrl={HEADER[4].imgUrl} 
       />
       <section className="contact">
-        <section className="container contact__container">
-          <section className='contact__wrapper '>              
+        <section className="container contact__container ">
+          <section className='contact__wrapper'>              
           <a href='https://wa.me/12364575567?text=Hi BOREALIS,I have questions and want more information about the academy' target= '_blank' rel="noreferrer"><IoLogoWhatsapp /></a>
-                        
-             <address>
-             Visit us at: <br />
-             <strong> 1040 Richter St  Second Floor, Kelowna,</strong> <br />British Columbia V1Y 2K5 <br />
-             </address>
+          <address>
+            Visit us at: <br />
+            <strong> 1040 Richter St  Second Floor, Kelowna,</strong> <br />British Columbia V1Y 2K5 <br />
+          </address>
           </section>
           <section className='contact__form '>
-            <h2>CONTACT <span>ME</span></h2>         
+            <h4>ANY QUESTION?</h4>         
             <form className='contact__form-content'action="https://formspree.io/f/xyyqlvze" method='POST'>
                   <div className="cta__form-input">
                     <input type='text' placeholder='Full Name'name ='Name'required/>
-                    <input type='email' placeholder='e.g.,email@example.com'name='Email'required/>
+                    <input type='email' placeholder='email@example.com'name='Email'required/>
                   </div>
                   <div className="cta__form-input">
                     <input type='number' placeholder='Mobile Number'name='Mobile'required/>

@@ -8,7 +8,7 @@ import { FOOTERLINKS } from '../../constants/data';
 const Footer = () => {
   return (
     <section className='footer'>
-        <div className="footer__container container">
+        <div className="container footer__container">
           <article className='footer__logo'>
              <Link to='/' className='logo'>
               <img src={Logo}  alt="footer logo" />

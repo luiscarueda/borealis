@@ -1,9 +1,9 @@
-.google__container{
+.google{
     width: 100vw;
     height: 100vh;
     background: var(--gradient-bg);
 }
-.google{
+.google__container{
     display: flex;
     margin: 6rem 12rem;
     align-items: center;

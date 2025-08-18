@@ -12,11 +12,11 @@ import 'swiper/css/pagination';
 import {Navigation,Pagination} from 'swiper/modules';
 const  Gallery = () => {
   return (
-    <div >    
-        <div className='gallery__principal'>
+    <div className='gallery'>    
+        <div className='container gallery__container'>
       <Swiper className='swiper'      
       slidesPerView={1}
-      spaceBetween={30}
+      spaceBetween={50}
       loop={true}      
       pagination={{ clickable: true }}      
       navigation={true}     

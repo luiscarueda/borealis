@@ -1,27 +1,21 @@
 .programming{    
-    width: 100vw;
-    height: 100vh;            
-    background: var(--bg-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+    background: var(--main-color);          
    }
+
 .programming__container{
     display: flex;
-    justify-content: space-evenly;
-    background: var(--footer-color);      
+    flex-direction: column;
+    justify-content: space-evenly;       
     width: 100vw;    
     height: 100vh;
     align-items: center;
     padding: 4rem 0 2rem;
    }
-.programming__content{
-    display: flex;
-    flex-direction: column;
-    margin-top: 80rem;
-    background-color: aqua;
-   }
+.programming__image{        
+    width: fit-content;
+    height: 400px;
+    margin-left: 8rem; 
+}
 
 .programming__pdf{
     display: flex;
@@ -36,11 +30,6 @@
     transition: var(--transition);
     padding: 2rem;
     border-radius: 1.5rem;    
-}
-.programming__image{        
-    width: fit-content;
-    height: 400 px;
-    margin-left: 8rem; 
 }
 .title{
     display: flex;
@@ -64,17 +53,21 @@
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
-{
-    .programming__container{
+{    
+    .programming__container{        
         display: flex;
         flex-direction: column;
-        width: 80vw;      
+        width: 50vw;      
         gap: 1rem;
         align-items: center;          
+    }
+    .programming__image{
+        margin-top: 2rem;
+        max-width: 400px;
+        height: 400px;
     }
 
     .programming__pdf{
         margin-top: 2rem;
     }
-
 }

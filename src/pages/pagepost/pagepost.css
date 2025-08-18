@@ -1,3 +1,13 @@
+
+.pagepost__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 3rem;
+}
+
 .pagepost__post{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8,7 +18,7 @@
     align-items: start;
     margin: 8rem 1rem 2rem;   
 }
-.pagepost__container{
+.pagepost__container a{
     margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;

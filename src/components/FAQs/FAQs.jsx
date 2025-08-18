@@ -7,8 +7,8 @@ import { FAQCard } from '../../UI';
 
 const FAQs = () => {
   return (
-    <section >
-      <div className="FAQ__container container">
+    <section className='FAQs'>
+      <div className="FAQs__container container">
         <SectionHead icon={<FaQuestion/>} title='FAQS'/>
         <div className="FAQs__wrapper">
           {FAQS.map((faqs)=>(

@@ -11,8 +11,7 @@ const FullClasses = () => {
   const [fullclasses,setFullClasses] = useState([]);
 
   useEffect(() => {
-    client.fetch(
-        `*[_type == 'classes']
+    const query = `*[_type == 'classes']
          {
             title,
             slug,                      
@@ -20,7 +19,7 @@ const FullClasses = () => {
                 asset->{_id,url}
             }
         }`
-    )
+    client.fetch(query)
   .then((data) => setFullClasses(data))
   .catch (err=>console.error(err));
     }, []);
@@ -46,8 +45,7 @@ const FullClasses = () => {
                 </span>                                              
            </article>
           ))}    
-        </div>
-                               
+        </div>                               
     </div>
   )
  }

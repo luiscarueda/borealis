@@ -1,13 +1,20 @@
+.FAQs{
+    background: var(--main-color-variant);
+}
+.FAQs__container {
+    margin-bottom: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+}
 .FAQs__wrapper{
-    margin-top: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem 5rem;
     align-items: flex-start;   
 }
-.FAQ__container {
-    margin-bottom: 2rem;
-}
+
 
 /*MEDIA QUERIES (medium screens)*/
 

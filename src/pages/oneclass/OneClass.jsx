@@ -14,10 +14,8 @@ function urlFor(source) {
 const OneClass = () => {
     const [oneclass,setOneClass] =useState(null);
     const { slug } = useParams();
-    useEffect(() => 
-     {
-        client.fetch(
-            `*[slug.current == "${slug}"]
+    useEffect(() =>{
+      const query =`*[slug.current == "${slug}"]
              { title,
                slug,
                description,
@@ -28,8 +26,9 @@ const OneClass = () => {
                   url
                 }
                }               
-              }`,              
-            )
+              }`
+              
+        client.fetch(query)
             .then((data)=>setOneClass(data[0]))
             .catch(console.error);
       }, [slug]) 

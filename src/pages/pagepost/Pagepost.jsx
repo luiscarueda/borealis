@@ -9,9 +9,8 @@ import {format} from 'date-fns'
 
 const Pagepost = () => {
 const [pagepost,setPagePost] = useState([]);
-  useEffect(() => {
-  client.fetch(
-    `*[_type == 'post']|order(publishedAt desc)
+useEffect(() => {
+    const query =`*[_type == 'post']|order(publishedAt desc)
      {
         title,
         slug,
@@ -19,7 +18,8 @@ const [pagepost,setPagePost] = useState([]);
         mainImage{asset->{_id,url}
      }    
     }`
-  )
+
+client.fetch(query)
   .then  ((data) => setPagePost(data))
   .catch (console.error);
   
@@ -28,14 +28,14 @@ const [pagepost,setPagePost] = useState([]);
   return (
     <>      
       <div className="pagepost">
-        <div className="container " > 
+        <div className="container pagepost__container" > 
         <Headeraux  title={HEADER[3].title} 
                       text={HEADER[3].text}
-                      imgUrl={HEADER[3].imgUrl}
+                      imgUrl={HEADER[4].imgUrl}
          />       
           {
             pagepost[0]&&(
-            <div className='pagepost__container ' >                 
+            <div className='pagepost__containera ' >                 
              <a href={`/allposts/${pagepost[0].slug}`}>
                  <section className='pagepost__left'>
                    <h1>{pagepost[0].title}</h1>
@@ -54,8 +54,7 @@ const [pagepost,setPagePost] = useState([]);
                     <h4>{format(new Date(pagepost[1].publishedAt),'dd MMMM yyyy')}</h4>                                
                     <button className='btn'>
                       <Link to={"/allposts/"+ pagepost[1].slug.current } key={pagepost[1].slug.current}className='test'>read article </Link>
-                    </button>
-                                                           
+                    </button>                                                           
                   </div>                    
                 </div>
                   <div className='pagepost__post'>

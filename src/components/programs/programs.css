@@ -2,17 +2,17 @@
     background: var(--gradient-bg);
     }
 
-.programs {
+.programs__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;    
 }
 .programs__card{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
+
 .programs__wrapper{
     display: flex;
     flex-direction: row;
