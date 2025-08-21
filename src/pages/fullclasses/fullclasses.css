@@ -1,16 +1,17 @@
-.fullclasses{
+.fullclasses__container{
     display: grid;
     grid-template-columns: repeat(3, 250px);
     grid-template-rows: repeat(2,550px);
     justify-content: center;  
-    gap: 200px 50px; 
+    gap: 100px 50px; 
     background: var(--gradient-bg); 
     margin-top: 5%;
+    padding-top: 4rem;
     margin-left: 8rem;
     object-fit: contain;
     overflow: hidden;
 }
-fullclasses__card{
+.fullclasses__card{
     display: flex;
     flex-direction: column;
     justify-content: end;

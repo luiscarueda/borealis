@@ -1,4 +1,8 @@
 .oneclass{
+    background: var(--gradient-bg);
+}
+
+.oneclass__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;   
@@ -13,4 +17,15 @@
 
 .oneclass__left{
     margin-top: 1rem;
+}
+.oneclass__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;   
+}
+.oneclass__right button{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: -2rem;  
 }

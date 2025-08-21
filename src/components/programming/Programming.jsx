@@ -7,18 +7,18 @@ import {client} from '../../../client'
 
 const Programming = () => {
   const [schedule,setSchedule] = useState([null]);
+
   useEffect(() => {
-  client.fetch(
-    `*[_type == 'schedule']
+  const query =  `*[_type == 'schedule']
        {
         current,
         posterior,
         schedule,
         mainImage{asset->{_id,url}
-
        }
     }`
-  )
+
+  client.fetch(query)
   .then  ((data) => setSchedule(data))
   .catch (console.error);
   
@@ -26,20 +26,40 @@ const Programming = () => {
 
   return (
     <section className='programming'>
-      <div className='container programming__container'>
-        <div>programing left</div>
-        <div className='programming__image'>                                                      
-            <img  src= {calendar} alt="calendar" />                                 
-            <div >
-              <h4 className='title '>download pdf</h4>
-              <a className ='btn'
-              href={pdf} 
-              download 
-              target='_blank' 
-              rel='noreferrer noopener '
-              >
-                <MdOutlinePictureAsPdf />
-            </a>
+      <div className='container programming__container '>
+        <div className='programming__left'>
+          <h2 >Stay up to date with our monthly calendar, plus events and other activities we have for our entire community.</h2>
+        </div>        
+        <div className='programming__right'>
+            <div className='programming__image'>
+              <img  src= {calendar} alt="calendar" />
+            </div>                                     
+                                             
+            <div className ='section'>
+              <h3>Download Schedule</h3>
+              <div className='section__intern'>
+                <div className='download '>
+                <h4 className='title '>JULY</h4>
+                  <a className ='btn'
+                     href={pdf} 
+                     download 
+                     target='_blank' 
+                     rel='noreferrer noopener '>
+                    <MdOutlinePictureAsPdf />
+                  </a>
+              </div>
+              <div className='download'>
+                <h4 className='title '>AUGUST</h4>
+                  <a className ='btn'
+                     href={pdf} 
+                     download 
+                     target='_blank' 
+                     rel='noreferrer noopener '>
+                    <MdOutlinePictureAsPdf />
+                  </a>
+              </div>  
+              </div>
+                     
             </div>          
         </div>          
       </div>        

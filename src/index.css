@@ -71,7 +71,10 @@
  /*MEDIA QUERIES (small screens)*/
  
  @media screen and (max-width:480px)
- {      
+ {  
+  .container {
+    width: var(--container-width-sm);
+   } 
     h1{
      font-size: 2.2rem;
      line-height: 1.3;

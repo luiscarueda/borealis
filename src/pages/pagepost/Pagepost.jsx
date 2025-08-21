@@ -28,14 +28,14 @@ client.fetch(query)
   return (
     <>      
       <div className="pagepost">
-        <div className="container pagepost__container" > 
         <Headeraux  title={HEADER[3].title} 
                       text={HEADER[3].text}
                       imgUrl={HEADER[4].imgUrl}
-         />       
+         /> 
+        <div className="container pagepost__container" >               
           {
             pagepost[0]&&(
-            <div className='pagepost__containera ' >                 
+            <div className='pagepost__container' >                 
              <a href={`/allposts/${pagepost[0].slug}`}>
                  <section className='pagepost__left'>
                    <h1>{pagepost[0].title}</h1>

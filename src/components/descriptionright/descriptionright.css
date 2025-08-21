@@ -25,18 +25,12 @@
  { 
     .descriptionright__container{
         display: grid;
-        grid-template-columns: 1fr;
-    }       
-  
-
-    .descriptionleft__container{
-       display: grid;
-       grid-template-columns: 1fr;
-    }
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+    }        
     .descriptionright__image {
         width: 80%;
-    }             
-    
+    }              
 }
 
 
@@ -44,9 +38,10 @@
 
 @media screen and (max-width:480px){
     .descriptionright__container{
-        display: flex;
-        justify-content: center;
+        display: flex; 
         flex-direction: column-reverse;         
+        gap: 2rem;
+
     }       
 }
 

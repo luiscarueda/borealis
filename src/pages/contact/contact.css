@@ -80,11 +80,7 @@
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
-{   
-    .container{
-        width: var(--container-width-md);
-    }
-    
+{          
     .contact__wrapper a:hover{
         cursor: pointer;
         background: var(--secondary-color);
@@ -96,9 +92,7 @@
 
 @media screen and (max-width:480px)
 {
-    .container{
-        width: var(--container-width-sm);
-    }
+  
     .contact__container{
         display: flex;
         justify-content: center; 

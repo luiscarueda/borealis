@@ -13,10 +13,13 @@ nav {
 .nav__container{
     height: 8%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100vw;        
+}
+.nav__container ul{
+    margin-left: -16rem;
 }
 .nav__links{
     display: flex;
@@ -57,7 +60,8 @@ nav {
 
 /*MEDIA QUERIES (medium screens)*/
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:960px) {  
+     
     .nav__toggle-btn{
         display: inline-block;
         background: transparent;
@@ -79,9 +83,9 @@ nav {
     }
 
     .nav__links li{
-        height: 4rem;
+        height: 6rem;
         width: 100%;
-        box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+        box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.8);
       
     }
     .nav__links li a {
@@ -100,3 +104,13 @@ nav {
         display: none;
     }
 }
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{
+
+ 
+
+   
+} 

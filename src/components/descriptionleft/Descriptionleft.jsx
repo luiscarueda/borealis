@@ -2,7 +2,7 @@ import './descriptionleft.css'
 
 const Descriptionleft = ({title,text,imgUrl}) => {
   return (
-    <section className='descriptionleft'>
+    <section className='descriptionleft '>
         <div className="container descriptionleft__container ">
             <div className="descriptionleft__image">
                 <img src={imgUrl} alt="" />

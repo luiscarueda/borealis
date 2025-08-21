@@ -4,49 +4,46 @@
 .main__header-container{
     display: grid;
     grid-template-columns: 60% 40%;
-    height: 100vh;
-    width: 90vw;       
+    width: 90vw; 
+    height: 100vh;          
     place-items: center;
     align-content: start;    
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 2rem; 
     margin-bottom: 1rem;
     padding-bottom: 2rem;
-    position: relative;   
+    
 }
 .main__header-left {
-    margin-top: -1rem;
+    margin-top: -12rem;
     margin-left: auto;
-    position: relative;
-    z-index: 10;
+ 
 }
 .main__header-left h1{
     color: var(--gradient-bar-2);
-    font-size: 60px;
+    font-size:   60px;
     font-weight: 500;
     line-height: 220px;   
 }
 .main__header-left h3 {
     margin-bottom: 1rem;
     color: var(--secondary-color);
-    font-weight: 400;
-}
-.main__header-left p {
-    margin:  1rem 0 3.5rem;
-    font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 .main__header-image{
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
     margin-top: -5rem;
     margin-right: 16rem;
 }
 .main__header-right{
-    position: absolute;
-    margin-top: 8rem;
+    display: flex;
+    justify-content: center;    
+    margin-top: 4rem;
+    margin-left: -18rem;
     margin-bottom: 8rem;
-    left: 700px;
-    z-index: 5;
+    
 }
 
 @keyframes fadeIn {
@@ -60,40 +57,42 @@
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
-{   .container{
-    width: var(--container-width-md);    
-       }
-    .main__header{
-        height: fit-content;
-        padding: 4rem 0;    
-    }
+{    
     .main__header-container{
-        gap: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 100vh;
+        width: 90vw;          
+        place-items: center;
+        align-content: start;    
+        gap: 2rem;
+        margin-top: 2rem; 
+        margin-bottom: 1rem;
+        padding-bottom: 2rem;
+               
     }
-    .main__header-right{
-    }
+    .main__header-image{
+        width: 200px;
+        height: 200px;
+    }   
   }    
 
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
-{
-    .container{
-        width: var(--container-width-sm);    
-           }
-
+{  
    .main__header{
     margin-top: 0;
-    padding: 12rem 0 0;
-    height: 100vh;
+    padding: 2rem 0 0;    
     }
-    .main__header-container{        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;        
-    }
-    .main__header-image{
-        width: 300px;
-        height: 300px;
+    .main__header-container{
+      display: flex;
+      justify-content: center;      
+      flex-direction: column;           
     }   
-} 
+    .main__header-image{
+        width: 50%;
+        height: 50%;
+    }   
+}

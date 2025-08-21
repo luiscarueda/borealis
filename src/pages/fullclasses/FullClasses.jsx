@@ -30,8 +30,9 @@ const FullClasses = () => {
                       text={HEADER[2].text}
                       imgUrl={HEADER[2].imgUrl}
       />
-       <Programs/>  
-       <div className='fullclasses ' > 
+       <Programs/>
+       <div className="fullclasses">
+         <div className='container fullclasses__container ' > 
          { fullclasses && fullclasses.map((classes,index) => (
            <article className='fullclasses__card'key={classes.slug.current}>              
                 <span key={index} className='fullclasses__item'>
@@ -45,7 +46,10 @@ const FullClasses = () => {
                 </span>                                              
            </article>
           ))}    
-        </div>                               
+        </div>        
+       </div>
+
+                             
     </div>
   )
  }

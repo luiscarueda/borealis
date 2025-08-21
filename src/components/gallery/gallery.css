@@ -1,19 +1,20 @@
 .gallery{
-  background: var(--gradient-bg);             
+  background: var(--main-color-variant);             
 }
 .gallery__container{
   display: flex;
   justify-content: center;
   align-items: center; 
   margin-left: auto;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-top: 3rem;
   width: 600px;  
-  height: 40rem;
+  height: 600px;
 }
 .swiper{
-    margin-bottom: 4rem;
+    margin-bottom: 4rem;     
 }
+
 .image{
   display: flex;
   justify-content: center;
@@ -22,13 +23,30 @@
   height: 40rem;
 }
 
-
-
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
  { 
-         
+  .gallery__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    padding: 20px;
+    width: 500px;    
+    height: 400px;
+    margin: 4rem;
+  } 
+  .image{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 400px;
+    height: 300px;
+  }
+  
+  .swiper{
+    margin-bottom: 2rem;
+}
  }    
 
 /*MEDIA QUERIES (small screens)*/

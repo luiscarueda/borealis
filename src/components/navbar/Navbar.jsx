@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>            
-      <nav className="container nav__container initial">
+      <nav className="container nav__container ">
         <Link to='/'className='logo'>
               <img src= {Logo} alt="logo"/>
         </Link>        
@@ -29,12 +29,10 @@ const Navbar = () => {
                   )
                 })
               }                    
-            </ul>
-                                               
+            </ul>                                               
         <button className="nav__toggle-btn" onClick={()=> setIsNavShowing (prev=>!prev)}>
                 { isNavShowing ? <MdOutlineClose/>: <FaBars/> }                
-        </button>
-                               
+        </button>                               
       </nav>
     </>
   )}

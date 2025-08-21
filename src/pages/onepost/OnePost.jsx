@@ -31,9 +31,9 @@ const OnePost = () => {
         client.fetch(query)
             .then((data)=>setOnePost(data[0]))
             .catch(console.error);
-           }, [slug])  
-   
-        if (!onePost) return <div>Loading...</div>  ;            
+           }, [slug])     
+        if (!onePost) return <div>Loading...</div>  ; 
+                   
          return (
           <>
           <section className='onepost '>
