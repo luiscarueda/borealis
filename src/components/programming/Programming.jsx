@@ -28,26 +28,26 @@ const Programming = () => {
     <section className='programming'>
       <div className='container programming__container '>
         <div className='programming__left'>
-          <h2 >Stay up to date with our monthly calendar, plus events and other activities we have for our entire community.</h2>
-        </div>        
-        <div className='programming__right'>
             <div className='programming__image'>
-              <img  src= {calendar} alt="calendar" />
-            </div>                                     
-                                             
-            <div className ='section'>
-              <h3>Download Schedule</h3>
-              <div className='section__intern'>
-                <div className='download '>
-                <h4 className='title '>JULY</h4>
-                  <a className ='btn'
+                <img  src= {calendar} alt="calendar" />
+            </div>
+        </div>                                                   
+          
+        <div className='programming__right'>
+            <h3>Stay up to date with our monthly calendar, plus events and other activities we have for our entire community.</h3>
+             <div className ='section'>
+                <h3>Download Schedule</h3>
+                <div className='section__intern'>
+                  <div className='download '>
+                    <h4 className='title '>JULY</h4>
+                    <a className ='btn'
                      href={pdf} 
                      download 
                      target='_blank' 
                      rel='noreferrer noopener '>
-                    <MdOutlinePictureAsPdf />
-                  </a>
-              </div>
+                     <MdOutlinePictureAsPdf />
+                    </a>
+                </div>
               <div className='download'>
                 <h4 className='title '>AUGUST</h4>
                   <a className ='btn'
@@ -58,11 +58,10 @@ const Programming = () => {
                     <MdOutlinePictureAsPdf />
                   </a>
               </div>  
-              </div>
-                     
-            </div>          
-        </div>          
-      </div>        
+            </div>                   
+          </div>                     
+       </div>          
+     </div>                  
     </section>
   )
 }

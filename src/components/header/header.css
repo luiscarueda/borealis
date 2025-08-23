@@ -11,13 +11,11 @@
     gap: 2rem;
     margin-top: 2rem; 
     margin-bottom: 1rem;
-    padding-bottom: 2rem;
-    
+    padding-bottom: 2rem;    
 }
 .main__header-left {
     margin-top: -12rem;
-    margin-left: auto;
- 
+    margin-left: auto; 
 }
 .main__header-left h1{
     color: var(--gradient-bar-2);
@@ -42,8 +40,7 @@
     justify-content: center;    
     margin-top: 4rem;
     margin-left: -18rem;
-    margin-bottom: 8rem;
-    
+    margin-bottom: 8rem;    
 }
 
 @keyframes fadeIn {
@@ -63,11 +60,11 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         height: 100vh;
-        width: 90vw;          
-        place-items: center;
-        align-content: start;    
+        width: 90vw;       
+        
+        align-content: flex-start;    
         gap: 2rem;
-        margin-top: 2rem; 
+        margin-top: 16rem; 
         margin-bottom: 1rem;
         padding-bottom: 2rem;
                
@@ -75,7 +72,16 @@
     .main__header-image{
         width: 200px;
         height: 200px;
-    }   
+    }
+    .main__header-right{
+        display: flex;
+        justify-content: center;
+        width: 400px; 
+        height: 300px;   
+        margin-top: 4rem;
+        margin-left: -18rem;
+        margin-bottom: 8rem;    
+    }
   }    
 
 /*MEDIA QUERIES (small screens)*/

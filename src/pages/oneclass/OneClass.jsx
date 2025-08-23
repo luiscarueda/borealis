@@ -26,24 +26,23 @@ const OneClass = () => {
                   url
                 }
                }               
-              }`              
+              }`               
+              
     client.fetch(query)
             .then((data)=>setOneClass(data[0]))
             .catch(console.error);
       }, [slug])              
-     if (!oneclass) return <div>Loading...</div>  ;  
-
-
-  return ( 
-    <div className="oneclass">
-       <div className='container oneclass__container'>
-      <div className='flex__center oneclass__left'>
-           <h1 className>{oneclass.title}</h1>
-           <div className='oneclass__image'>
-            <img src={urlFor(oneclass.mainImage.asset.url)} alt="" />
+     if (!oneclass) return <div className='spinner'></div>  ; 
+     return ( 
+       <div className="oneclass">
+          <div className='container oneclass__container'>
+           <div className='flex__center oneclass__left'>
+             <h1 className>{oneclass.title}</h1>
+             <div className='oneclass__image'>
+              <img src={urlFor(oneclass.mainImage.asset.url)} alt="" />
+             </div>
            </div>
-      </div>
-      <div className="oneclass__right ">
+          <div className="oneclass__right ">
              <PortableText value={oneclass.description}/>
              <h2>{oneclass.price }</h2>
              <h2>CAD</h2>
@@ -51,8 +50,8 @@ const OneClass = () => {
              <button className='btn'>
                   <Link to={"/fullclasses/" } >BACK TO ENROLL</Link>
               </button>                
-      </div>                                       
-     </div>  
+          </div>                                       
+        </div>  
     </div>    
   )
 }

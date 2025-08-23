@@ -6,10 +6,35 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 70%;
-    height: 70%;
+    width:  80%;
+    height: 80%;
 }
 .onepost__image{
-    width: 100vw;
-    height: 100vh;
-}   
+   width: 100%;
+   height: 100%;
+   
+}
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+{          
+  
+
+}    
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{          
+    .onepost__container{
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width:  60%;
+        height: 60%;
+    }
+
+}  

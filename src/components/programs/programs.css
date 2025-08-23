@@ -1,7 +1,6 @@
 .programs{
     background: var(--gradient-bg);
     }
-
 .programs__container {
     display: flex;    
     flex-direction: column;

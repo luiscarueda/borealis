@@ -33,3 +33,19 @@
 .test{
     color: black;
 }
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+{          
+  
+
+}    
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{          
+  
+
+}  

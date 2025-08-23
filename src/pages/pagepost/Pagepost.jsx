@@ -26,24 +26,23 @@ client.fetch(query)
    }, []);  
 
   return (
-    <>      
-      <div className="pagepost">
-        <Headeraux  title={HEADER[3].title} 
+    <>           
+      <Headeraux  title={HEADER[3].title} 
                       text={HEADER[3].text}
                       imgUrl={HEADER[4].imgUrl}
-         /> 
-        <div className="container pagepost__container" >               
-          {
-            pagepost[0]&&(
-            <div className='pagepost__container' >                 
-             <a href={`/allposts/${pagepost[0].slug}`}>
+       />
+      
+      <div className="pagepost" >               
+          { pagepost[0]&&(
+             <div className='container pagepost__container' >                 
+               <a href={`/allposts/${pagepost[0].slug}`}>
                  <section className='pagepost__left'>
                    <h1>{pagepost[0].title}</h1>
                    <h4>{format(new Date(pagepost[0].publishedAt),'dd MMMM yyyy')}</h4>
-                   <img src={pagepost[0].mainImage.asset.url} alt="" />
+                   <img src={pagepost[0].mainImage.asset.url} alt="main_post" />
                    <button className='btn'>
-                      <Link to={"/allposts/"+ pagepost[0].slug.current } key={pagepost[0].slug.current}className='test'>read article </Link>
-                    </button>
+                      <Link to={"/allposts/"+ pagepost[0].slug.current } key={pagepost[0].slug.current}>read article </Link>
+                   </button>
                  </section>
              </a>
                 <section className="pagepost__right">
@@ -53,7 +52,7 @@ client.fetch(query)
                     <h2>{pagepost[1].title}</h2>
                     <h4>{format(new Date(pagepost[1].publishedAt),'dd MMMM yyyy')}</h4>                                
                     <button className='btn'>
-                      <Link to={"/allposts/"+ pagepost[1].slug.current } key={pagepost[1].slug.current}className='test'>read article </Link>
+                      <Link to={"/allposts/"+ pagepost[1].slug.current } key={pagepost[1].slug.current}>read article </Link>
                     </button>                                                           
                   </div>                    
                 </div>
@@ -63,7 +62,7 @@ client.fetch(query)
                    <h2>{pagepost[2].title}</h2>
                    <h4>{format(new Date(pagepost[2].publishedAt),'dd MMMM yyyy')}</h4>
                    <button className='btn'>
-                      <Link to={"/allposts/"+ pagepost[2].slug.current } key={pagepost[2].slug.current}className='test'>read article </Link>
+                      <Link to={"/allposts/"+ pagepost[2].slug.current } key={pagepost[2].slug.current}>read article </Link>
                     </button>           
                    </div>
                   </div>
@@ -74,9 +73,7 @@ client.fetch(query)
             </div>      
         )
       }
-    </div>        
-   </div> 
-
+     </div>         
     </>
     
 

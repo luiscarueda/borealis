@@ -81,12 +81,10 @@ nav {
     .active-nav, .active-nav::after{
         display: none;
     }
-
     .nav__links li{
         height: 6rem;
         width: 100%;
-        box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.8);
-      
+        box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.8);      
     }
     .nav__links li a {
         background-color: var(--main-color);
@@ -105,12 +103,14 @@ nav {
     }
 }
 
+
+
+
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
 {
-
- 
-
-   
+    .nav__toggle-btn{        
+        margin-left: 10rem;
+    }
 } 

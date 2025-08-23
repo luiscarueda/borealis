@@ -27,6 +27,7 @@ background: var(--bg-color);
   display: block;  
   border-color: aqua;
   box-shadow: 2px 2px 4px 3px var(--main-color);
+  margin-left: 2rem;
 }
 .logo:hover{
   background: var(--secondary-color);
