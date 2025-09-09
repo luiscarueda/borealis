@@ -9,11 +9,10 @@ import Logo from '../../assets/4.png';
 
 const Navbar = () => {  
   const [isNavShowing,setIsNavShowing] = useState(false);  
-
   return (
     <>            
       <nav className="container nav__container ">
-        <Link to='/'className='logo'>
+        <Link to='/'className='logo '>
               <img src= {Logo} alt="logo"/>
         </Link>        
             <ul className= {`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>

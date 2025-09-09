@@ -8,15 +8,15 @@
     border-radius: 2rem;
     transition: var(--transition);
     width: 16rem;
-    height: 23rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
 }
 
 .servicescard:hover{
-    background: var(--color-gray-500);   
+    background: var(--color-gray-600);   
     border-color: var(--color-gray-400);
-    cursor: default;
+    cursor: default;   
 }
 
 .servicescard h4{
@@ -28,7 +28,7 @@
 }
 
 .servicescard p{
-height: 12rem;
+     height: 12rem;
 }
 
 .servicescard h2 {

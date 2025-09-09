@@ -1,12 +1,12 @@
 .google{
-    background: var(--gradient-bg);
+    background: var(--gradient-bg);   
 }
 .google__container{
     display: flex;
-    margin: 6rem 12rem;
+    margin: 6rem 4 rem;
     padding-top: 4rem;
     align-items: center;
     justify-content: center;
-    width:  80%;
-    height: 80%;     
+    width:  100vw;
+    height: 80vh;     
 }

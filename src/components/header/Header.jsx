@@ -20,7 +20,7 @@ const Header = () => {
              muted
              loop 
              playing
-             width='40%'
+             width ='40%'
              height='30%'                 
             />       
           </section>

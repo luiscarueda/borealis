@@ -54,34 +54,33 @@
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
-{    
-    .main__header-container{
+{  
+  
+.main__header-container{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         height: 100vh;
-        width: 90vw;       
-        
+        width: 90vw;             
         align-content: flex-start;    
         gap: 2rem;
         margin-top: 16rem; 
         margin-bottom: 1rem;
-        padding-bottom: 2rem;
-               
-    }
-    .main__header-image{
-        width: 200px;
-        height: 200px;
-    }
-    .main__header-right{
+        padding-bottom: 2rem;               
+}
+.main__header-image{
+        width:  80%;
+        height: 80%;
+}
+.main__header-right{
         display: flex;
         justify-content: center;
-        width: 400px; 
-        height: 300px;   
+        width:  100%; 
+        height: 80%;   
         margin-top: 4rem;
         margin-left: -18rem;
         margin-bottom: 8rem;    
-    }
+}
   }    
 
 /*MEDIA QUERIES (small screens)*/

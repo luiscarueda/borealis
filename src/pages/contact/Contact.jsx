@@ -13,11 +13,11 @@ const Contact = () => {
       <section className="contact">
         <section className="container contact__container ">
           <section className='contact__wrapper'>              
-          <a href='https://wa.me/12364575567?text=Hi BOREALIS,I have questions and want more information about the academy' target= '_blank' rel="noreferrer"><IoLogoWhatsapp /></a>
-          <address>
-            Visit us at: <br />
-            <strong> 1040 Richter St  Second Floor, Kelowna,</strong> <br />British Columbia V1Y 2K5 <br />
-          </address>
+            <a href='https://wa.me/12364575567?text=Hi BOREALIS,I have questions and want more information about the academy' target= '_blank' rel="noreferrer"><IoLogoWhatsapp /></a>
+             <address>
+               Visit us at: <br />
+               <strong> 1040 Richter St  Second Floor, Kelowna,</strong> <br />British Columbia V1Y 2K5 <br />
+             </address>
           </section>
           <section className='contact__form '>
             <h4>ANY QUESTION?</h4>         

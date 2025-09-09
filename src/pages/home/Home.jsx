@@ -7,8 +7,8 @@ const Home = () => {
       <Header/>
       <Programming/> 
       <Programs/>  
-      <Google/>                     
-                             
+      <Google/>               
+                           
     </main>
   )
 }

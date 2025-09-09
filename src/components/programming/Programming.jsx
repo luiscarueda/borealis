@@ -1,7 +1,7 @@
 import './programming.css'
-import { MdOutlinePictureAsPdf } from "react-icons/md";
-import pdf from '../../assets/july2024.jpg'
-import calendar from '../../assets/july2024.jpg'
+import { BsFiletypePdf } from "react-icons/bs";
+import pdf from '../../assets/aug2025.jpg'
+import calendar from '../../assets/aug2025.jpg'
 import { useEffect,useState } from 'react';
 import {client} from '../../../client'
 
@@ -31,8 +31,7 @@ const Programming = () => {
             <div className='programming__image'>
                 <img  src= {calendar} alt="calendar" />
             </div>
-        </div>                                                   
-          
+        </div>                                                
         <div className='programming__right'>
             <h3>Stay up to date with our monthly calendar, plus events and other activities we have for our entire community.</h3>
              <div className ='section'>
@@ -45,7 +44,7 @@ const Programming = () => {
                      download 
                      target='_blank' 
                      rel='noreferrer noopener '>
-                     <MdOutlinePictureAsPdf />
+                     < BsFiletypePdf className='color'/>
                     </a>
                 </div>
               <div className='download'>
@@ -55,7 +54,7 @@ const Programming = () => {
                      download 
                      target='_blank' 
                      rel='noreferrer noopener '>
-                    <MdOutlinePictureAsPdf />
+                    <BsFiletypePdf className='color'/>
                   </a>
               </div>  
             </div>                   

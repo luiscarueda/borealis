@@ -63,7 +63,7 @@
 }
 .footer__copyright strong{
     font-size: smaller;
-    color: rgba(121, 240, 92, 0.849);
+    color: var(--secondary-color);
 }
 .logo{
     background: var(--gradient-bg);
