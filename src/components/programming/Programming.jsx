@@ -1,27 +1,24 @@
 import './programming.css'
 import { BsFiletypePdf } from "react-icons/bs";
-import pdf from '../../assets/aug2025.jpg'
-import calendar from '../../assets/aug2025.jpg'
+import pdf from '../../assets/555470952_788216670621376_3277599675888420307_n.jpg';
 import { useEffect,useState } from 'react';
 import {client} from '../../../client'
 
 const Programming = () => {
-  const [schedule,setSchedule] = useState([null]);
+  const [schedules,setSchedules] = useState([null]);
 
   useEffect(() => {
   const query =  `*[_type == 'schedule']
        {
         current,
-        posterior,
-        schedule,
-        mainImage{asset->{_id,url}
-       }
+        posterior,      
+          }              
     }`
 
   client.fetch(query)
-  .then  ((data) => setSchedule(data))
-  .catch (console.error);
-  
+  .then  ((data) => 
+         setSchedules(data))
+  .catch (console.error);  
    }, []);  
 
   return (
@@ -29,7 +26,8 @@ const Programming = () => {
       <div className='container programming__container '>
         <div className='programming__left'>
             <div className='programming__image'>
-                <img  src= {calendar} alt="calendar" />
+            <img src={pdf} alt="imagen" />
+              
             </div>
         </div>                                                
         <div className='programming__right'>
@@ -38,7 +36,7 @@ const Programming = () => {
                 <h3>Download Schedule</h3>
                 <div className='section__intern'>
                   <div className='download '>
-                    <h4 className='title '>JULY</h4>
+                    <h4 className='title '>OCTOBER</h4>
                     <a className ='btn'
                      href={pdf} 
                      download 
@@ -48,7 +46,7 @@ const Programming = () => {
                     </a>
                 </div>
               <div className='download'>
-                <h4 className='title '>AUGUST</h4>
+                <h4 className='title '>NOVEMBER</h4>
                   <a className ='btn'
                      href={pdf} 
                      download 

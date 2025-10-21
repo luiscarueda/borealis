@@ -2,14 +2,10 @@ import React from 'react'
 import './oneclass.css'
 import { useParams } from 'react-router-dom';
 import { useEffect,useState } from 'react';
-import { client } from '../../../client';
-import imageUrlBuilder from '@sanity/image-url';
+import { client,urlFor} from '../../../client';
 import {PortableText} from '@portabletext/react';
 import { Link } from 'react-router-dom';
 
-const builder = imageUrlBuilder(client)
-function urlFor(source) {
-  return builder.image(source)}
 
 const OneClass = () => {
     const [oneclass,setOneClass] =useState(null);
@@ -31,7 +27,8 @@ const OneClass = () => {
     client.fetch(query)
             .then((data)=>setOneClass(data[0]))
             .catch(console.error);
-      }, [slug])              
+      }, [slug]) 
+                   
      if (!oneclass) return <div className='spinner'></div>  ; 
      return ( 
        <div className="oneclass">
@@ -40,6 +37,7 @@ const OneClass = () => {
              <h1 className>{oneclass.title}</h1>
              <div className='oneclass__image'>
               <img src={urlFor(oneclass.mainImage.asset.url)} alt="" />
+              
              </div>
            </div>
           <div className="oneclass__right ">

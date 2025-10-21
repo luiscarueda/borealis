@@ -4,7 +4,6 @@ import SectionHead from '../SectionHead/SectionHead';
 import { FaQuestion } from 'react-icons/fa';
 import { FAQCard } from '../../UI';
 
-
 const FAQs = () => {
   return (
     <section className='FAQs'>
@@ -20,11 +19,7 @@ const FAQs = () => {
           ))}
         </div>
       </div>
-
-
-
     </section>
   )
 }
-
 export default FAQs

@@ -5,7 +5,7 @@ import { client } from '../../../client'
 import { Link } from 'react-router-dom'
 import { Headeraux } from '../../components'
 import { HEADER } from '../../constants/data'
-import {format} from 'date-fns'
+import {format  } from 'date-fns'
 
 const Pagepost = () => {
 const [pagepost,setPagePost] = useState([]);
@@ -49,7 +49,7 @@ client.fetch(query)
                   <div className='pagepost__post'>
                   <img src={pagepost[1].mainImage.asset.url} />
                   <div className='pagepost__content '>
-                    <h2>{pagepost[1].title}</h2>
+                    <h3>{pagepost[1].title}</h3>
                     <h4>{format(new Date(pagepost[1].publishedAt),'dd MMMM yyyy')}</h4>                                
                     <button className='btn'>
                       <Link to={"/allposts/"+ pagepost[1].slug.current } key={pagepost[1].slug.current}>read article </Link>
@@ -59,7 +59,7 @@ client.fetch(query)
                   <div className='pagepost__post'>
                    <img src={pagepost[2].mainImage.asset.url} />
                    <div className="pagepost__content">
-                   <h2>{pagepost[2].title}</h2>
+                   <h3>{pagepost[2].title}</h3>
                    <h4>{format(new Date(pagepost[2].publishedAt),'dd MMMM yyyy')}</h4>
                    <button className='btn'>
                       <Link to={"/allposts/"+ pagepost[2].slug.current } key={pagepost[2].slug.current}>read article </Link>

@@ -21,8 +21,8 @@
     width: fit-content;
     height: fit-content;
     margin-left: 1rem; 
-    background: transparent;
-    border: 2px solid rgb(57, 108, 185);
+    background: var(--gradient-bg);
+    border: 2px solid var(--color-gray-400);
     border-radius: 2rem;
     padding: 2rem;
 }

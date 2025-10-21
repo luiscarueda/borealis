@@ -1,0 +1,23 @@
+.footer__socials{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;   
+}
+.footer__socials a{
+    background: var(--gradient-bg);
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    transition: var(--transition);
+}
+.footer__socials a svg{
+    color: var(--color-gray-100);
+    width: 2rem;
+
+}
+.footer__socials a:hover {
+    border-color: var(--main-color-variant);
+    background: var(--hover-color);
+    cursor: pointer;
+}

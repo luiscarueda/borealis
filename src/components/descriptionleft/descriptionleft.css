@@ -27,13 +27,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5%;
+    } 
 
-    }  
     .descriptionleft__image {
         width: 80%;
         margin-left: 2rem;
-    }
-   
+    }   
  }    
 
 /*MEDIA QUERIES (small screens)*/

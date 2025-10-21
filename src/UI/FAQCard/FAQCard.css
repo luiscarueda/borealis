@@ -3,7 +3,6 @@
     padding: 2rem;
     border-radius: 1rem;
     cursor: pointer;
-
 }
 .FAQCard__container{
     display: flex;
@@ -14,7 +13,12 @@
     background: transparent;
     color: var(--color-gray-100);
     font-size: 1.5rem;
+    cursor: pointer;    
 }
+.FAQCard__icon :hover{
+  background: var(--color-gray-400);
+}
+
 .FAQCard p {
     margin-top: 1.5rem;
 }

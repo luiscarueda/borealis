@@ -1,7 +1,7 @@
 import Logo from '../assets/3.png'
 
 import photoMain from '../assets/1.png'
-import photoMainPrueba from '../assets/pexels-tobiasbjorkli-1819650.jpg'
+import photoMainPrueba from '../assets/1.png'
 import photo01 from '../assets/pexels-ken-cheung-3355734-5384149.jpg'
 import photo02 from '../assets/pexels-ken-cheung-3355734-5384149.jpg'
 import photo03 from '../assets/pexels-tobiasbjorkli-11180714.jpg'

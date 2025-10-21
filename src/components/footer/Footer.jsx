@@ -1,9 +1,8 @@
 import './footer.css'
 import { Link } from 'react-router-dom'
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import Logo from '../../assets/4.png'
 import { FOOTERLINKS } from '../../constants/data';
+import { SocialIcons } from '../../UI';
 
 const Footer = () => {
   return (
@@ -13,11 +12,7 @@ const Footer = () => {
              <Link to='/' className='logo'>
               <img src={Logo}  alt="footer logo" />
              </Link>
-                <p>FOLLOW ME ON MY SOCIAL NETWORKS.</p>
-            <div className="footer__socials">
-              <a href='https://www.facebook.com/borealislatindance?locale=es_LA' target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
-              <a href='https://www.instagram.com/borealislatindance/' target='_blank' rel='noreferrer noopener'><FaInstagram /></a>              
-            </div>
+                <SocialIcons/>         
           </article>           
           <article className='footer__article'>
            {FOOTERLINKS.map((section) =>(

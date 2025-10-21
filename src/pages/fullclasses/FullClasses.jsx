@@ -20,10 +20,9 @@ const FullClasses = () => {
             }
         }`
     client.fetch(query)
-  .then((data) => setFullClasses(data))
-  .catch (err=>console.error(err));
-    }, []);
-
+   .then((data) => setFullClasses(data))
+   .catch (err=>console.error(err));
+      }, []);
   return (
     <div>
       <Headeraux  title={HEADER[2].title} 
