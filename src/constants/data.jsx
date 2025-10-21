@@ -50,20 +50,23 @@
 
   export const ABOUT = [
       { title: 'STORY',
-        text:'Borealis Latin Dance, founded a year ago by a young Colombian in Canada, has quickly become a vibrant hub for Latin dance enthusiasts. Offering a fusion of passion, rhythm, and cultural exchange, the academy embodies the spirit of Latin America in the heart of Canada. ',
-        text2:'Through dynamic classes and community events, Borealis Latin Dance introduces students to salsa, bachata, and more.',
+        text:'In a deep search for a more meaningful life, I discovered an ancient but simple idea: living on purpose—the intersection of what we love, what we’re skilled at, and how we can serve others. ',
+        text2:'Dance, music, and culture have been passions of mine since my mother first taught me at the age of fifteen. Since then, I’ve continued learning, performing, and training in dance studios across Colombia, Edmonton, and Vancouver.',
+        text3:'Bringing that passion to Kelowna, I created a space where people can experience the same connection, joy, and cultural exchange that dance has always given me.',
         imgUrl: images.photo06,
        },
 
        { title:'MISION',
-       text:'Our mission is to celebrate diversity and joy through dance, offering inclusive classes and community events that promote cultural exchange and excellence in Latin dance.',
-       text2:'Creating a welcoming space where everyone can connect and express themselves through movement.',
+       text:'Our mission is to improve the health and well-being of our community through dance. Focusing on the physical, mental, and emotional connection it brings.',
+       text2:'We believe movement strengthens the body, rhythm sharpens the mind, and human connection nourishes the heart.',
+       text3:' By merging Latino culture with the spirit of inclusivity in Canada, we create a welcoming environment where everyone can express themselves, grow, and connect through the universal language of dance.',
        imgUrl:images.photo07,
-     },
+       },
 
      { title:'VISION',
-        text:'By 2030, Borealis Latin Dance envisions becoming a leading cultural hub in Canada, renowned for its excellence in Latin dance education and vibrant community engagement. ',
-        text2:'We aspire to inspire thousands of individuals through our dynamic programs, fostering a deep appreciation for Latin culture and creating lasting connections through the universal language of dance.',
+        text:'Our vision is to unite Latino and Canadian cultures through the universal language of dance. ',
+        text2:'We strive to create a place that nurtures well-being, fosters joy, and encourages people to live healthier, more connected lives.',
+        text3:'',
         imgUrl:images.photo08,
       },     
     ] ; 

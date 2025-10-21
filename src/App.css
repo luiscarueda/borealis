@@ -80,7 +80,9 @@ a {
 }
 p {
   font-size: 1.2rem;
+  font-weight: 500;
   font-family: var(--secondary-font);
+  color: var(--color-gray-200);
  }
 img {
   display: block;

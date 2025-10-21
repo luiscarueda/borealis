@@ -1,6 +1,6 @@
 import './descriptionleft.css'
 
-const Descriptionleft = ({title,text,text2,imgUrl}) => {
+const Descriptionleft = ({title,text,text2,text3,imgUrl}) => {
   return (
     <section className='descriptionleft '>
         <div className="container descriptionleft__container ">
@@ -11,6 +11,7 @@ const Descriptionleft = ({title,text,text2,imgUrl}) => {
                 <h1>{title}</h1>
                 <p>{text}</p>
                 <p>{text2}</p>
+                <p>{text3}</p>
                 
             </div>
         </div>
