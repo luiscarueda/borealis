@@ -104,16 +104,17 @@
         info: "Access to 1 course (1 class per week,for 4 weeks)",
         price: '$65 CAD'        
     },
+     {
+        title: "full membership",
+        info: "Access to all courses from your level or below  (4 weeks each) ",
+        price: '$150 CAD'        
+    },
     {
         title: "2 courses",
         info: "Access  to 2 courses   (2 class per week, for 4 weeks each)  ",
         price: '$110 CAD'        
     },
-    {
-        title: "full membership",
-        info: "Access to all courses from your level or below  (4 weeks each) ",
-        price: '$150 CAD'        
-    },
+   
    ]
 
   export const FAQS = [

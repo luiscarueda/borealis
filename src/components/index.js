@@ -10,8 +10,7 @@ import Programming from "./programming/Programming";
 import Video from "./video/Video";
 import Google from "./google/Google";
 import Dropdown from "./dropdown/Dropdown";
-import Background from "./background/Background";
-import BackgroundData from "./backgrounddata/BackgroundData";
+
 
 export {
     Navbar,
@@ -25,7 +24,5 @@ export {
     Programming,
     Video,
     Google,
-    Dropdown,
-    Background,
-    BackgroundData    
+    Dropdown    
 }

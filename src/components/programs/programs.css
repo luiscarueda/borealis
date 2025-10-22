@@ -6,15 +6,15 @@
     flex-direction: column;
     gap: 10px;    
 }
+.programs__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
 .programs__card{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;    
-}
-
-.programs__wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
 }

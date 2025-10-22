@@ -1,22 +1,29 @@
 .servicescard{
+    display: flex;
+    flex-direction: column;   
     background: transparent;
     border: 2px solid rgb(57, 108, 185);
     text-align: center;
     padding: 3rem 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
     border-radius: 2rem;
     transition: var(--transition);
-    width: 16rem;
+    width: 14rem;
     height: 20rem;
-    display: flex;
-    flex-direction: column;
+    transition: transform 0.5s ease; 
+    
 }
 
 .servicescard:hover{
     background: var(--color-gray-600);   
     border-color: var(--color-gray-400);
-    cursor: default;   
+    cursor: default;    
+    filter: drop-shadow(3px 3px 8px var(--hover-color)); /* Desplaza 3px en X, 3px en Y, 8px de desenfoque y color hover*/
+    transition: var(--transition); 
+    transform: scale(1.1); /* Aumenta el tamaño un 10% */
+    
+      
 }
 
 .servicescard h4{

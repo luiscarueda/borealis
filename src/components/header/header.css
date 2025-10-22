@@ -8,14 +8,18 @@
     height: 100vh;          
     place-items: center;
     align-content: start;    
-    gap: 2rem;
+    gap: 4rem;
     margin-top: 2rem; 
     margin-bottom: 1rem;
     padding-bottom: 2rem;    
 }
 .main__header-left {
-    margin-top: -12rem;
-    margin-left: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    margin-top: -8rem;
+    margin-left: auto;  
 }
 .main__header-left h1{
     color: var(--gradient-bar-2);
@@ -32,8 +36,9 @@
 .main__header-image{
     width: 620px;
     height: 420px;
-    margin-top: -5rem;
-    margin-right: 16rem;
+    margin-top: -4rem;
+    margin-right: 6rem;
+   
 }
 .main__header-right{
     display: flex;
