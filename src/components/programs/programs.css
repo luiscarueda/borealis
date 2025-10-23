@@ -4,7 +4,7 @@
 .programs__container {
     display: flex;    
     flex-direction: column;
-    gap: 10px;    
+    gap: 6px;    
 }
 .programs__wrapper{
     display: flex;

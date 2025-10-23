@@ -1,19 +1,19 @@
-.servicescard{
+.dropincard{
     display: flex;
     flex-direction: column;   
     background: transparent;
-    border: 2px solid rgb(57, 108, 185);
-    text-align: center;
+    border: 1px solid rgb(57, 108, 185);
+    text-align: center;    
     padding: 3rem 2rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
     border-radius: 2rem;
     transition: var(--transition);
-    width: 14rem;
+    width: 12rem;
     height: 20rem;
     transition: transform 0.5s ease;     
 }
-.servicescard:hover{
+.dropincard:hover{
     background: var(--color-gray-600);   
     border-color: var(--color-gray-400);
     cursor: default;    
@@ -21,21 +21,19 @@
     transition: var(--transition); 
     transform: scale(1.1); /* Aumenta el tamaño un 10% */         
 }
-.servicescard h4{
-    color: var(--main-color);
+.dropincard h4{
+    color: var(--hover-color);
     font-size: 1.5rem;
     align-items: flex-start;
     text-transform: uppercase;
     text-decoration: underline;
 }
-.servicescard p{
+.dropincard{
      height: 12rem;
 }
-.servicescard h2 {
+.dropincard h2 {
     padding-top: 4rem;
     justify-content: flex-start;
     text-decoration: underline;
-    color: var(--main-color);
-
+    color: var(--hover-color);
 }
-

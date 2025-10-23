@@ -113,8 +113,25 @@
         title: "2 courses",
         info: "Access  to 2 courses   (2 class per week, for 4 weeks each)  ",
         price: '$110 CAD'        
+    },   
+   ]
+  
+   export const DROPIN= [    
+    {
+        title: "DROP-IN",
+        info: "Access to 1 class (Upon request)",
+        price: '$20 CAD'        
     },
-   
+     {
+        title: "DROP-IN NIGHT",
+        info: "Access to 2 classes in one night",
+        price: '$30 CAD'        
+    },
+    {
+        title: "PRIVATE CLASS",
+        info: "Access to 1 hr of a private class",
+        price: '$70 CAD'        
+    },   
    ]
 
   export const FAQS = [
