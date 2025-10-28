@@ -16,9 +16,11 @@
     margin-top: 1rem;
 }
 .oneclass__right{
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    justify-content: start;   
+    justify-content: start;
+    gap: 1rem;   
 }
 .oneclass__right button{
     display: flex;

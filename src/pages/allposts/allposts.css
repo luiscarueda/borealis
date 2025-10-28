@@ -1,6 +1,6 @@
 .posts{
     display: grid;
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(4, 250px);
     gap: 100px;
     row-gap: 40px;  
     background: var(--gradient-bg);

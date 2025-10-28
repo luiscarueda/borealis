@@ -41,10 +41,13 @@
         text:'Stay with us',
         imgUrl:images.photo04,
        },
-
+       { title:'POST HISTORIAL',
+       text:'ALL OUR POST LAST YEAR',
+       imgUrl:images.photo05,
+      },       
        { title:'CONTACT',
         text:'All the Borealis News',
-        imgUrl:images.photo05,
+        imgUrl:images.photo06,
        },
     ] ; 
 
@@ -136,30 +139,31 @@
 
   export const FAQS = [
     {
-      question: "What dance styles does Borealis Latin Dance offer?",
-      answer: "We offer classes in salsa, bachata, and other Latin dance styles."
+      question: "Do I need to bring a partner?",
+      answer: "Partners are not required for our group classes — you are welcome to come solo or with a partner!We rotate partners throughout the class so everyone gets a chance to dance, connect, and learn from each other. It’s also a great way to build confidence and make new friends.If you come with your own partner and prefer to stay together, just let the instructor and the group know."
     },
     {      
-      question: "Do I need prior experience to join the classes?",
-      answer: "No, our classes are designed for all levels, from beginners to advanced dancers."
+      question: "Which classes are best for beginners?",
+      answer: "All classes marked as Level 1 are perfect for beginners. You’ll learn the fundamentals of rhythm, steps, leading and following dynamics in a supportive and fun environment.If you’ve never done partner dancing before, our beginner classes are the best place to start."
     },
     {     
-      question: "How can I sign up for a class?",
-      answer: "You can sign up for our classes through our website or by visiting our academy."
+      question: "When can I start taking classes?",
+      answer: "Our classes run in monthly cycles, restarting on the first week of every month.If you’d like to join mid-month, we recommend booking a private class to catch up, or waiting for the next cycle to start fresh with the group.This helps everyone progress together — so you can learn at the right pace without feeling overwhelmed or lost."
     },
     {      
-      question: "Do you offer private lessons in addition to group classes?",
-      answer: "Yes, we offer private lessons for those seeking more personalized attention."
+      question: "What should I wear to class?",
+      answer: "Wear something comfortable that lets you move freely — think breathable clothing that allows movement and keeps you cool.Some students like to dress up a bit, others keep it casual. There is no dress code — just wear what makes you feel confident and ready to move!"
     }, 
     {      
-      question: "Do you organize community or social events?",
-      answer: "Yes, we regularly organize community and social events to foster interaction and cultural exchange."
+      question: "What type of shoes should I wear?",
+      answer: "You don’t need special shoes to start dancing! Clean sneakers or smooth-soled shoes work just fine.Once you start dancing more regularly, we recommend investing in dance shoes with suede soles — they make turns smoother and help protect your joints. Avoid heavy boots, flip-flops, or high stilettos — your feet will thank you later."
     },
     {      
-      question: "What should I bring to a dance class?",
-      answer: "We recommend wearing comfortable clothing and appropriate dance shoes. Also, bring your enthusiasm and willingness to learn."
+      question: "How many times should I take each level?",
+      answer: "Every dancer progresses at their own pace. What matters most is practice and consistency, not speed.You’ll know you’re ready for the next level when you feel confident, comfortable, and can apply what you’ve learned with different partners and music tempos."
     },  
    ]
+
   export const IMAGES = [
    {
     original: images.photogallery02,

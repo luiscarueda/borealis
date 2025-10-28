@@ -26,9 +26,9 @@ const OnePost = () => {
         client.fetch(query)
             .then((data)=>setOnePost(data[0]))
             .catch(console.error);
-           }, [slug])     
-        if (!onePost) return <div>Loading...</div>  ; 
-                   
+           }, [slug])  
+
+        if (!onePost) return <div>Loading...</div>  ;                    
          return (
         <>
           <section className='onepost '>
@@ -44,7 +44,7 @@ const OnePost = () => {
                     </Link>    
               </div>
               <div className='onepost__image '>
-                <img src={urlFor(onePost.mainImage).width(200).height(200).blur(2).url()} alt="" />          
+                <img src={urlFor(onePost.mainImage).width(600).height(800).blur(1).url()} alt="Onepost" />          
               </div>             
             </div>              
           </section>

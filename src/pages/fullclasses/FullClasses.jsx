@@ -22,14 +22,16 @@ const FullClasses = () => {
     client.fetch(query)
    .then((data) => setFullClasses(data))
    .catch (err=>console.error(err));
-      }, []);
+      }, []);    
+                
   return (
     <div>
       <Headeraux  title={HEADER[2].title} 
                       text={HEADER[2].text}
                       imgUrl={HEADER[2].imgUrl}
       />
-       <Programs/>
+       <Programs/>   
+
        <div className="fullclasses">
          <div className='container fullclasses__container ' > 
          { fullclasses && fullclasses.map((classes,index) => (

@@ -12,7 +12,8 @@
     margin-top: 6rem;   
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem 2rem;
-    align-items: flex-start;   
+    align-items: flex-start;
+    transition: var(--transition); 
 }
 
 /*MEDIA QUERIES (medium screens)*/

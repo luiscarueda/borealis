@@ -10,6 +10,8 @@
     --secondary-hue:144;
     --hover-hue :144;
     --gray-hue :210;
+    --blue-hue :180;
+    --purple-hue:262;
     
     --bg-color:hsl(var(--bg-hue),0%,0%);
     --nav-color:hsl(var(--nav-hue),0%,0%);
@@ -17,7 +19,9 @@
     --main-color:hsl(var(--primary-hue),54%,26%);
     --main-color-variant:hsl(var(--primary-hue),50%,16%);
     --secondary-color:hsl(var(--secondary-hue),47%,43%);
-    --hover-color:hsl(var(--hover-hue),100%,70%);   
+    --hover-color:hsl(var(--hover-hue),100%,70%);
+    --blue-color :hsl(var(--blue-hue),96%,50%);
+    --purple-color :hsl(var(--purple-hue),88%,58%);
 
     --color-gray-100: hsl(var(--gray-hue),47%,94%);
     --color-gray-200: hsl(var(--gray-hue),26%,75%);

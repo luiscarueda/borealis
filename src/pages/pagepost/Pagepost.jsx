@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './pagepost.css'
 import { useEffect } from 'react'
-import { client } from '../../../client'
+import { client,urlFor } from '../../../client'
 import { Link } from 'react-router-dom'
 import { Headeraux } from '../../components'
 import { HEADER } from '../../constants/data'
@@ -35,11 +35,11 @@ client.fetch(query)
       <div className="pagepost" >               
           { pagepost[0]&&(
              <div className='container pagepost__container' >                 
-               <a href={`/allposts/${pagepost[0].slug}`}>
+               <a href={`/allposts/${pagepost[0].slug.current}`}>
                  <section className='pagepost__left'>
                    <h1>{pagepost[0].title}</h1>
                    <h4>{format(new Date(pagepost[0].publishedAt),'dd MMMM yyyy')}</h4>
-                   <img src={pagepost[0].mainImage.asset.url} alt="main_post" />
+                   <img src={urlFor(pagepost[0].mainImage.asset.url).width(200).height(400).blur(1).url()} alt="mainpost" />                    
                    <button className='btn'>
                       <Link to={"/allposts/"+ pagepost[0].slug.current } key={pagepost[0].slug.current}>read article </Link>
                    </button>

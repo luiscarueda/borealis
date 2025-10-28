@@ -22,7 +22,7 @@
     transform: scale(1.1); /* Aumenta el tamaño un 10% */         
 }
 .dropincard h4{
-    color: var(--hover-color);
+    color: var(--purple-color);
     font-size: 1.5rem;
     align-items: flex-start;
     text-transform: uppercase;
@@ -35,5 +35,5 @@
     padding-top: 4rem;
     justify-content: flex-start;
     text-decoration: underline;
-    color: var(--hover-color);
+    color: var(--purple-color);
 }

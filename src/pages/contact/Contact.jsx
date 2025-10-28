@@ -3,16 +3,18 @@ import './contact.css'
 import { HEADER } from '../../constants/data'
 import { IoLogoWhatsapp } from "react-icons/io";
 
+
 const Contact = () => {
   return (
     <div> 
-      <Headeraux title={HEADER[4].title} 
-                 text={HEADER[4].text}
-                 imgUrl={HEADER[4].imgUrl} 
+      <Headeraux title ={HEADER[5].title } 
+                 text  ={HEADER[5].text  }
+                 imgUrl={HEADER[5].imgUrl} 
       />
       <section className="contact">
         <section className="container contact__container ">
-          <section className='contact__wrapper'>              
+          <section className='contact__wrapper'>   
+                   
             <a href='https://wa.me/12364575567?text=Hi BOREALIS,I have questions and want more information about the academy' target= '_blank' rel="noreferrer"><IoLogoWhatsapp /></a>
              <address>
                Visit us at: <br />
