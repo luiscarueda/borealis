@@ -3,9 +3,8 @@ import './oneclass.css'
 import { useParams } from 'react-router-dom';
 import { useEffect,useState } from 'react';
 import { client,urlFor} from '../../../client';
-import {PortableText} from '@portabletext/react';
-import { Link } from 'react-router-dom';
-
+import { PortableText} from '@portabletext/react';
+import { CTA } from '../../UI';
 
 const OneClass = () => {
     const [oneclass,setOneClass] =useState(null);
@@ -16,8 +15,8 @@ const OneClass = () => {
                slug,
                description,
                mainGoal,
-               price,
-               "dancersName": instructor->name,                               
+               price,               
+               "bailarin": instructor-> name,                                             
                mainImage{
                 asset->{
                   _id,
@@ -33,27 +32,25 @@ const OneClass = () => {
                    
      if (!oneclass) return <div className='spinner'></div>  ; 
      return ( 
-       <div className="oneclass">
+       <section className="oneclass">
           <div className='container oneclass__container'>
-           <div className='flex__center oneclass__left'>
+            <div className='flex__center oneclass__left'>             
              <h1 className>{oneclass.title}</h1>
-             <div className='oneclass__image'>
-              <img src={urlFor(oneclass.mainImage.asset.url)} alt="" />              
-             </div>
-           </div>
-          <div className="oneclass__right ">
-             <PortableText value={oneclass.mainGoal}/>             
-             <PortableText value={oneclass.description}/>
-             <h1>{oneclass.dancersName}</h1>            
-             <h2>{oneclass.price }</h2>                                                      
-             <h2>CAD</h2>
-             <button className='btn '>REGISTER NOW</button>              
-             <button className='btn'>
-                  <Link to={"/fullclasses/" } >BACK TO ENROLL</Link>
-              </button>                
-          </div>                                       
-        </div>  
-    </div>    
+              <div className='oneclass__image'>
+               <img src={urlFor(oneclass.mainImage.asset.url)} alt="" />              
+              </div>
+            </div>
+            <div className="oneclass__right ">
+              <PortableText value={oneclass.mainGoal}/>             
+              <PortableText value={oneclass.description}/>
+              <h1>{oneclass.bailarin}</h1>                         
+              <h2>{oneclass.price }</h2>                                                      
+              <h2>CAD</h2>                        
+                                                            
+            </div>                                       
+          </div>
+        <CTA/> 
+       </section>    
   )
 }
 export default OneClass

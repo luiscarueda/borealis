@@ -3,7 +3,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineMinus } from "react-icons/ai";
 import { useState } from 'react';
 
-const FAQCard = ({question,answer}) => {
+const FAQCard = ({question,answer,answer2}) => {
   const[isAnswerShowing,setIsAnswerShowing]= useState(false);
   return (
 
@@ -16,7 +16,13 @@ const FAQCard = ({question,answer}) => {
           }
           </button>
       </div>
-      {isAnswerShowing&&<p>{answer}</p>}       
+      {isAnswerShowing&&
+      <div>
+        <p>{answer}</p>
+        <p>{answer2}</p>      
+      </div>
+      
+      }       
       
     </article>
   )

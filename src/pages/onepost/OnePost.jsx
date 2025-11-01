@@ -46,7 +46,7 @@ const OnePost = () => {
               <div className='onepost__image '>
                 <img src={urlFor(onePost.mainImage).width(600).height(800).blur(1).url()} alt="Onepost" />          
               </div>             
-            </div>              
+            </div>                   
           </section>
         </>            
   )

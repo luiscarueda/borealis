@@ -56,21 +56,21 @@
         text:'In a deep search for a more meaningful life, I discovered an ancient but simple idea: living on purpose—the intersection of what we love, what we’re skilled at, and how we can serve others. ',
         text2:'Dance, music, and culture have been passions of mine since my mother first taught me at the age of fifteen. Since then, I’ve continued learning, performing, and training in dance studios across Colombia, Edmonton, and Vancouver.',
         text3:'Bringing that passion to Kelowna, I created a space where people can experience the same connection, joy, and cultural exchange that dance has always given me.',
-        imgUrl: images.photo06,
+        imgUrl: images.photo07,
        },
 
        { title:'MISION',
        text:'Our mission is to improve the health and well-being of our community through dance. Focusing on the physical, mental, and emotional connection it brings.',
        text2:'We believe movement strengthens the body, rhythm sharpens the mind, and human connection nourishes the heart.',
        text3:' By merging Latino culture with the spirit of inclusivity in Canada, we create a welcoming environment where everyone can express themselves, grow, and connect through the universal language of dance.',
-       imgUrl:images.photo07,
+       imgUrl:images.photo08,
        },
 
      { title:'VISION',
         text:'Our vision is to unite Latino and Canadian cultures through the universal language of dance. ',
         text2:'We strive to create a place that nurtures well-being, fosters joy, and encourages people to live healthier, more connected lives.',
         text3:'',
-        imgUrl:images.photo08,
+        imgUrl:images.photo09,
       },     
     ] ; 
 
@@ -140,27 +140,33 @@
   export const FAQS = [
     {
       question: "Do I need to bring a partner?",
-      answer: "Partners are not required for our group classes — you are welcome to come solo or with a partner!We rotate partners throughout the class so everyone gets a chance to dance, connect, and learn from each other. It’s also a great way to build confidence and make new friends.If you come with your own partner and prefer to stay together, just let the instructor and the group know."
+      answer: "Partners are not required for our group classes — you are welcome to come solo or with a partner!We rotate partners throughout the class so everyone gets a chance to dance, connect, and learn from each other.",
+      answer2:"It’s also a great way to build confidence and make new friends.If you come with your own partner and prefer to stay together, just let the instructor and the group know.",
     },
     {      
       question: "Which classes are best for beginners?",
-      answer: "All classes marked as Level 1 are perfect for beginners. You’ll learn the fundamentals of rhythm, steps, leading and following dynamics in a supportive and fun environment.If you’ve never done partner dancing before, our beginner classes are the best place to start."
+      answer: "All classes marked as Level 1 are perfect for beginners. You’ll learn the fundamentals of rhythm, steps, leading and following dynamics in a supportive and fun environment.",
+      answer2:"If you’ve never done partner dancing before, our beginner classes are the best place to start.",
     },
     {     
       question: "When can I start taking classes?",
-      answer: "Our classes run in monthly cycles, restarting on the first week of every month.If you’d like to join mid-month, we recommend booking a private class to catch up, or waiting for the next cycle to start fresh with the group.This helps everyone progress together — so you can learn at the right pace without feeling overwhelmed or lost."
+      answer: "Our classes run in monthly cycles, restarting on the first week of every month.",
+      answer2:"If you’d like to join mid-month, we recommend booking a private class to catch up, or waiting for the next cycle to start fresh with the group.This helps everyone progress together — so you can learn at the right pace without feeling overwhelmed or lost.",
     },
     {      
       question: "What should I wear to class?",
-      answer: "Wear something comfortable that lets you move freely — think breathable clothing that allows movement and keeps you cool.Some students like to dress up a bit, others keep it casual. There is no dress code — just wear what makes you feel confident and ready to move!"
+      answer: "Wear something comfortable that lets you move freely — think breathable clothing that allows movement and keeps you cool.",
+      answer2:"Some students like to dress up a bit, others keep it casual. There is no dress code — just wear what makes you feel confident and ready to move!",
     }, 
     {      
       question: "What type of shoes should I wear?",
-      answer: "You don’t need special shoes to start dancing! Clean sneakers or smooth-soled shoes work just fine.Once you start dancing more regularly, we recommend investing in dance shoes with suede soles — they make turns smoother and help protect your joints. Avoid heavy boots, flip-flops, or high stilettos — your feet will thank you later."
+      answer: "You don’t need special shoes to start dancing! Clean sneakers or smooth-soled shoes work just fine.",
+      answer2:"Once you start dancing more regularly, we recommend investing in dance shoes with suede soles — they make turns smoother and help protect your joints. Avoid heavy boots, flip-flops, or high stilettos — your feet will thank you later.",
     },
     {      
       question: "How many times should I take each level?",
-      answer: "Every dancer progresses at their own pace. What matters most is practice and consistency, not speed.You’ll know you’re ready for the next level when you feel confident, comfortable, and can apply what you’ve learned with different partners and music tempos."
+      answer: "Every dancer progresses at their own pace. What matters most is practice and consistency, not speed.",
+      answer2:"You’ll know you’re ready for the next level when you feel confident, comfortable, and can apply what you’ve learned with different partners and music tempos.",
     },  
    ]
 

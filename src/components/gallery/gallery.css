@@ -32,9 +32,10 @@
     justify-content: center;
     align-items: center;     
     padding: 20px;
-    width: 500px;    
+    width: 600px;    
     height: 400px;
     margin: 4rem;
+    
   } 
   .image{
     display: flex;

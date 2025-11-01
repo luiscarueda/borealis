@@ -9,11 +9,15 @@
 .FAQs__wrapper{
     display: grid;
     margin : 1rem; 
-    margin-top: 6rem;   
-    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;   
+    grid-template-columns: 1fr ;
     gap: 1.5rem 2rem;
     align-items: flex-start;
-    transition: var(--transition); 
+}
+
+.FAQs__container h3{
+    color: var(--blue-color);
+    text-decoration-line:underline;
 }
 
 /*MEDIA QUERIES (medium screens)*/

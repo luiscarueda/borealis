@@ -21,9 +21,9 @@ useEffect(() => {
 
 client.fetch(query)
   .then  ((data) => setPagePost(data))
-  .catch (console.error);
-  
-   }, []);  
+  .catch (console.error);  
+   },
+ []);  
 
   return (
     <>           
@@ -74,10 +74,7 @@ client.fetch(query)
         )
       }
      </div>         
-    </>
-    
-
-  
+    </>    
   )
 }
 
