@@ -15,11 +15,7 @@ const FullClasses = () => {
     { 
       title,
       slug,                                        
-      mainImage{
-       asset->{
-         _id,
-         url
-       }
+      mainImage{asset->{ _id, url }
       }
      } `
     client.fetch(query)

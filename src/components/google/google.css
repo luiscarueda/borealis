@@ -2,11 +2,31 @@
     background: var(--gradient-bg);   
 }
 .google__container{
-    display: flex;
-    margin: 6rem 4 rem;
-    padding-top: 4rem;
-    align-items: center;
-    justify-content: center;
+    margin: 6rem 2rem;
+    padding-top: 4rem; 
     width:  100vw;
     height: 80vh;     
 }
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+{  
+    .google__container{
+        background: red;
+    }
+}    
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{
+    .google__container{
+        background: blueviolet;
+    }
+   .google__container iframe{
+        width: 50%;
+        height: 50%;
+
+   }
+ }       

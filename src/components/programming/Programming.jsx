@@ -1,6 +1,5 @@
 import './programming.css'
 import { BsFiletypePdf } from "react-icons/bs";
-import pdf from '../../assets/555470952_788216670621376_3277599675888420307_n.jpg';
 import { useEffect,useState } from 'react';
 import {client,urlFor} from '../../../client';
 
@@ -31,7 +30,7 @@ const Programming = () => {
              <img src={urlFor(schedules.mainImage.asset.url)} alt="imagen" />              
             </div>
         </div>                                                
-        <div className='programming__right'>
+        <div className='programming__right flex__center'>
             <h3>Stay up to date with our monthly calendar, plus events and other activities we have for our entire community.</h3>
              <div className ='section'>
                 <h3>Download Schedule</h3>             

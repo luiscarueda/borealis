@@ -11,13 +11,15 @@ const App = () => {
         <Routes>
          <Route path='/'            index element={<Home/>         }></Route>
          <Route path='/about'             element={<About/>        }></Route> 
-         <Route path='/schedule'          element={<Schedule/>     }></Route>          
-         <Route path='/allposts'          element={<AllPosts/>     }></Route> 
+         <Route path='/schedule'          element={<Schedule/>     }></Route> 
          <Route path='/fullclasses'       element={<FullClasses/>  }></Route> 
+         <Route path='/pagepost'          element={<Pagepost />     }></Route>  
+         <Route path='/contact'           element={<Contact/>      }></Route>        
+         <Route path='/allposts'          element={<AllPosts/>     }></Route>
          <Route path='/allposts/:slug'    element={<OnePost />     }></Route>
          <Route path='/fullclasses/:slug' element={<OneClass />    }></Route>
-         <Route path='/pagepost'          element={<Pagepost />     }></Route>
-         <Route path='/contact'           element={<Contact/>      }></Route>                                
+        
+                                        
         </Routes>    
        <Footer/>         
       </BrowserRouter>     

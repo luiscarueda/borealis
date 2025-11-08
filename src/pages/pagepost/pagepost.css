@@ -1,31 +1,33 @@
 .pagepost__container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-left: 1rem;
-    gap: 3rem;
-}
-.pagepost__post{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
 }
 .pagepost__left{
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-top: -4rem;
-    margin-left: 8rem;   
+    flex-direction: column;    
+    margin-top: -1rem;
+    margin-left: 1rem;   
 }
-.pagepost__left img{
-   width: 300px; 
-   height: 600px; 
+.pagepost__left button{
+ margin-top:   -2rem;   
+ margin-right: -6rem;  
 }
+
 .pagepost__right{
     display: flex;
     flex-direction: column;
+    justify-content: start;
     align-items: start;
     margin: 8rem 1rem 2rem;   
+}
+
+.pagepost__post{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
 }
 .pagepost__container a{
     margin-top: 4rem;
@@ -36,18 +38,22 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.pagepost__post img{
-   width: 200px; 
-   height: 200px;
+    margin-left: -12rem;
 }
 .pagepost__content{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-bottom: 2rem;
 }
+.pagepost__historial{
+
+    justify-content: start;
+    margin-left: -12rem;
+    margin-top: -4rem;
+}
+
 
 /*MEDIA QUERIES (medium screens)*/
 

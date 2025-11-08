@@ -11,8 +11,7 @@ const Pagepost = () => {
 const [pagepost,setPagePost] = useState([]);
 useEffect(() => {
     const query =`*[_type == 'post']|order(publishedAt desc)
-     {
-        title,
+     {  title,
         slug,
         publishedAt,
         mainImage{asset->{_id,url}
@@ -30,45 +29,46 @@ client.fetch(query)
       <Headeraux  title={HEADER[3].title} 
                       text={HEADER[3].text}
                       imgUrl={HEADER[4].imgUrl}
-       />
-      
+       />      
       <div className="pagepost" >               
           { pagepost[0]&&(
-             <div className='container pagepost__container' >                 
-               <a href={`/allposts/${pagepost[0].slug.current}`}>
+             <div className='container pagepost__container ' >              
                  <section className='pagepost__left'>
-                   <h1>{pagepost[0].title}</h1>
+                   <h2>{pagepost[0].title}</h2>
                    <h4>{format(new Date(pagepost[0].publishedAt),'dd MMMM yyyy')}</h4>
-                   <img src={urlFor(pagepost[0].mainImage.asset.url).width(200).height(400).blur(1).url()} alt="mainpost" />                    
-                   <button className='btn'>
-                      <Link to={"/allposts/"+ pagepost[0].slug.current } key={pagepost[0].slug.current}>read article </Link>
-                   </button>
-                 </section>
-             </a>
+                   <img src={urlFor(pagepost[0].mainImage.asset.url).width(500).height(500).blur(1).url()} alt="mainpost" />
+                   <Link to={"/allposts/"+ pagepost[0].slug.current } key={pagepost[0].slug.current}>
+                        <button className='btn'>read article</button>
+                   </Link>                                                                              
+                   
+                 </section>               
                 <section className="pagepost__right">
                   <div className='pagepost__post'>
-                  <img src={pagepost[1].mainImage.asset.url} />
-                  <div className='pagepost__content '>
+                   <img src={urlFor(pagepost[1].mainImage.asset.url).width(150).height(150).blur(1).url()} />
+                   <div className='pagepost__content '>
                     <h3>{pagepost[1].title}</h3>
-                    <h4>{format(new Date(pagepost[1].publishedAt),'dd MMMM yyyy')}</h4>                                
-                    <button className='btn'>
-                      <Link to={"/allposts/"+ pagepost[1].slug.current } key={pagepost[1].slug.current}>read article </Link>
-                    </button>                                                           
-                  </div>                    
-                </div>
-                  <div className='pagepost__post'>
-                   <img src={pagepost[2].mainImage.asset.url} />
-                   <div className="pagepost__content">
-                   <h3>{pagepost[2].title}</h3>
-                   <h4>{format(new Date(pagepost[2].publishedAt),'dd MMMM yyyy')}</h4>
-                   <button className='btn'>
-                      <Link to={"/allposts/"+ pagepost[2].slug.current } key={pagepost[2].slug.current}>read article </Link>
-                    </button>           
-                   </div>
+                    <h5>{format(new Date(pagepost[1].publishedAt),'dd MMMM yyyy')}</h5>
+                    <Link to={"/allposts/"+ pagepost[1].slug.current } key={pagepost[1].slug.current}>
+                        <button className='btn'>read article</button>
+                    </Link>                                                                                                    
+                   </div>                    
                   </div>
-                  <Link to={"/allposts/"}>
-                        <button className='btn'>read all blog posts</button>
-                  </Link>
+                  <div className='pagepost__post'>
+                   <img src={urlFor(pagepost[2].mainImage.asset.url).width(150).height(150).blur(1).url()} />
+                   <div className="pagepost__content">
+                      <h3>{pagepost[2].title}</h3>
+                      <h5>{format(new Date(pagepost[2].publishedAt),'dd MMMM yyyy')}</h5>                   
+                      <Link to={"/allposts/"+ pagepost[2].slug.current } key={pagepost[2].slug.current}>
+                        <button className='btn'>read article</button>
+                      </Link>                              
+                    </div>                  
+                  </div>
+                  <div className='pagepost__historial'>
+                     <Link to={"/allposts/"}>
+                        <button className='btn'>post historial</button>
+                  </Link>         
+                  </div>
+                            
                 </section>             
             </div>      
         )

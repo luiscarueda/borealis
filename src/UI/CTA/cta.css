@@ -1,5 +1,5 @@
 .cta__container{ 
-        background: var(--gradient-bar);     
+        background: var(--gradient-bg);     
         display: flex;
         justify-content: space-around;
         align-items: center;

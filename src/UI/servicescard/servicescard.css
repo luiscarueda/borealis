@@ -29,10 +29,10 @@
     text-decoration: underline;
 }
 .servicescard p{
-     height: 12rem;
+     height: 8rem;
 }
 .servicescard h2 {
-    padding-top: 4rem;
+    padding-top: 2rem;
     justify-content: flex-start;
     text-decoration: underline;
     color: var(--blue-color);

@@ -1,5 +1,5 @@
 .oneclass{
-    background: var(--gradient-bg);
+    background: var(--bg-color);
 }
 .oneclass__container{
     display: grid;
@@ -83,8 +83,7 @@
     grid-template-rows: 1fr 1fr;
     align-items: center;   
     gap: 10px;       
-    margin: 2rem 4rem; 
+    margin: 1rem 4rem; 
   }
- 
 
-}   
+}    

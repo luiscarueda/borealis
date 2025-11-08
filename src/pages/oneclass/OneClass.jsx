@@ -15,14 +15,9 @@ const OneClass = () => {
                slug,
                description,
                mainGoal,
-               price,               
-               "bailarin": instructor-> name,                                             
-               mainImage{
-                asset->{
-                  _id,
-                  url
-                }
-               }               
+               price,
+               "instructorName":  instructor->{instructor} ,                                                                 
+               mainImage{asset->{_id,url}}              
               }`          
               
     client.fetch(query)
@@ -37,14 +32,13 @@ const OneClass = () => {
             <div className='flex__center oneclass__left'>             
              <h1 className>{oneclass.title}</h1>
               <div className='oneclass__image'>
-               <img src={urlFor(oneclass.mainImage.asset.url)} alt="" />              
+              <img src={urlFor(oneclass.mainImage).width(400).height(400).blur(1).url()} alt="Oneclass"/> 
               </div>
             </div>
             <div className="oneclass__right ">
               <PortableText value={oneclass.mainGoal}/>             
-              <PortableText value={oneclass.description}/>
-              <h1>{oneclass.bailarin}</h1>                         
-              <h2>{oneclass.price }</h2>                                                      
+              <PortableText value={oneclass.description}/>                                      
+              <h2>{oneclass.price}</h2>                                                                             
               <h2>CAD</h2>                        
                                                             
             </div>                                       

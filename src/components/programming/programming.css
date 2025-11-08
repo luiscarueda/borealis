@@ -12,12 +12,8 @@
     margin-top: -4rem;
     padding: 1rem 1rem 2rem;
    }
-
 .programming__right{ 
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;     
+    display: flex;          
     width: fit-content;
     height: fit-content;
     margin-left: 1rem; 
@@ -50,15 +46,14 @@
     gap: 4rem;
 }
 .color{
-    color: red;
-    width: 25%;   
+    background: red;
 }
 
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
 {   
-    .programming__container{
+    .programming__container{    
         display: grid;
         grid-template-columns: 1fr; 
         grid-template-rows: 1fr 1fr;      
@@ -78,8 +73,7 @@
     }
     .programming__image{
         width: 80%;
-        height: 40%;
-        
+        height: 40%;        
     }
       .section{
         display: flex;
@@ -91,7 +85,6 @@
     .section h3{
     align-content: center;          
     }
-
     .section__intern{
         display: flex;
         flex-direction: row;
@@ -104,29 +97,25 @@
 
 @media screen and (max-width:480px)
 {    
-    .programming__container{
+    .programming__container{        
         display: grid;
         grid-template-columns: 1fr; 
         grid-template-rows: 1fr 1fr;      
         width:  90vw;
         height: 100vh;
         gap: 1rem;           
-        align-items: center;
+        align-content: start;
         padding-bottom: 4rem;  
         margin-bottom: 2rem;    
      }
     .programming__image{
-        margin-top: 2rem;
+        margin-top: 1rem;
         max-width: 400px;
         height: 400px;
     }
     .programming__image img{
-        margin-top: 2rem;
+        margin-top: 1rem;
         width: 100%;
         height: 60%;
-    }
-
-    .programming__pdf{
-        margin-top: 2rem;
     }
 }

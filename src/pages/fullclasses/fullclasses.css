@@ -1,10 +1,13 @@
+.fullclasses{
+    background: var(--bg-color);
+}
+
 .fullclasses__container{
     display: grid;
     grid-template-columns: repeat(3, 250px);
     grid-template-rows: repeat(2,550px);
     justify-content: center;  
-    gap: 100px 50px; 
-    background: var(--gradient-bg); 
+    gap: 100px 50px;      
     margin-top: 5%;
     padding-top: 4rem;
     margin-left: 8rem;

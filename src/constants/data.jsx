@@ -38,7 +38,7 @@
         imgUrl:images.photo03,
        },       
        { title:'LATEST POSTS',
-        text:'Stay with us',
+        text:'updates and new features',
         imgUrl:images.photo04,
        },
        { title:'POST HISTORIAL',

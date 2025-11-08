@@ -16,11 +16,7 @@ const OnePost = () => {
                slug,
                body,
                publishedAt,
-               mainImage{
-                asset->{
-                  _id,
-                  url
-                }
+               mainImage{ asset->{ _id, url}
                }               
               }`      
         client.fetch(query)
@@ -34,17 +30,17 @@ const OnePost = () => {
           <section className='onepost '>
             <div className='container onepost__container'>
               <div className='onepost__content flex__center'>
-                   <h1 className='gradient__text'>{onePost.title}</h1>                           
-                   <h2 >{format(new Date(onePost.publishedAt),'dd MMMM yyyy')}</h2>
-                       <PortableText
+                   <h1 >{onePost.title}</h1>                           
+                   <h3 >{format(new Date(onePost.publishedAt),'dd MMMM yyyy')}</h3>
+                   <PortableText
                          value={onePost.body}
-                      />
-                    <Link to={"/pagepost/"}>
-                        <button className='btn'>Back to Posts</button>
-                    </Link>    
+                   />                    
               </div>
-              <div className='onepost__image '>
-                <img src={urlFor(onePost.mainImage).width(600).height(800).blur(1).url()} alt="Onepost" />          
+              <div className='onepost__image flex__center '>
+                <img src={urlFor(onePost.mainImage).width(500).height(600).blur(1).url()} alt="Onepost"/> 
+                 <Link to={"/pagepost/"}>
+                        <button className='btn'>Back to Posts</button>
+                    </Link>            
               </div>             
             </div>                   
           </section>
