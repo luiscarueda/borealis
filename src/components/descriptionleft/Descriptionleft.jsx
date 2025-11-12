@@ -2,10 +2,10 @@ import './descriptionleft.css'
 
 const Descriptionleft = ({title,text,text2,text3,imgUrl}) => {
   return (
-    <section className='descriptionleft '>
+    <section className='descriptionleft'>
         <div className="container descriptionleft__container ">
             <div className="descriptionleft__image">
-                <img src={imgUrl} alt="" />
+                <img src={imgUrl} alt="photo carlos" />
             </div>
             <div className="descriptionleft__content">
                 <h1>{title}</h1>

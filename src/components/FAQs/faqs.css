@@ -10,10 +10,11 @@
     display: grid;
     margin : 1rem; 
     margin-top: 1rem;   
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr ;
     gap: 1.5rem 2rem;
     align-items: flex-start;
 }
+
 
 .FAQs__container h3{
     color: var(--blue-color);
@@ -35,7 +36,6 @@
 {
     .FAQs__wrapper{
         gap: 1rem;
-        margin-top: 3rem;
-        grid-template-columns: 1fr;
+        margin-top: 3rem;        
    }             
 } 

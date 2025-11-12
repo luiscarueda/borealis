@@ -14,26 +14,24 @@ const  Gallery = () => {
   return (
     <div className='gallery '>    
       <div className='container gallery__container '>
-      <Swiper className='swiper '      
-      slidesPerView={1}
-      spaceBetween={50}
-      loop={true}      
-      pagination={{ clickable: true }}      
-      navigation={true}     
-      modules={[Navigation,Pagination]}            
-      >      
-      {
-        IMAGES.map((slide,index)=>(
-          <SwiperSlide  key={index} className='gallery'>
-            <div className='image'>
-              <img src={slide.original} alt="avatar" />
-            </div>          
-          </SwiperSlide>
-          ))}   
-      </Swiper>    
-     </div>           
+       <Swiper className='swiper '      
+        slidesPerView={1}
+        spaceBetween={50}
+        loop={true}      
+        pagination={{ clickable: true }}      
+        navigation={true}     
+        modules={[Navigation,Pagination]}
+        > 
+        { IMAGES.map((slide,index)=>(
+            <SwiperSlide  key={index} className='gallery__arrow'>
+              <div className='image'>
+                <img src={slide.original} alt="avatar" />
+              </div>          
+            </SwiperSlide>
+         ))}   
+       </Swiper>    
+      </div>           
     </div>
   )
 }
-
 export default Gallery

@@ -1,19 +1,18 @@
-.main__header{         
+.header{         
     background: var(--gradient-bg);    
 }
-.main__header-container{
+.header__container{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 60% 35%;
     width: 90vw; 
     height: 100vh;          
-    place-items: center;
-    align-content: start;    
-    gap: 4rem;
+    place-items: center;      
+    gap: 2rem;
     margin-top: 2rem; 
     margin-bottom: 1rem;
     padding-bottom: 2rem;    
 }
-.main__header-left {
+.header__left {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,30 +20,31 @@
     margin-top: -8rem;
     margin-left: auto;  
 }
-.main__header-left h1{
+.header__left h1{
     color: var(--gradient-bar-2);
     font-size:   60px;
     font-weight: 500;
-    line-height: 220px;   
+    line-height: 220px;
+    margin-left: -4rem;
 }
-.main__header-left h3 {
+.header__left h3 {
     margin-bottom: 1rem;
     color: var(--secondary-color);
     font-weight: 600;
     font-size: 1.4rem;
 }
-.main__header-image{
+.header__image{
     width: 620px;
-    height: 420px;
-    margin-top: -4rem;
+    height: 450px;
+    margin-top: -3rem;
     margin-right: 6rem;
    
 }
-.main__header-right{
+.header__right{
     display: flex;
     justify-content: center;    
     margin-top: 4rem;
-    margin-left: -18rem;
+    margin-left: -14rem;
     margin-bottom: 8rem;    
 }
 
@@ -58,26 +58,24 @@
 
 /*MEDIA QUERIES (medium screens)*/
 
-@media screen and (max-width:960px)
-{  
-  
-.main__header-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 100vh;
-        width: 90vw;             
-        align-content: flex-start;    
-        gap: 2rem;
-        margin-top: 16rem; 
-        margin-bottom: 1rem;
-        padding-bottom: 2rem;               
+@media screen and (max-width:960px){ 
+.header__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    width: 90vw;             
+    align-content: flex-start;    
+    gap: 2rem;
+    margin-top: 6rem; 
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;               
 }
-.main__header-image{
+.header__image{
         width:  80%;
         height: 80%;
 }
-.main__header-right{
+.header__right{
         display: flex;
         justify-content: center;
         width:  100%; 
@@ -92,17 +90,22 @@
 
 @media screen and (max-width:480px)
 {  
-   .main__header{
+   .header{
     margin-top: 0;
     padding: 2rem 0 0;    
     }
-    .main__header-container{
+    .header__container{
       display: flex;
       justify-content: center;      
       flex-direction: column;           
     }   
-    .main__header-image{
-        width: 50%;
-        height: 50%;
-    }   
+    .header__image{
+        width: 80%;
+        height: 80%;
+    }
+    .header__right{
+        width:  100%; 
+        height: 100%; 
+    }
+
 }

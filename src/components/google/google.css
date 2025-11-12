@@ -12,18 +12,13 @@
 
 @media screen and (max-width:960px)
 {  
-    .google__container{
-        background: red;
-    }
+ 
 }    
 
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
-{
-    .google__container{
-        background: blueviolet;
-    }
+{ 
    .google__container iframe{
         width: 50%;
         height: 50%;

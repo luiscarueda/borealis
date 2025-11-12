@@ -5,23 +5,23 @@ import Videoprueba from '../../assets/video1.mp4'
 
 const Header = () => {
   return (
-    <div className='main__header '>
-      <div className="container main__header-container" >
-          <section className='main__header-left '>
+    <div className='header '>
+      <div className="container header__container" >
+          <section className='header__left  '>
             <h1 >{MAINHEADER[0].title}</h1>
-             <div className="main__header-image">
+             <div className="header__image">
               <img src={MAINHEADER[0].imgUrl} alt="image" />
              </div>          
             <h3>{MAINHEADER[0].hook}</h3>       
           </section>
-          <section className='main__header-right fade-in '>         
+          <section className='header__right fade-in '>         
             <ReactPlayer  
              url={Videoprueba}           
              muted
              loop 
              playing
-             width ='40%'
-             height='30%'                 
+             width ='45%'
+             height='50%'                 
             />       
           </section>
       </div>      

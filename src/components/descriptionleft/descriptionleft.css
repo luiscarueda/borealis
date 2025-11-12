@@ -6,8 +6,7 @@
 }
 .descriptionleft__image{
     border-radius: 50%;
-    overflow: hidden;
-    transition: var(--transition);
+    overflow: hidden;    
     margin-bottom: 1rem;
 }
 .descriptionleft__content h1{
@@ -24,24 +23,32 @@
 @media screen and (max-width:960px)
  {  
     .descriptionleft__container{
+        margin-top: 5rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5%;
+        grid-template-columns: 1fr 1fr;        
     } 
-
-    .descriptionleft__image {
-        width: 80%;
+    .descriptionleft__image {        
+        width: 100%;
         margin-left: 2rem;
+        border-radius: 5%;
+        margin-top: 5rem;        
     }   
  }    
 
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px){
-  
-    .descriptionleft__container{
+    .descriptionleft{
+        background: var(--gradient-bg);
+    }
+   .descriptionleft__container{
         display: grid;  
         grid-template-columns: 1fr;
         gap: 2rem;  
     }           
+    .descriptionleft__image {        
+        width: 80%;
+        margin-left: 1rem;        
+        margin-top: 2rem; 
+    }    
 }

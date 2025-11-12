@@ -1,4 +1,3 @@
-import './home.css'
 import {Header, Programming, Programs,Google} from '../../components'
 
 const Home = () => {
@@ -7,8 +6,7 @@ const Home = () => {
       <Header/>
       <Programming/> 
       <Programs/>  
-      <Google/>               
-                           
+      <Google/>                                     
     </main>
   )
 }
