@@ -15,7 +15,7 @@ background: var(--bg-color);
 }
 
 .initial{
-  border: 1px solid var(--bg-color);
+  border: 4px solid var(--bg-color);
 }
 .container{
   width: var(--container-width-lg);
@@ -65,15 +65,17 @@ h1,h2,h3,h4,h5 {
   line-height: 1.6;
   color: var(--color-gray-100);
 }
+h1{
+  font-size: 2.6rem;
+ } 
 h2 {
   font-size: 2.5rem;
 }
 h4{
   font-size: 1.2rem;
 }
-h1{
-  font-size: 2.6rem;
-}
+
+
 a {
   color: var(--color-gray-100);
   font-size: 1.1rem;

@@ -24,15 +24,15 @@ const Programming = () => {
    if (!schedules) return<div>LOADING...</div>; 
    return (
     <section className='programming'>
-      <div className='container programming__container '>
-        <div className='programming__left'>
-            <div className='programming__image'>
+      <div className='container programming__container'>
+        <div className='programming__left '>
+            <div className='programming__image '>
              <img src={urlFor(schedules.mainImage.asset.url)} alt="imagen" />              
             </div>
         </div>                                                
-        <div className='programming__right flex__center'>
+        <div className='programming__right flex__center '>
             <h3>Stay up to date with our monthly calendar, plus events and other activities we have for our entire community.</h3>
-             <div className ='section'>
+             <div className ='section '>
                 <h3>Download Schedule</h3>             
                 <div className='section__intern'>
                   <div className='download '>                  

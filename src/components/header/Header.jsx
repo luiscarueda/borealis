@@ -5,9 +5,9 @@ import Videoprueba from '../../assets/video1.mp4'
 
 const Header = () => {
   return (
-    <div className='header '>
+    <div className='header'>
       <div className="container header__container" >
-          <section className='header__left  '>
+          <section className='header__left'>
             <h1 >{MAINHEADER[0].title}</h1>
              <div className="header__image">
               <img src={MAINHEADER[0].imgUrl} alt="image" />
@@ -20,8 +20,10 @@ const Header = () => {
              muted
              loop 
              playing
-             width ='45%'
-             height='50%'                 
+             
+             width =  '50%'
+             height= '45%'
+            
             />       
           </section>
       </div>      

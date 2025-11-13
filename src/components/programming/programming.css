@@ -66,8 +66,8 @@
         margin-left: 6rem;
      }
      .programming__right{        
-        width: fit-content;
-        margin: 1rem 1rem 10rem;        
+        width: fit-content;    
+        margin: 1rem 1rem 4rem;        
         padding-bottom: 2rem;        
     }
     .programming__image{
@@ -75,11 +75,11 @@
         height: 40%;        
     }
     .section{
-        display: flex;
+        display: flex;        
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         padding-bottom: 2rem;
-        margin-bottom: 8rem;         
+        margin-bottom: 2rem;         
     }
     .section h3{
     align-content: center;          
