@@ -19,11 +19,9 @@ const Header = () => {
              url={Videoprueba}           
              muted
              loop 
-             playing
-             
-             width =  '50%'
-             height= '45%'
-            
+             playing                     
+             width = '55%'
+             height= '45%'            
             />       
           </section>
       </div>      

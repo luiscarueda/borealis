@@ -14,7 +14,7 @@ const  Gallery = () => {
   return (
     <div className='gallery '>    
       <div className='container gallery__container '>
-       <Swiper className='swiper '      
+       <Swiper className='swiper  '      
         slidesPerView={1}
         spaceBetween={50}
         loop={true}      

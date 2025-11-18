@@ -23,20 +23,19 @@ const Programs = () => {
          </div>
          <div className='programs__wrapper '>
           {DROPIN.map((dropin,index)=>(
-            <div key={index} className='programs__card '>
+             <div key={index} className='programs__card '>
                <DropinCard
                title={dropin.title} 
                info={dropin.info} 
                price={dropin.price}
                />
-            </div>
-          ))}        
+             </div>
+            ))}        
          </div>                             
       </div>           
     </section>
   )
 }
-
 export default Programs
 
 

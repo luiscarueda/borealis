@@ -2,17 +2,21 @@
     background: var(--gradient-bg);   
 }
 .google__container{
-    margin: 6rem 2rem;
+    margin: 2rem 2rem;
     padding-top: 4rem; 
     width:  100vw;
     height: 80vh;     
 }
 
 /*MEDIA QUERIES (medium screens)*/
-
 @media screen and (max-width:960px)
 {  
- 
+    .google__container{
+        margin: 1rem 15rem 1rem;
+        padding-top: 2rem; 
+        width:  60%;
+        height: 80%;   
+    }
 }    
 
 /*MEDIA QUERIES (small screens)*/
@@ -20,8 +24,8 @@
 @media screen and (max-width:480px)
 { 
    .google__container iframe{
-        width: 50%;
-        height: 50%;
-
+        
+        width: 80vw;
+        height: 80vh;
    }
- }       
+ }    

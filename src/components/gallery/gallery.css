@@ -1,5 +1,5 @@
 .gallery{
-  background: var(--main-color-variant);             
+  background: var(--main-color);             
 }
 .gallery__container{
   display: flex;
@@ -11,7 +11,6 @@
   width: 600px;  
   height: 600px;
 }
-
 .image{
   display: flex;
   justify-content: center;
@@ -31,7 +30,7 @@
     padding: 30px;
     width: 800px;    
     height: 600px;
-    margin: 8rem;
+    margin: 2rem;
     
   } 
   .image{

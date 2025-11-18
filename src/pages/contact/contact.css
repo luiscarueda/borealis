@@ -65,7 +65,6 @@
 .contact__form-content textarea:hover{    
     background: var(--color-gray-300);
 }
-
 .contact__form-content{
     display: flex;
     flex-direction: column;
@@ -85,14 +84,12 @@
         cursor: pointer;
         background: var(--secondary-color);
     }
-
 }    
 
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
-{
-  
+{  
     .contact__container{
         display: flex;
         justify-content: center; 

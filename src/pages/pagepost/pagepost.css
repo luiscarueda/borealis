@@ -10,11 +10,11 @@
     display: flex;
     flex-direction: column;    
     margin-top: -1rem;
-    margin-left: 1rem;   
+    margin-left: 6rem;   
 }
 .pagepost__left button{
  margin-top:   -2rem;   
- margin-right: -6rem;  
+ margin-right: -2rem;  
 }
 
 .pagepost__right{
@@ -28,6 +28,7 @@
 .pagepost__post{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    margin-top: 1rem;
 }
 .pagepost__container a{
     margin-top: 4rem;
@@ -67,6 +68,14 @@
 
 @media screen and (max-width:480px)
 {          
-  
+    .pagepost__container{
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        gap: 1rem;
+    }
 
 }  

@@ -15,10 +15,18 @@
     align-items: flex-start;
 }
 
-
 .FAQs__container h3{
     color: var(--blue-color);
     text-decoration-line:underline;
+}
+
+.additional__left{
+    padding-right: 2rem;
+    padding-left:  2rem;
+}
+.additional__right{
+    margin-left: 4rem;
+    padding-right: 2rem;
 }
 
 /*MEDIA QUERIES (medium screens)*/

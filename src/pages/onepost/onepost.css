@@ -2,9 +2,9 @@
     background: var(--bg-color);            
 }
 .onepost__container{
-    margin-top: 6rem;
     display: grid;
-    grid-template-columns: 60% 35%;
+    grid-template-columns: 58% 35%;
+    margin-top: 6rem;   
     gap: 1rem;      
 }
 .onepost__content {    
@@ -17,16 +17,16 @@
    width: 100%;
    height: 100%; 
    object-fit:cover;
-   gap: 1rem;
-    
+   gap: 1rem;    
 }
 
 /*MEDIA QUERIES (medium screens)*/
-
 @media screen and (max-width:960px)
 {          
-  
-
+    .onepost__container{
+        margin-top: 4rem;  
+        gap: 4rem;          
+    }
 }    
 
 /*MEDIA QUERIES (small screens)*/
@@ -34,11 +34,11 @@
 @media screen and (max-width:480px)
 {          
     .onepost__container{
-        margin-top: 6rem;
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
+        margin-top: 2rem;  
         width:  60%;
         height: 60%;
     }
