@@ -63,7 +63,7 @@
        text:'Our mission is to improve the health and well-being of our community through dance. Focusing on the physical, mental, and emotional connection it brings.',
        text2:'We believe movement strengthens the body, rhythm sharpens the mind, and human connection nourishes the heart.',
        text3:' By merging Latino culture with the spirit of inclusivity in Canada, we create a welcoming environment where everyone can express themselves, grow, and connect through the universal language of dance.',
-       imgUrl:images.photogallery06,
+       imgUrl:images.photo08,
        },
 
      { title:'VISION',
