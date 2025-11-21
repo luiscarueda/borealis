@@ -1,9 +1,12 @@
 .posts{
+    background: var(--gradient-bg); 
+}
+.posts__container{
     display: grid;
-    grid-template-columns: repeat(4, 250px);
-    gap: 100px;
-    row-gap: 40px;  
-    background: var(--gradient-bg);
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 2rem;
+      
+    row-gap: 2rem;     
     margin-top: 5%;
     place-items: start;
 }
@@ -12,7 +15,4 @@
     flex-direction: column;
     margin-bottom: 1rem;
     gap: 20px;    
-}
-.test{
-    color: black;
 }

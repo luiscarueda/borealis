@@ -26,27 +26,27 @@
 
   export const HEADER = [
        { title: 'ABOUT',
-        text:'your month',
+        text:'Something about me',
         imgUrl: images.photo01,
        },
        { title:'SCHEDULE',
-         text:'Monthly Memberships',
+         text:'Stay informed',
          imgUrl:images.photo02,
        },    
        { title:'ENROLL',
-        text:'Come and Enjoy',
+        text:'Register now',
         imgUrl:images.photo03,
        },       
        { title:'LATEST POSTS',
-        text:'updates and new features',
+        text:'News and current events',
         imgUrl:images.photo04,
        },
        { title:'POST HISTORIAL',
-       text:'ALL OUR POST LAST YEAR',
+       text:'All our posts',
        imgUrl:images.photo05,
       },       
        { title:'CONTACT',
-        text:'All the Borealis News',
+        text:'Questions and suggestions',
         imgUrl:images.photo06,
        },
     ] ; 
@@ -63,7 +63,7 @@
        text:'Our mission is to improve the health and well-being of our community through dance. Focusing on the physical, mental, and emotional connection it brings.',
        text2:'We believe movement strengthens the body, rhythm sharpens the mind, and human connection nourishes the heart.',
        text3:' By merging Latino culture with the spirit of inclusivity in Canada, we create a welcoming environment where everyone can express themselves, grow, and connect through the universal language of dance.',
-       imgUrl:images.photo08,
+       imgUrl:images.photogallery06,
        },
 
      { title:'VISION',
@@ -172,11 +172,11 @@
 
   export const IMAGES = [
    {
-    original: images.photogallery02,
+    original: images.photogallery01,
     thumbnail: "https://picsum.photos/250/150/",
    },
    {
-    original: images.photogallery01,
+    original: images.photogallery02,
     thumbnail: "https://picsum.photos/id/115/1010/250/150/",
    },
    {

@@ -11,8 +11,7 @@ const Headeraux = ({imgUrl,title,text,}) => {
           <h2>{title}</h2>
           <p>{text}</p>          
         </div>
-      </div>   
-      
+      </div>  
     </header>
   )
 }

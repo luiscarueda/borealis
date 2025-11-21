@@ -63,7 +63,7 @@
  {  
    .container {
         width: var(--container-width-md);
-        max-width: fit-content;
+        max-width: fit-content;        
        }
   h1 {
      font-size: 2rem;    

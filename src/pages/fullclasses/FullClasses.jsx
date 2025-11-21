@@ -29,7 +29,7 @@ const FullClasses = () => {
                       text={HEADER[2].text}
                       imgUrl={HEADER[2].imgUrl}
       />
-      <Programs/>  
+      <Programs/>       
       <div className="fullclasses">
         <div className='container fullclasses__container ' > 
          { fullclasses && fullclasses.map((classes,index) => (

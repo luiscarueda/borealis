@@ -12,12 +12,8 @@
     margin-bottom: 1rem;
     padding-bottom: 2rem;    
 }
-.header__left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;    
-    margin-top: -8rem;
+.header__left {     
+    margin-top: -12rem;
     margin-left: auto;  
 }
 .header__left h1{
@@ -28,6 +24,7 @@
     margin-left: -4rem;
 }
 .header__left h3 {
+    margin-top: 4rem;
     margin-bottom: 1rem;
     color: var(--secondary-color);
     font-weight: 600;
@@ -35,10 +32,9 @@
 }
 .header__image{
     width: 620px;
-    height: 450px;
-    margin-top: -3rem;
-    margin-right: 6rem;
-   
+    height: 400px;
+    margin-top: -6rem;
+    margin-right: 6rem;   
 }
 .header__right{
     display: flex;
@@ -63,24 +59,24 @@
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr;
-    gap: 20rem;
+    gap: 2rem;
     height: 100vh;
     width: 90vw;             
     align-content: flex-start;   
-    margin-top: 6rem; 
+    margin-top: 8rem; 
     margin-bottom: 1rem;
     padding-bottom: 2rem;               
 }
 .header__image{
-        width:  80%;
-        height: 80%;
+    width:  80%;
+    height: 80%;
 }
 .header__right{
-        display: flex;
-        justify-content: center;
-        width:  150%; 
-        height: 150%;
-        margin-bottom: 4rem;                  
+    display: flex;
+    justify-content: center;
+    width:  100%; 
+    height: 100%;
+    margin-bottom: -4rem;              
  }
 }    
 
@@ -88,16 +84,15 @@
 
 @media screen and (max-width:480px)
 {  
-    .header__container{
+.header__container{
     display: flex; 
     justify-content: center;      
     flex-direction: column;        
-    }
-    .header__left{
-        display: flex;
-        margin-top: 20rem;
-                                  
-    }
+}
+.header__left{
+    display: flex;
+    margin-top: 20rem;                                  
+}
     .header__container h1{       
             font-size: 1.8rem;       
     }
@@ -113,7 +108,7 @@
         display: flex;
         justify-content: center;
         width:  200%; 
-        height: 250%; 
+        height: 200%; 
         aspect-ratio: 2/3;                            
     }
 }

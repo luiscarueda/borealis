@@ -8,13 +8,13 @@
     gap: 1rem;       
     margin: 2rem 4rem;   
 }
-.oneclass__image{
-    width: 400px;
-    height: 400px;
-}
 .oneclass__left{
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
+.oneclass__image img{  
+  border-radius: 5%;
+}
+
 .oneclass__right{
     margin-top: 4rem;
     display: flex;

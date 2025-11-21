@@ -3,7 +3,6 @@
         height: 8rem;
         overflow: hidden;              
         border-bottom: 2px solid var(--color-gray-400); 
-
 }
 .headeraux__container{
         background: var(bg-color);
@@ -11,8 +10,7 @@
         height: 100%;     
         display: grid;
         place-items: center;
-        position: relative; 
-  
+        position: relative;   
 }
 .headeraux__container-bg{
         position: absolute;        

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='header'>
       <div className="container header__container" >
-          <section className='header__left'>
+          <section className='header__left flex__center'>
             <h1 >{MAINHEADER[0].title}</h1>
              <div className="header__image">
               <img src={MAINHEADER[0].imgUrl} alt="image" />

@@ -11,7 +11,7 @@ const Descriptionright = ({title,text,text2,text3,imgUrl}) => {
                 <p>{text3}</p>
             </div>
            <div className="descriptionright__image">
-                <img src={imgUrl} alt="" />
+                <img src={imgUrl} alt="image" />
             </div>           
         </div>
 </section>

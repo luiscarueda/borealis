@@ -1,7 +1,7 @@
 .descriptionleft__container{
     display: grid;
     grid-template-columns: 40% 50%;
-    gap: 10%;
+    gap: 8%;
     margin-bottom: 2rem;
 }
 .descriptionleft__image{
@@ -23,7 +23,7 @@
 @media screen and (max-width:960px)
  {  
     .descriptionleft__container{
-        margin-top: 5rem;
+        margin-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;        
     } 

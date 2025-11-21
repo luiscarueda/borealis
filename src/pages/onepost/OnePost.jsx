@@ -27,8 +27,8 @@ const OnePost = () => {
         if (!onePost) return <div>Loading...</div>  ;                    
          return (
         <>
-          <section className='onepost '>
-            <div className='container onepost__container'>
+          <section className='onepost'>
+            <div className='container onepost__container '>
               <div className='onepost__content flex__center'>
                    <h1 >{onePost.title}</h1>                           
                    <h3 >{format(new Date(onePost.publishedAt),'dd MMMM yyyy')}</h3>

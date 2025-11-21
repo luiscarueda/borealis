@@ -8,7 +8,7 @@ import photo04 from '../assets/headers/vibrant-colorful-aurora-borealis-backgrou
 import photo05 from '../assets/headers/pexels-ken-cheung-3355734-5384149.jpg'
 import photo06 from '../assets/headers/pexels-76505838-8601965.jpg'
 import photo07 from '../assets/image (3).webp'
-import photo08 from '../assets/image (4).webp'
+import photo08 from '../assets/image (3).webp'
 import photo09 from '../assets/image (2).webp'
 import photogallery01 from '../assets/instagram/image (3).webp'
 import photogallery02 from '../assets/instagram/494369426_18006223118749214_2081761317028977639_n.jpg'

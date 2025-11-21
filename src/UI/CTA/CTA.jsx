@@ -13,8 +13,7 @@ const CTA = () => {
         <h3>Start exploring the endless possibilities.</h3>
         <button className='btn ' >
                <Link to={"/contact/" } >REGISTER NOW</Link>
-        </button> 
-             
+        </button>              
         </div>     
       </div>      
     </>

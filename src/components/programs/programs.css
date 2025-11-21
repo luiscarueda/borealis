@@ -4,7 +4,7 @@
 .programs__container {
     display: flex;    
     flex-direction: column;
-    gap: 6px;
+    gap: 4px;
     flex-wrap: wrap;    
 }
 .programs__wrapper{
@@ -19,3 +19,22 @@
     flex-direction: column;
     flex-wrap: wrap;    
 }
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+{   
+    .programs__container{
+    margin-top: 1rem;
+}
+}
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{    
+    .programs__container{
+        margin-top: 2rem;
+    }
+}
+ 
+    

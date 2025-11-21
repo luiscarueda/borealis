@@ -5,11 +5,11 @@
 .fullclasses__container{
     display: grid;
     grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(2,550px);
+    grid-template-rows: repeat(2,450px);
     justify-content: center;  
-    gap: 100px 50px;      
+    gap: 6rem 4rem;      
     margin-top: 5%;
-    padding-top: 4rem;
+    padding-top: 2rem;
     margin-left: 8rem;
     object-fit: contain;
     overflow: hidden;
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: end;
     align-content: end;
-    height: 80vh;
+    height: 70vh;
 }
 .fullclasses__item{
     display: flex;

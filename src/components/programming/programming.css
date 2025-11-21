@@ -9,8 +9,8 @@
     width: 100vw;    
     height: 100vh;
     align-items: center;
-    margin-top: -4rem;
-    padding: 1rem 1rem 2rem;
+    margin: -4rem 1rem 1rem;
+    padding: 1rem 1rem 1rem;
    }
 .programming__right{ 
     display: flex;          
@@ -102,14 +102,14 @@
         gap: 1rem;           
         align-content:space-between;
         padding-bottom: 2rem;  
-        margin-bottom: 4rem;           
+        margin-bottom: 2rem;           
      }
      .programming__left{
         justify-content: center;
-        padding-bottom: 4rem;        
+        padding-bottom: 1rem;        
      }
      .programming__right{       
-        margin: 1rem 1rem 2rem;        
+        margin: 1rem 1rem -1rem;        
         padding-bottom: 1rem;        
     }
     
@@ -123,5 +123,4 @@
         width: 100%;
         height: 60%;
     }
-}
-    
+}    

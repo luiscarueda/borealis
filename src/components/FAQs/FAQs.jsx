@@ -17,8 +17,7 @@ const FAQs = () => {
             answer={faqs.answer}
             answer2={faqs.answer2}            
             />
-          ))}
-          <div className='FAQs__wrapper'>
+          ))}          
             <div className='additional__left '>
                <h3>You can also take classes from two levels to make the transition smoother.
                  As a general guideline:
@@ -32,7 +31,7 @@ const FAQs = () => {
             </div>  
           </div>
         </div>
-      </div>
+      
     </section>
   )
 }

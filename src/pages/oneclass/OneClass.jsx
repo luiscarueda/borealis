@@ -27,7 +27,7 @@ const OneClass = () => {
                    
      if (!oneclass) return <div className='spinner'></div>  ; 
      return ( 
-       <section className="oneclass">
+       <section className="oneclass ">
           <div className='container oneclass__container'>
             <div className='flex__center oneclass__left'>             
              <h1 className>{oneclass.title}</h1>
@@ -35,12 +35,9 @@ const OneClass = () => {
               <img src={urlFor(oneclass.mainImage).width(400).height(400).blur(1).url()} alt="Oneclass"/> 
               </div>
             </div>
-            <div className="oneclass__right ">
+            <div className="oneclass__right">
               <PortableText value={oneclass.mainGoal}/>             
-              <PortableText value={oneclass.description}/>                                      
-              <h2>{oneclass.price}</h2>                                                                             
-              <h2>CAD</h2>                        
-                                                            
+              <PortableText value={oneclass.description}/>                                                                                   
             </div>                                       
           </div>
         <CTA/> 
