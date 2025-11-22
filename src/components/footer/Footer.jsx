@@ -12,7 +12,7 @@ const Footer = () => {
              <Link to='/' className='logo'>
               <img src={Logo}  alt="footer logo" />
              </Link>
-                <SocialIcons/>         
+             <SocialIcons/>         
           </article>           
           <article className='footer__article'>
            {FOOTERLINKS.map((section) =>(

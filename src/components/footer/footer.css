@@ -84,12 +84,11 @@
     display: flex;
     justify-content: center;
 }
-
 .footer__article{    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
-    place-items: center;
+    justify-content: start;
     font-weight: 200 ;
 }
 .logo{
@@ -99,5 +98,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 } 
+}

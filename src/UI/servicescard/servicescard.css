@@ -9,8 +9,8 @@
     margin-bottom: 1rem;
     border-radius: 2rem;
     transition: var(--transition);
-    width: 14rem;
-    height: 20rem;
+    width: 18rem;
+    height: 22rem;
     transition: transform 0.5s ease;     
 }
 .servicescard:hover{
