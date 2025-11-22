@@ -31,9 +31,9 @@ const About = () => {
                          text2={ABOUT[2].text2}
                          text3={ABOUT[2].text3}
                          imgUrl={ABOUT[2].imgUrl}
-          />                   
+          />                             
        </div>
-      <Gallery/>               
+      <Gallery/>              
     </div>
   )
 }

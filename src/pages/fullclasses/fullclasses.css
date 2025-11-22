@@ -1,7 +1,6 @@
 .fullclasses{
     background: var(--bg-color);
 }
-
 .fullclasses__container{
     display: grid;
     grid-template-columns: repeat(3, 250px);
@@ -26,15 +25,10 @@
     flex-direction: column;
     gap: 1rem;     
 }
-
 .fullclasses__image{
     object-fit: contain;
     overflow-y: hidden;
     margin-bottom: 1rem;
-}
-
-.test{
-    color: black;
 }
 
 /*MEDIA QUERIES (medium screens)*/

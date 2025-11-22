@@ -9,7 +9,7 @@
     width: 100vw;    
     height: 90vh;
     align-items: center;
-    margin: -4rem 1rem 1rem;
+    margin: 1rem 2rem 1rem;
     padding: 1rem 1rem 1rem;
    }
 .programming__right{ 
@@ -97,19 +97,14 @@
 @media screen and (max-width:480px)
 {    
     .programming__container{       
-        width:  90vw;
-        height: 100vh;
-        gap: 1rem;           
-        align-content:space-between;
-        padding-bottom: 2rem;  
-        margin-bottom: 2rem;           
+   display: flex; 
+   flex-direction: column;         
      }
      .programming__left{
         justify-content: center;
         padding-bottom: 1rem;        
      }
-     .programming__right{       
-        margin: 1rem 1rem -1rem;        
+     .programming__right{      
         padding-bottom: 1rem;        
     }
     

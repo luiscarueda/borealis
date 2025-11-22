@@ -30,8 +30,7 @@
     padding: 30px;
     width: 800px;    
     height: 600px;
-    margin: 2rem;
-    
+    margin: 2rem;    
   } 
   .image{
     display: flex;
@@ -49,6 +48,7 @@
 
 @media screen and (max-width:480px)
 {
+
    .image{
     width:  20rem;
     height: 30rem;
