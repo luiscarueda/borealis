@@ -20,7 +20,8 @@ background: var(--bg-color);
 .container{
   width: var(--container-width-lg);
   max-width: 1920px;
-  margin-inline: auto;  
+  margin-inline: auto; 
+  margin: auto; 
 }
 .logo {
   width: 7rem;

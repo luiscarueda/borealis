@@ -30,7 +30,7 @@
     --color-gray-500: hsl(var(--gray-hue),44%,25%);
     --color-gray-600: hsl(var(--gray-hue),48%,15%);
 
-    --container-width-lg:86%;
+    --container-width-lg:88%;
     --container-width-md:90%;
     --container-width-sm:98%;
     
@@ -63,8 +63,7 @@
  {  
    .container {
         width: var(--container-width-md);
-        max-width: fit-content;
-        margin: 1rem;        
+        max-width: fit-content;           
        }
   h1 {
      font-size: 2rem;    
@@ -80,8 +79,7 @@
  {  
   .container {
     width: var(--container-width-sm);
-    max-width: fit-content;
-    margin: 1rem;
+    max-width: fit-content;    
    } 
     h1{
      font-size: 2.2rem;

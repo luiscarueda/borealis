@@ -1,20 +1,19 @@
 nav {
+    display: grid; 
     width: 100vw;
-    height: 3rem; 
+    height: 4rem; 
     background-color: var(--nav-color);
     position: fixed;
-    top: 0%;    
-    display: grid; 
+    top: 0%;   
     place-items: center;       
     font-size: 1.1rem; 
     z-index: 10;  
 }
 .nav__container{
     width: 100vw;
-    height: 3rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center; 
 }
 .nav__container ul{
     margin-left: -16rem;
@@ -59,13 +58,13 @@ nav {
 
 @media screen and (max-width:960px) {
 .nav__container{
-   position: relative;
+   position: fixed;
    justify-content: space-between;    
 }  
 .nav__links{
     position: absolute;
     top: 100%;
-    right: 0;      
+    left: 120%;      
     flex-direction: column;
     gap: 0;
 }
@@ -87,7 +86,6 @@ nav {
     align-items: center;
     padding: 1rem 5rem 1rem 3rem;
 }
-
 .nav__toggle-btn{
    display: inline-block;
    background: transparent;
@@ -123,7 +121,6 @@ nav {
     }
 }
 
-
 .show__nav {
     display: flex;
 }
@@ -135,7 +132,11 @@ nav {
 
 @media screen and (max-width:480px)
 {
+    .nav__container{
+    position: fixed;
+    padding-left: 10rem;
+    }
     .nav__toggle-btn{        
-        margin-left: 10rem;
+        margin-left: 5rem;
     }
 } 

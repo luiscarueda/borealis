@@ -27,7 +27,7 @@ const Programming = () => {
       <div className='container programming__container'>
         <div className='programming__left '>
             <div className='programming__image '>
-             <img src={urlFor(schedules.mainImage.asset.url)} alt="imagen" />              
+             <img src={urlFor(schedules.mainImage.asset.url)} alt="imagen" />               
             </div>
         </div>                                                
         <div className='programming__right flex__center '>

@@ -6,12 +6,11 @@ import { FaBars } from "react-icons/fa6";
 import {useState} from 'react';
 import Logo from '../../assets/4.png';
 
-
 const Navbar = () => {  
   const [isNavShowing,setIsNavShowing] = useState(false);  
   return (
     <>            
-      <nav className="container nav__container ">
+      <nav className="container nav__container">
         <Link to='/'className='logo '>
               <img src= {Logo} alt="logo"/>
         </Link>        
@@ -23,10 +22,10 @@ const Navbar = () => {
                                             ({isActive})=>isActive?'active-nav': ''}
                               onClick={()=> setIsNavShowing (prev=>!prev)}
                     >
-                    {item.label}</NavLink>                    
+                    {item.label}
+                    </NavLink>                    
                   </li>                      
-                  )
-                })
+                  )})
               }                    
             </ul>                                               
         <button className="nav__toggle-btn" onClick={()=> setIsNavShowing (prev=>!prev)}>

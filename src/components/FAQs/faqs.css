@@ -20,13 +20,18 @@
 }
 .additional__left{
     padding-left:  1rem;
-    padding-right: 2rem;    
+    padding-right: 2rem;
+    background: var(--color-gray-500);
+    border: 1px solid var(--color-gray-400);
+    border-radius: 1rem;  
 }
 .additional__right{
     margin-left:   2rem;
     padding-right: 2rem;
+    background: var(--color-gray-500);
+    border: 1px solid var(--color-gray-400);
+    border-radius: 1rem;
 }
-
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
@@ -42,6 +47,6 @@
 {
     .FAQs__wrapper{
         gap: 1rem;
-        margin-top: 3rem;        
+        margin-top: 3rem;       
    }             
 } 
