@@ -71,8 +71,7 @@
     height: 50%;
 }
 .header__right{
-    display: flex;
-    justify-content: center;
+  
     width:  90%;    
     max-width: fit-content;
     margin: -4rem 1rem 2rem;            
@@ -89,21 +88,22 @@
     justify-content: center;           
 }
 .header__left{
-    display: flex;
     margin-top: 2rem;                                  
 }
-    .header__container h1{       
+.header__container h1{       
             font-size: 1.8rem;       
     }
-    .header__container h3{       
+.header__container h3{       
         font-size: 1rem;  
 }
-    .header__image{
-        width: 90%;
-        height: 90%;
-    }
-    .header__right{
-        display: flex;
-        justify-content: center;                                       
+.header__image{
+    width:  90%;
+    height: 90%;
+    margin-top: 2rem;
+    margin-right: 6rem;   
+}
+.header__right{
+        width:  100%;    
+        margin: -1rem 1rem 2rem;                                    
     }
 }

@@ -56,13 +56,25 @@
     margin-top:  -2rem;
 }
 
-
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
-{          
-  
-
+{    
+    .pagepost__container{      
+        gap: 10rem;
+    }    
+  .pagepost__left img {
+    width:  200px;
+    height: 200px;
+  }
+  .pagepost__right img{
+        width: 100px;
+        height: 100px;
+        
+  }
+  .pagepost__post{ 
+    margin-left: -4rem;
+}
 }    
 
 /*MEDIA QUERIES (small screens)*/
@@ -70,13 +82,29 @@
 @media screen and (max-width:480px)
 {          
     .pagepost__container{
+        
         display: flex;
         flex-direction: column;
-        justify-content:start;
+        justify-content:center;
         align-items: center;
         margin-top: 2rem;
         margin-left: 1rem;
         gap: 1rem;
     }
+    .pagepost__post{ 
+        margin-left: 4 rem;
+    }
+    .pagepost__right{
+              
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 1rem 2rem;   
+    }
+    .pagepost__right img{
+        width:  80px;
+        height: 80px;
+  }
 
 }  

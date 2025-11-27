@@ -41,7 +41,7 @@ client.fetch(query)
                         <button className='btn'>read article</button>
                    </Link>                                                                             
                 </section>               
-                <section className="pagepost__right">
+                <section className="pagepost__right ">
                   <div className='pagepost__post'>
                    <img src={urlFor(pagepost[1].mainImage.asset.url).width(150).height(150).blur(1).url()} />
                    <div className='pagepost__content '>

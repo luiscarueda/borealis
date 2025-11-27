@@ -35,14 +35,40 @@
 
 @media screen and (max-width:960px)
 {          
-  
-
+    .fullclasses__container{
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(3,350px);
+        justify-content: center;  
+        gap: 2rem 2rem;      
+        margin-top: 2rem;
+        margin-left: 4rem;    
+    }
+    .fullclasses__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: start;
+        height: 50vh;
+    }
 }    
 
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
 {          
-  
-
+    .fullclasses__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+        justify-content: center;  
+        gap: 2rem 2rem;      
+        margin-top: 2rem;
+        margin-left: 4rem;    
+    }
+    .fullclasses__image{
+        object-fit: contain;
+        width: 8rem;
+        height: 8rem;    
+    }
 }  
