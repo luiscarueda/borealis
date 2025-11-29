@@ -27,8 +27,7 @@ client.fetch(query)
   return (
     <>           
       <Headeraux  title={HEADER[3].title} 
-                      text={HEADER[3].text}
-                      imgUrl={HEADER[4].imgUrl}
+                  imgUrl={HEADER[4].imgUrl}
        />      
       <div className="pagepost" >               
           { pagepost[0]&&(

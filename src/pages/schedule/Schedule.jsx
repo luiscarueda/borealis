@@ -6,8 +6,7 @@ const Schedule = () => {
   return (
     <div>
        <Headeraux  title={HEADER[1].title} 
-                  text={HEADER[1].text}
-                  imgUrl={HEADER[1].imgUrl}
+                   imgUrl={HEADER[1].imgUrl}
        />
       <Programming/>
       <FAQs/> 

@@ -24,17 +24,17 @@
 
 @media screen and (max-width:960px)
 {   
-    .programs__container{
-    margin-top: 1rem;
+.programs__container{
+   margin-top: 1rem;
 }
 }
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
 {    
-    .programs__container{
-        margin-top: 2rem;
-    }
+  .programs__container{
+    margin-top: -4rem;
+  }
 }
  
     

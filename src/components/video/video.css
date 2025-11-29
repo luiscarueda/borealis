@@ -1,34 +1,15 @@
 .video{
     display: flex;
     justify-content: center;
-    height: 80vh;
-    width: 100vw;
-    margin-left: 1rem;
-    margin-top:  2rem;
-    margin-bottom: 16rem;
-    background: var(--gradient-bg);
+        
+    margin-top: 4rem;
+    margin-left: -2rem;
+    margin-bottom: 4rem;    
 }
-
-.video__component{
-    width: 1000px;
-    height: 1000px;
-    padding: 1rem;
+@keyframes fadeIn {
+    from{opacity: 0}
+    to {opacity: 1;}
 }
-
-/*MEDIA QUERIES (medium screens)*/
-
-@media screen and (max-width:960px)
-{   
-  
-
-  }
-    
-
-/*MEDIA QUERIES (small screens)*/
-
-@media screen and (max-width:480px)
-{
-   .video{
-    width: fit-content;
-    } 
+.fade-in{
+    animation: fadeIn 2000ms ease-in-out; 
 }

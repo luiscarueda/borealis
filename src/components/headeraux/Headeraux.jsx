@@ -1,6 +1,6 @@
 import './headeraux.css'
 
-const Headeraux = ({imgUrl,title,text,}) => {
+const Headeraux = ({imgUrl,title}) => {
   return (
     <header className='headeraux'>
       <div className="headeraux__container">
@@ -8,8 +8,7 @@ const Headeraux = ({imgUrl,title,text,}) => {
           <img src={imgUrl} alt="image-bg" />
         </div>
         <div className="headeraux__content">
-          <h2>{title}</h2>
-          <p>{text}</p>          
+          <h2>{title}</h2>         
         </div>
       </div>  
     </header>

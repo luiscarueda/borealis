@@ -26,8 +26,7 @@ const FullClasses = () => {
   return (
     <section>
       <Headeraux  title={HEADER[2].title} 
-                      text={HEADER[2].text}
-                      imgUrl={HEADER[2].imgUrl}
+                  imgUrl={HEADER[2].imgUrl}
       />
       <Programs/>       
       <div className="fullclasses">

@@ -15,3 +15,12 @@ section{
     color: var(--secondary-color);
     font-size: 1.5rem;
 }
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{    
+    .sectionhead {
+        flex-direction: column;
+    }
+}

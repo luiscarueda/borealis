@@ -1,21 +1,22 @@
+import React from 'react'
 import './video.css'
 import ReactPlayer from 'react-player'
 import Videoprueba from '../../assets/video1.mp4'
 
 const Video = () => {
   return (
-    <div className='video initial'>
-        <ReactPlayer className='video__component '
+    <>
+      <div className='video fade-in'>
+        <ReactPlayer
           url={Videoprueba}           
           muted
+          width ='55%'
+          height= '45%'
           loop 
-          playing
-          width='100%'
-          height='100%'         
-
+          playing   
         />
-    </div>
+      </div> 
+    </>
   )
 }
-
 export default Video

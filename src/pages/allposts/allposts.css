@@ -3,11 +3,13 @@
 }
 .posts__container{
     display: grid;
-    grid-template-columns:  repeat(4, 1fr);
+    grid-auto-rows: 25rem;
+    grid-template-columns: repeat(3, minmax(20rem , 1fr) );
     gap: 2rem;
-      
-    row-gap: 2rem;     
+    row-gap: 5rem;
+    padding-bottom: 6rem;     
     margin-top: 5%;
+    margin-bottom: 1%;
     place-items: start;
 }
 .post__item{
@@ -16,3 +18,21 @@
     margin-bottom: 1rem;
     gap: 20px;    
 }
+
+/*MEDIA QUERIES (medium screens)*/
+
+@media screen and (max-width:960px)
+{    
+    .posts__container{
+        grid-template-columns: repeat(2, minmax(20rem , 1fr) ); 
+    }
+} 
+
+/*MEDIA QUERIES (small screens)*/
+
+@media screen and (max-width:480px)
+{          
+    .posts__container{
+        grid-template-columns: repeat(1, minmax(15rem , 1fr) ); 
+    }
+}  

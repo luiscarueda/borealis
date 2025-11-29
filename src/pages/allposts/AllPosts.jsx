@@ -28,8 +28,7 @@ const AllPosts = () => {
   return (
     <>
        <Headeraux  title={HEADER[4].title} 
-                      text={HEADER[4].text}
-                      imgUrl={HEADER[4].imgUrl}
+                   imgUrl={HEADER[4].imgUrl}
          />       
         <div className='posts' > 
           <div className='container posts__container'>

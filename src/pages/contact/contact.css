@@ -9,10 +9,10 @@
     margin-left: 1rem;
     padding-bottom: 4rem;
     margin-top: -4rem;
-    gap: 3rem;
+    gap: 2rem;
 }
 .contact__wrapper{
-    margin: 1rem 6rem;
+    margin: 2rem 4rem 3rem 8rem;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -21,8 +21,8 @@
     padding-bottom: 6rem;   
 }
 .contact__wrapper a{
-    width: 80px;
-    height: 40px;
+    width: 5rem;
+    height: 4rem;
     background: var(--main-color);
     font-size: 2rem;
     border: 2px solid transparent;
@@ -58,7 +58,6 @@
     border-radius: 0.8rem;
     margin: .5rem 0;    
 }
-
 .cta__form-input input:hover{    
     background: var(--color-gray-200);
 }
@@ -79,7 +78,15 @@
 /*MEDIA QUERIES (medium screens)*/
 
 @media screen and (max-width:960px)
-{          
+{  
+    .contact__wrapper{
+        margin:  2rem;
+        width: fit-content;
+        flex-direction: column;
+        gap: 4rem;
+        padding-left: 2rem;
+        padding-bottom: 4rem;   
+    }        
     .contact__wrapper a:hover{
         cursor: pointer;
         background: var(--secondary-color);
@@ -95,19 +102,17 @@
         justify-content: center; 
         flex-direction: column;            
         align-items: center;
-        margin-top: 2rem;
-        margin-left: 3rem;
-        gap: 3rem;
+        margin: 2rem 3rem 1rem;
+        gap: 2rem;
     }
     .contact__form-content button{
         margin-top: 1rem;
     }
     .contact__wrapper{
-        margin: 4rem 6rem;
+        margin: 1rem 4rem;
         width: fit-content;
         display: flex;
         flex-direction: column;
-        margin-left: -2rem;
         justify-content:center;
         align-items: flex-start;        
         gap: 2rem;       
