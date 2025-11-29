@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const CTA = () => {
   return (
     <>
-      <div >
         <div className='container cta__container'>       
         <button className='btn'>
               <Link to={"/fullclasses/" } >BACK TO ENROLL</Link>
@@ -14,8 +13,7 @@ const CTA = () => {
         <button className='btn ' >
                <Link to={"/contact/" } >REGISTER NOW</Link>
         </button>              
-        </div>     
-      </div>      
+        </div>          
     </>
   )
 }

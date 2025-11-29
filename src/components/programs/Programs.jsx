@@ -2,7 +2,7 @@ import './programs.css'
 import {PROGRAMS,DROPIN } from '../../constants/data';
 import SectionHead from '../SectionHead/SectionHead';
 import { FaCrown } from 'react-icons/fa';
-import { ServicesCard,DropinCard, CTA } from '../../UI';
+import { ServicesCard,DropinCard, CTA2 } from '../../UI';
 
 const Programs = () => {
   return (
@@ -20,7 +20,7 @@ const Programs = () => {
             </div>
             ))} 
          </div>
-         <CTA/>
+         <CTA2/> 
          <div className='programs__wrapper '>
           {DROPIN.map((dropin,index)=>(
              <div key={index} className='programs__card '>
@@ -29,8 +29,8 @@ const Programs = () => {
                info={dropin.info} 
                price={dropin.price}
                />
-             </div>
-            ))}        
+          </div>
+            ))}     
          </div>                             
       </div>           
     </section>
