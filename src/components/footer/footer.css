@@ -90,10 +90,6 @@
     margin-left: 2rem;
     margin-right: 10rem;
 }
-/* Selects the second element of div siblings */
-.footer__article div:nth-child(3) {
-    margin-left: 3rem;
-  }
 .logo{
     margin-bottom: 2rem;
 }

@@ -40,22 +40,6 @@
     --gradient-bar-2 : linear-gradient(90deg, rgba(0, 0, 0, 1) 33%, rgba(102, 153, 255, 1) 87%);
     --gradient-bg :    radial-gradient(at bottom right , #3758ff 0% ,#030510 64%) ;
   }
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    list-style: none;
-    text-decoration: none;  
-  }
-
-  body {
-  font-family: 'Montserrat',sans-serif;
-  color: var(--color-gray-200);
-  line-height: 1.7;
-  overflow-x: hidden;
-  background: var(--bg-color);
-  }
  
   /*MEDIA QUERIES (medium screens)*/
 

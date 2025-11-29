@@ -26,6 +26,7 @@
 {   
 .programs__container{
    margin-top: 1rem;
+  
 }
 }
 /*MEDIA QUERIES (small screens)*/
@@ -34,6 +35,7 @@
 {    
   .programs__container{
     margin-top: -4rem;
+    flex-wrap: nowrap;
   }
 }
  

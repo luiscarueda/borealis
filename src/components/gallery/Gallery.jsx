@@ -13,8 +13,8 @@ import {Navigation,Pagination} from 'swiper/modules';
 const  Gallery = () => {
   return (
     <div className='gallery '>    
-      <div className='container gallery__container '>
-       <Swiper className='swiper  '      
+      <div className='container gallery__container'>
+       <Swiper className='swiper'       
         slidesPerView={1}
         spaceBetween={50}
         loop={true}      

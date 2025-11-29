@@ -26,8 +26,8 @@
     border-radius: 1rem;  
 }
 .additional__right{
-    margin-left:   2rem;
-    padding-right: 2rem;
+    margin-left:  2rem;
+    padding: 1rem 2rem;
     background: var(--color-gray-500);
     border: 1px solid var(--color-gray-400);
     border-radius: 1rem;
