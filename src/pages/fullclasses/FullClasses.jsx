@@ -6,6 +6,9 @@ import { useState,useEffect } from 'react';
 import {client} from '../../../client'
 import { Link } from 'react-router-dom';
 import {Programs} from '../../components';
+import SectionHead from '../../components/SectionHead/SectionHead';
+import { SiLevelsdotfyi } from "react-icons/si";
+
 
 const FullClasses = () => {
   const [fullclasses,setFullClasses] = useState([]);
@@ -30,7 +33,8 @@ const FullClasses = () => {
       />
       <Programs/>       
       <div className="fullclasses">
-        <div className='container fullclasses__container ' > 
+      <SectionHead icon={<SiLevelsdotfyi />} title='OUR LEVELS'/> 
+        <div className='container fullclasses__container ' >  
          { fullclasses && fullclasses.map((classes,index) => (
            <article className='fullclasses__card'key={classes.slug.current}>              
                 <span key={index} className='fullclasses__item'>
