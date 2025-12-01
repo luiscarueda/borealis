@@ -72,21 +72,21 @@
        {
           title: "ACADEMY",
           links: [
-              { name: "story", link: "/about" },
-              { name: "mision", link: "/about" },
-              { name: "vision", link: "/about" },                     
+              { name: "Story", link: "/about" },
+              { name: "Mision", link: "/about" },
+              { name: "Vision", link: "/about" },                     
           ],
       },
       {
           title: "SERVICES",
           links: [
-              { name: "programs", link: "/about" },
+              { name: "Programs", link: "/about" },
               { name: "FAQs", link: "/about" },
-              { name: "gallery", link: "/Gallery" },             
+              { name: "Gallery", link: "/Gallery" },             
           ],
       },
       {
-          title: "Get in touch",
+          title: "GET IN TOUCH",
           links : [
              { name: "bailaborealis@gmail.com", link: "mailto:bailaborealis@gmail.com" },
              { name: "+1 236-457-5567", link: "tel:+1 236-457-5567" },

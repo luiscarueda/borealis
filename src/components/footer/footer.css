@@ -15,10 +15,11 @@
 }
 .footer__article{
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;  
+    grid-template-columns: repeat(3 , 14rem);
+    gap: 1rem;   
 }
 .footer__article ul {
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 .footer__article ul li {
     display: flex;
@@ -84,12 +85,13 @@
     justify-content: center;
 }
 .footer__article{
-    grid-template-columns:  1fr 1fr; 
+    grid-template-columns: repeat(2, 1fr); 
     font-weight: 400 ;
     justify-content: center;
     margin-left: 2rem;
-    margin-right: 10rem;
+    margin-right: 6rem;
 }
+
 .logo{
     margin-bottom: 2rem;
 }

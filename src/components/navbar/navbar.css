@@ -63,12 +63,11 @@ nav {
    background: transparent;
    font-size: 1.8rem;
    cursor: pointer;
-   margin-left: 8rem;
+   margin-left: 6rem;
 } 
 .nav__toggle-btn svg{
    color: var(--color-gray-100);
 }  
-
 .nav__links{
     position: absolute;
     top: 100%;
@@ -95,7 +94,7 @@ nav {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 1rem 5rem 1rem 3rem;
+    padding: 1rem 5rem 1rem 4rem;
 }
 .nav__links li:nth-child(2){
     animation-delay: 100ms;

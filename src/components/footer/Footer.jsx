@@ -18,7 +18,7 @@ const Footer = () => {
            {FOOTERLINKS.map((section) =>(
                 <div key={section.title}>
                  <h4>{section.title}</h4>
-                 <ul >
+                 <ul>
                   {section.links.map((link,index)=>(
                     <li key={index}>                      
                       <a href={link.link}>{link.name}</a>
