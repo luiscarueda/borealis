@@ -33,8 +33,8 @@ const FullClasses = () => {
       />
       <Programs/>       
       <div className="fullclasses">
-      <SectionHead icon={<SiLevelsdotfyi />} title='OUR LEVELS'/> 
-        <div className='container fullclasses__container ' >  
+        <SectionHead icon={<SiLevelsdotfyi />} title='OUR LEVELS'/> 
+        <div className='container fullclasses__container initial ' > 
          { fullclasses && fullclasses.map((classes,index) => (
            <article className='fullclasses__card'key={classes.slug.current}>              
                 <span key={index} className='fullclasses__item'>

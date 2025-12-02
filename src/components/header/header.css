@@ -8,7 +8,7 @@
     height: 100vh;          
     place-items: center;      
     gap: 2rem;
-    margin-top: 2rem; 
+    margin-top: 6rem; 
     margin-bottom: 1rem;
     padding-bottom: 2rem;    
 }
@@ -36,6 +36,9 @@
     height: 400px;
     margin-top: -6rem;
     margin-right: 6rem;   
+}
+.header__right{
+    margin-top: -1rem;
 }
 
 /*MEDIA QUERIES (medium screens)*/

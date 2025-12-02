@@ -80,9 +80,9 @@
       {
           title: "SERVICES",
           links: [
-              { name: "Programs", link: "/about" },
-              { name: "FAQs", link: "/about" },
-              { name: "Gallery", link: "/Gallery" },             
+              { name: "Programs", link: "/fullclasses" },
+              { name: "FAQs", link: "/schedule" },
+              { name: "Gallery", link: "/about" },             
           ],
       },
       {

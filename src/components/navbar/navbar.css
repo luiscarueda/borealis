@@ -1,7 +1,7 @@
 nav {
     display: grid; 
     width: 100vw;
-    height: 5rem; 
+    height: 6rem; 
     background-color: var(--bg-color);
     place-items: center;
     position: fixed;
@@ -28,7 +28,7 @@ nav {
 }
 .nav__links a{
     transition: var(--transition);
-    padding: 6px 4px;
+    padding: 2px 6px;
     border-radius: 5px;
 }
 .nav__links a:hover{
@@ -46,11 +46,12 @@ nav {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: var(--nav-color);
+    background: var(--main-color);
     position: absolute;
     left: calc(50%-0.5rem);
     transform: rotate(45deg);
-    margin-top: 0.5rem;
+    margin-top: 0.3 rem;
+    margin-left: 1.3rem;
 }
 .divisory__line{
     border-bottom: 1px solid var(--main-color);
@@ -58,6 +59,10 @@ nav {
 
 /*MEDIA QUERIES (medium screens)*/
 @media screen and (max-width:960px) {
+nav{
+border-bottom: 2px solid var(--color-gray-200); 
+}
+      
 .nav__toggle-btn{
    display: inline-block;
    background: transparent;

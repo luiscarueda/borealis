@@ -21,3 +21,6 @@
     background: var(--hover-color);
     cursor: pointer;
 }
+.socialIcons h4{
+    margin-left: -4rem;
+}
