@@ -23,7 +23,7 @@ const Programming = () => {
 
    if (!schedules) return<div>LOADING...</div>; 
    return (
-    <section className='programming'>
+    <section className='programming ' id='programming'>
       <div className='container programming__container'>
         <div className='programming__left '>
             <div className='programming__image '>

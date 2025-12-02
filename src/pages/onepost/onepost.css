@@ -27,6 +27,12 @@
         margin-top: 4rem;  
         gap: 4rem;          
     }
+    .onepost__container h1{
+        margin-top: 2rem;           
+    }
+    .onepost__image{
+        order: 1;
+    }
 }    
 
 /*MEDIA QUERIES (small screens)*/
@@ -42,4 +48,5 @@
         width:  60%;
         height: 60%;
     }
+
 }  

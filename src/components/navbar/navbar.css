@@ -54,7 +54,7 @@ nav {
     margin-left: 1.3rem;
 }
 .divisory__line{
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color-variant);
 }
 
 /*MEDIA QUERIES (medium screens)*/

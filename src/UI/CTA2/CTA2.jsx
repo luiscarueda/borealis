@@ -8,7 +8,7 @@ const CTA2 = () => {
     <div className='container cta2__container'>       
       <h3>Start exploring the endless possibilities.</h3>
       <button className='btn ' >
-        <Link to={"/contact/" } >REGISTER NOW</Link>
+        <Link to={"/contact/"}>REGISTER NOW</Link>
       </button>              
     </div>        
    </>

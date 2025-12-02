@@ -32,15 +32,16 @@ const OnePost = () => {
               <div className='onepost__content flex__center'>
                    <h1 >{onePost.title}</h1>                           
                    <h3 >{format(new Date(onePost.publishedAt),'dd MMMM yyyy')}</h3>
-                   <PortableText
+                   
+                    <PortableText
                          value={onePost.body}
-                   />                    
-              </div>
+                    />
+              </div>                 
               <div className='onepost__image flex__center '>
                 <img src={urlFor(onePost.mainImage).width(500).height(600).blur(1).url()} alt="Onepost"/> 
                  <Link to={"/pagepost/"}>
                         <button className='btn'>Back to Posts</button>
-                    </Link>            
+                 </Link>            
               </div>             
             </div>                   
           </section>
