@@ -8,24 +8,29 @@
     gap: 1rem;       
     margin: 2rem 4rem;   
 }
-.oneclass__left{
-    margin-top: 2rem;
-}
 .oneclass__image img{  
   border-radius: 5%;
+  width:  65%;
+  height: 65%;
 }
 .oneclass__right{
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    gap: 1rem;   
+    justify-content: start; 
 }
 .oneclass__right button{
     display: flex;
     flex-direction: column;
     justify-content: start;
     margin-left: -2rem;  
+}
+.aditional{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 6rem;
+  
 }
 .spinner {
   display: flex;

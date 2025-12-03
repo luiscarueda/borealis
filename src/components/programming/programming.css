@@ -1,3 +1,8 @@
+.loading{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
 .programming{    
     background: var(--main-color);          
    }

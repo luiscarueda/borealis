@@ -1,5 +1,5 @@
 import './footer.css'
-import { Link } from 'react-router-dom'
+import { Link,NavLink } from 'react-router-dom'
 import Logo from '../../assets/4.png'
 import { FOOTERLINKS } from '../../constants/data';
 import { SocialIcons } from '../../UI';
@@ -17,11 +17,13 @@ const Footer = () => {
           <article className='footer__article'>
            {FOOTERLINKS.map((section) =>(
                 <div key={section.title}>
-                 <h4>{section.title}</h4>
-                 <ul>
+                  <h4>{section.title}</h4>
+                  <ul>
                   {section.links.map((link,index)=>(
-                    <li key={index}>                      
-                      <a href={link.link}>{link.name}</a>
+                    <li key={index}>    
+                        <NavLink to={link.link} >
+                            {link.name}
+                        </NavLink>                    
                     </li>
                    ))}
                  </ul>

@@ -1,11 +1,11 @@
   import images from "./images";
 
   export const NAVLINKS = [
-    { label: "About",      path: '/about'   },    
-    { label: "Schedule",   path: '/schedule'},     
+    { label: "About",     path: '/about'   },    
+    { label: "Schedule",  path: '/schedule'},     
     { label: "Enroll",    path: '/fullclasses'},
-    { label: "Posts",      path: '/pagepost'},
-    { label: "Contact",    path: '/contact' },            
+    { label: "Posts",     path: '/pagepost'},
+    { label: "Contact",   path: '/contact' },            
    ];
   
   export const CLASSESDROPDOWN = [
@@ -73,23 +73,23 @@
           title: "ACADEMY",
           links: [
               { name: "Story", link: "/about" },
-              { name: "Mision", link: "/about" },
-              { name: "Vision", link: "/about" },                     
+              { name: "Mision",link: "/about" },
+              { name: "Vision",link: "/about" },                     
           ],
       },
       {
           title: "SERVICES",
           links: [
               { name: "Programs", link: "/fullclasses" },
-              { name: "FAQs", link: "/schedule" },
-              { name: "Gallery", link: "/about" },             
+              { name: "FAQs",     link: "/schedule" },
+              { name: "Gallery",  link: "/about" },             
           ],
       },
       {
           title: "GET IN TOUCH",
           links : [
              { name: "bailaborealis@gmail.com", link: "mailto:bailaborealis@gmail.com" },
-             { name: "+1 236-457-5567", link: "tel:+1 236-457-5567" },
+             { name: "+1 236-457-5567",         link: "tel:+1 236-457-5567" },
              { name:  "1040 Richter St ,Second Floor, Kelowna", link: "tel:+1 236-457-5567" },
           ],
         }, 

@@ -5,7 +5,8 @@
         align-items: center;
         flex-direction: row;
         padding: 2rem;
-        margin: 1rem 4rem 1rem;    
+        margin: 1rem 4rem 1rem; 
+        border: solid 1px var(--color-gray-500);   
         border-radius: 1rem;               
     }
     .cta__container button{ 

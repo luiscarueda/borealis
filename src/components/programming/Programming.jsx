@@ -21,7 +21,7 @@ const Programming = () => {
     .catch (err=>console.error(err));
    }, []);
 
-   if (!schedules) return<div>LOADING...</div>; 
+   if (!schedules) return<div className='loading'>LOADING...</div>; 
    return (
     <section className='programming ' id='programming'>
       <div className='container programming__container'>
