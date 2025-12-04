@@ -26,7 +26,7 @@ background: var(--bg-color);
 .logo {
   width: 7rem;
   display: block;  
-  border-color: aqua;
+  border-color: blue;
   box-shadow: 2px 2px 4px 3px var(--main-color);
 }
 .logo:hover{

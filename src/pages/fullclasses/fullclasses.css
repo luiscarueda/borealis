@@ -6,9 +6,9 @@
     grid-template-columns: repeat(3, 250px);
     grid-template-rows: repeat(2,450px);
     justify-content: center;  
-    gap: 4rem 4rem;      
+    gap: 2rem 4rem;      
     margin-top: 5%;
-    padding-top: 2rem;
+    padding-top: 1rem;
     margin-left: 8rem;
     object-fit: contain;
     overflow: hidden;

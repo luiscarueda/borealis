@@ -32,13 +32,14 @@ const OneClass = () => {
               <div className='oneclass__image flex__center '>
               <img src={urlFor(oneclass.mainImage).width(400).height(400).blur(1).url()} alt="Oneclass"/> 
               </div>
-            <div className="oneclass__right  ">
+            <div className="oneclass__right initial ">
               <h1 >{oneclass.title}</h1>
               <PortableText  value={oneclass.mainGoal}/>             
               <PortableText value={oneclass.description}/>
+              <h3>INSTRUCTOR CARLOS RUEDA</h3>
               <div className="aditional">
-                <h4 classname='initial'>mondays 4:00 5:00</h4>
-                <h4>PRICE 150</h4>  
+                <h4 >mondays 4:00 5:00</h4>
+                <h2>PRICE : 150</h2>  
               </div>                                                                            
             </div>
           </div>                                         
