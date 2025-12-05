@@ -21,9 +21,9 @@ const Footer = () => {
                   <ul>
                   {section.links.map((link,index)=>(
                     <li key={index}>    
-                        <NavLink to={link.link} >
+                        <Link to={link.link} >
                             {link.name}
-                        </NavLink>                    
+                        </Link>                    
                     </li>
                    ))}
                  </ul>

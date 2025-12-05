@@ -19,18 +19,24 @@
     flex-direction: column;
     justify-content: start; 
 }
+.oneclass__right h1{
+  color: var(--blue-color);
+  margin-left: 8rem;
+}
 .oneclass__right button{
     display: flex;
     flex-direction: column;
     justify-content: start;
     margin-left: -2rem;  
 }
-.aditional{
+.aditional {
   display: flex;
   flex-direction: row;
   justify-content: start;
   gap: 6rem;
-  
+}
+.aditional h2 {
+ color: var(--purple-color);
 }
 .spinner {
   display: flex;

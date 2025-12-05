@@ -1,14 +1,16 @@
 .footer{
-    background: var(--footer-color);    
+    background: var(--footer-color);
     padding-top: 7rem;
     font-size: 0.9rem;
     color: var(--color-gray-100);
-    font-family: var(--secondary-font);        
+    font-family: var(--secondary-font); 
+    border-top: solid 2px var(--color-gray-400);      
 }
 .footer__container{
     display: grid;
     grid-template-columns: 24rem 1fr ;
     gap: 5rem;
+    border-top: solid 1px var(--color-gray-300);    
 }
 .footer__logo{
     margin-top: -6rem;
