@@ -7,6 +7,7 @@ import OnePost from "./onepost/OnePost";
 import OneClass from "./oneclass/OneClass";
 import FullClasses from "./fullclasses/FullClasses";
 import Pagepost from "./pagepost/Pagepost";
+import Register from "./register/Register";
 
 export {
     Home,
@@ -17,5 +18,6 @@ export {
     OnePost,
     OneClass,
     FullClasses,
-    Pagepost             
+    Pagepost,
+    Register              
 }
