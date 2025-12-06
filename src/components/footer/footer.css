@@ -61,6 +61,7 @@
 } 
   .footer__container{
     grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
     gap: 2rem;
   } 
   .footer__article{

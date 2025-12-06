@@ -36,16 +36,16 @@ const FullClasses = () => {
         <SectionHead icon={<SiLevelsdotfyi />} title='OUR LEVELS'/> 
         <div className='container fullclasses__container' > 
          { fullclasses && fullclasses.map((classes,index) => (
-           <article className='fullclasses__card'key={classes.slug.current}>              
-                <span key={index} className='fullclasses__item'>
+           <article className='fullclasses__card 'key={classes.slug.current}>              
+                <div key={index} className='fullclasses__item '>
                    <h2>{classes.title}</h2>                   
-                   <div className='fullclasses__image'>
+                   <div className='fullclasses__image '>
                     <img src={classes.mainImage.asset.url} />
                    </div>                    
-                 <button className='btn'>
-                  <Link to={"/fullclasses/"+ classes.slug.current } key={classes.slug.current}>read more</Link>
-                </button>                                                             
-                </span>                                              
+                  <Link to={"/fullclasses/"+ classes.slug.current } key={classes.slug.current}>
+                  <button className='btn '>read more</button>
+                  </Link>                                                     
+                </div>                                              
             </article>
             ))}    
         </div>        

@@ -33,7 +33,6 @@
 }
 
 /*MEDIA QUERIES (medium screens)*/
-
 @media screen and (max-width:960px)
 {          
     .fullclasses__container{
@@ -43,14 +42,15 @@
         justify-content: center;  
         gap: 2rem 2rem;      
         margin-top: 2rem;
-        margin-left: 4rem;    
+        padding-bottom: 2rem;
+        margin-left: 8rem;    
     }
     .fullclasses__card{
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-content: start;
-        height: 50vh;
+        height: 70vh;
     }
 }    
 /*MEDIA QUERIES (small screens)*/
@@ -60,17 +60,19 @@
     .fullclasses__container{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: repeat(6,8rem);
+        grid-template-rows: repeat(6, 8rem);
         justify-content: center;  
         gap:  2rem;      
         margin-top: 1rem;
         margin-left: 2rem;    
     }
+    
     .fullclasses__image{
         object-fit: contain;
         width: 8rem;
         height: 8rem;    
     }
+    
     .fullclasses__item{
         display: grid;
         grid-template-columns: 1fr 1fr;
