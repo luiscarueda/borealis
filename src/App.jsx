@@ -1,6 +1,6 @@
 import './App.css'
 import { Dropdown, Footer, Navbar } from './components'
-import { Home,About,Schedule,Contact,AllPosts,FullClasses,OnePost,OneClass, Pagepost} from './pages'
+import { Home,About,Schedule,Contact,AllPosts,FullClasses,OnePost,OneClass, Pagepost, Register} from './pages'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
          <Route path='/allposts'          element={<AllPosts/>     }></Route>
          <Route path='/allposts/:slug'    element={<OnePost />     }></Route>
          <Route path='/fullclasses/:slug' element={<OneClass />    }></Route>
-        
+         <Route path='/register'          element={<Register/>     }></Route>
                                         
         </Routes>    
        <Footer/>         

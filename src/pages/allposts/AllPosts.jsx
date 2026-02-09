@@ -35,7 +35,7 @@ const AllPosts = () => {
             { allPosts && allPosts.map((post,index) => (
              <article key={post.slug.current} >              
                 <span key={index} className='post__item'>
-                 <div>{post.title}</div>                 
+                 <h4>{post.title}</h4>                 
                  <img src={urlFor(post.mainImage.asset.url).width(300).height(300).blur(1).url()} alt="allpost" />
                  <h4>{format(new Date(post.publishedAt),'dd MMMM yyyy')}</h4>                                                            
                 </span>              
