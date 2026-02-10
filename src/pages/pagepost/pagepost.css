@@ -94,16 +94,16 @@
     .pagepost__post{ 
         margin-left: 4 rem;
     }
-    .pagepost__right{
-              
+    .pagepost__right{  
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 2rem 1rem 2rem;   
+        margin: 2rem 4rem 2rem;   
     }
     .pagepost__right img{
-        width:  80px;
-        height: 80px;
+        width:  120px;
+        height: 120px;
   }
 }  

@@ -34,7 +34,7 @@ const OneClass = () => {
               <div className='oneclass__image flex__center '>
               <img src={urlFor(oneclass.mainImage).width(400).height(400).blur(1).url()} alt="Oneclass"/> 
               </div>
-            <div className="oneclass__right  ">
+            <div className="oneclass__right">
               <h1 >{oneclass.title}</h1>
               <PortableText  value={oneclass.mainGoal}/>             
               <PortableText value={oneclass.description}/>
