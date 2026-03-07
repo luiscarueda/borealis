@@ -41,7 +41,7 @@ const AllPosts = () => {
                 </span>              
                 <button className='btn'>
                   <Link to={"/allposts/"+ post.slug.current } key={post.slug.current}>read  article </Link>
-                </button>                             
+                </button>                            
              </article>
           ))}    
         </div>         
