@@ -21,7 +21,7 @@ const Contact = () => {
           </section>
           <section className='contact__form ' >
             <h4>ANY QUESTION?</h4>         
-            <form className='contact__form-content'action="https://formspree.io/f/xyyqlvze" method='POST'>
+            <form className='contact__form-content'action="https://formspree.io/f/mvzwwygp" method='POST'>
                   <div className="cta__form-input">
                     <input type='text' placeholder='Full Name'name ='Name'required/>
                     <input type='email' placeholder='email@example.com'name='Email'required/>

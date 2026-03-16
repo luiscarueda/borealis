@@ -88,7 +88,7 @@
       {
           title: "GET IN TOUCH",
           links : [
-             { name: "bailaborealis@gmail.com", link: "mailto:bailaborealis@gmail.com" },
+             { name: "info@borealisdance.ca", link: "mailto:info@borealisdance.ca" },
              { name: "+1 236-457-5567",         link: "tel:+1 236-457-5567" },
              { name:  "1040 Richter St ,Second Floor, Kelowna", link: "tel:+1 236-457-5567" },
           ],
