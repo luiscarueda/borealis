@@ -19,7 +19,8 @@
 
   export const MAINHEADER= [
      {  title:' WELCOME TO',
-        hook: 'SALSA AND BACHATA CLASSES IN KELOWNA ',             
+        hook: 'SALSA AND BACHATA  ',
+        hook2: 'CLASSES IN KELOWNA',             
         imgUrl: images.photoMain,
      },
    ]

@@ -18,8 +18,7 @@ const App = () => {
          <Route path='/allposts'          element={<AllPosts/>     }></Route>
          <Route path='/allposts/:slug'    element={<OnePost />     }></Route>
          <Route path='/fullclasses/:slug' element={<OneClass />    }></Route>
-         <Route path='/register'          element={<Register/>     }></Route>
-                                        
+         <Route path='/register'          element={<Register/>     }></Route>                           
         </Routes>    
        <Footer/>         
       </BrowserRouter>     

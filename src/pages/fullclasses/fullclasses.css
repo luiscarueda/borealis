@@ -60,19 +60,17 @@
     .fullclasses__container{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: repeat(6, 8rem);
+        grid-template-rows: repeat(7, 8rem);
         justify-content: center;  
         gap:  2rem;      
         margin-top: 1rem;
         margin-left: 2rem;    
     }
-    
     .fullclasses__image{
         object-fit: contain;
         width: 8rem;
         height: 8rem;    
     }
-    
     .fullclasses__item{
         display: grid;
         grid-template-columns: 1fr 1fr;

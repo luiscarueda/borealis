@@ -11,7 +11,8 @@ const Header = () => {
              <div className="header__image ">
               <img src={MAINHEADER[0].imgUrl} alt="image" />
              </div>          
-            <h3>{MAINHEADER[0].hook}</h3>       
+            <h3>{MAINHEADER[0].hook}</h3> 
+            <h3>{MAINHEADER[0].hook2}</h3>     
           </section>
           <section className="header__right">
             <Video/>
