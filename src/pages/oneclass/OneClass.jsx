@@ -32,7 +32,7 @@ const OneClass = () => {
        <section className="oneclass ">
           <div className='container oneclass__container '>          
               <div className='oneclass__image flex__center '>
-              <img src={urlFor(oneclass.mainImage).width(400).height(400).blur(1).url()} alt="Oneclass"/> 
+              <img src={urlFor(oneclass.mainImage).width(380).height(380).blur(1).url()} alt="Oneclass"/> 
               </div>
             <div className="oneclass__right">
               <h1 >{oneclass.title}</h1>

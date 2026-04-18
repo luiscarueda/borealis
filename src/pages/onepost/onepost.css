@@ -13,10 +13,11 @@
    object-fit:cover;
    gap: 1rem;    
 }
-.onepost__left h1{
+.onepost__right h1{
     color: var(--blue-color);
+    margin-top: -4rem;
 }
-.onepost__right{
+.onepost__right{   
     gap: 1rem;
 }
 
@@ -34,7 +35,6 @@
         order: 1;
     }
 }    
-
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
@@ -48,5 +48,4 @@
         width:  60%;
         height: 60%;
     }
-
 }  

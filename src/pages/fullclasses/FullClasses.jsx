@@ -36,7 +36,7 @@ const FullClasses = () => {
         <SectionHead icon={<SiLevelsdotfyi />} title='OUR LEVELS'/> 
         <div className='container fullclasses__container' > 
          { fullclasses && fullclasses.map((classes,index) => (
-           <article className='fullclasses__card 'key={classes.slug.current}>              
+           <article className='fullclasses__card'key={classes.slug.current}>              
                 <div key={index} className='fullclasses__item '>
                    <h2>{classes.title}</h2>                   
                    <div className='fullclasses__image '>

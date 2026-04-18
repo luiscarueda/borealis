@@ -12,7 +12,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .programs__card{
     display: flex;

@@ -30,18 +30,17 @@ const OnePost = () => {
           <section className='onepost'>
             <div className='container onepost__container '>
               <div className='onepost__left flex__center'>
-                   <h1 >{onePost.title}</h1> 
-                   <img src={urlFor(onePost.mainImage).width(500).height(600).blur(1).url()} alt="Onepost"/>
+                   <img src={urlFor(onePost.mainImage).width(350).height(450).blur(1).url()} alt="Onepost"/>
                    <h3 >{format(new Date(onePost.publishedAt),'dd MMMM yyyy')}</h3>                            
               </div>                 
               <div className='onepost__right flex__center'>
-                    <PortableText
+                  <h1 >{onePost.title}</h1>
+                  <PortableText
                          value={onePost.body}
-                    />
+                  />
                  <Link to={"/pagepost/"}>
                         <button className='btn'>Back to Posts</button>
-                 </Link>
-                            
+                 </Link>       
               </div>             
             </div>                   
           </section>

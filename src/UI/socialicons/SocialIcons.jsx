@@ -7,7 +7,7 @@ const SocialIcons = () => {
   return (
     <>
     <div className='socialIcons'>
-        <h4>FOLLOW ME ON MY SOCIAL NETWORKS </h4>
+        <h4>FOLLOW ME ! </h4>
          <div className="footer__socials">                    
               <a  href='https://www.facebook.com/borealislatindance?locale=es_LA' target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
               <a  href='https://www.instagram.com/borealislatindance/'            target='_blank' rel='noreferrer noopener'><FaInstagram/></a>              
