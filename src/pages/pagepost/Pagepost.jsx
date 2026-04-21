@@ -35,14 +35,14 @@ client.fetch(query)
                 <section className='pagepost__left'>
                    <h2>{pagepost[0].title}</h2>
                    <h4>{format(new Date(pagepost[0].publishedAt),'dd MMMM yyyy')}</h4>
-                   <img src={urlFor(pagepost[0].mainImage.asset.url).width(500).height(500).blur(1).url()} alt="mainpost" />
+                   <img src={urlFor(pagepost[0].mainImage.asset.url).width(440).height(440).blur(1).url()} alt="mainpost" />
                    <Link to={"/allposts/"+ pagepost[0].slug.current } key={pagepost[0].slug.current}>
                         <button className='btn'>read article</button>
                    </Link>                                                                             
                 </section>               
                 <section className="pagepost__right ">
                   <div className='pagepost__post'>
-                   <img src={urlFor(pagepost[1].mainImage.asset.url).width(150).height(150).blur(1).url()} />
+                   <img src={urlFor(pagepost[1].mainImage.asset.url).width(180).height(180).blur(1).url()} />
                    <div className='pagepost__content '>
                     <h3>{pagepost[1].title}</h3>
                     <h5>{format(new Date(pagepost[1].publishedAt),'dd MMMM yyyy')}</h5>

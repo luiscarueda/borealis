@@ -7,7 +7,7 @@
     grid-template-rows: repeat(2,450px);
     justify-content: center;  
     gap: 2rem 2rem;      
-    margin-top: 2%;
+    margin-top: 1%;
     padding-top: 1rem;
     margin-left: 6rem;
     object-fit: contain;
@@ -16,21 +16,27 @@
 .fullclasses__card{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-content: center;
     height: 70vh;
-
 }
 .fullclasses__item{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     gap: 1rem;     
 }
+.fullclasses__item h2 ,button {
+    display: flex;
+    justify-content: center;
+}
+
 .fullclasses__image{
     object-fit: cover;
     margin-bottom: 1rem;
-    width: 14rem;
-    height: 14rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 /*MEDIA QUERIES (medium screens)*/
