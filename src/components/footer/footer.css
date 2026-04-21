@@ -27,6 +27,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+.footer__article ul li :hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
 .footer__copyright{
      text-align: center;
      font-size: small;

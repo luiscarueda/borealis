@@ -8,11 +8,12 @@
     gap: 1rem;       
     margin: 4rem 4rem;   
 }
-.oneclass__image img{  
+.oneclass__image img{ 
+  margin-top: 3rem; 
   border-radius: 5%;
   width:  65%;
   height: 65%;
-}
+} 
 .oneclass__right{
     margin-top: 2rem;
     display: flex;
@@ -91,18 +92,25 @@
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr;
     align-items: center;   
-    gap: 5px;       
+    gap: 10px;       
     margin: 1rem 2rem; 
   }
   .oneclass__right{
-      margin-top: 2rem;
+      margin-top: -4rem;
       display: flex;
       flex-direction: column;
-      justify-content: start; 
+      justify-content: start;
   }
   .oneclass__image img{  
     border-radius: 5%;
     width:  80%;
     height: 80%;
+  }
+  .aditional {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
   }
 }    

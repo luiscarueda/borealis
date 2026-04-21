@@ -19,7 +19,7 @@ const OneClass = () => {
                days,
                time,
                "instructorName":  instructor->{instructor} ,                                                                 
-               mainImage{asset->{_id,url}}              
+               mainImage{asset-> {_id,url} }              
               }`          
               
     client.fetch(query)
@@ -30,7 +30,7 @@ const OneClass = () => {
      if (!oneclass) return <div className='spinner'></div>  ; 
      return ( 
        <section className="oneclass ">
-          <div className='container oneclass__container '>          
+          <div className='container oneclass__container ' >          
               <div className='oneclass__image flex__center '>
               <img src={urlFor(oneclass.mainImage).width(380).height(380).blur(1).url()} alt="Oneclass"/> 
               </div>

@@ -40,12 +40,12 @@ const FullClasses = () => {
                 <div key={index} className='fullclasses__item  '>
                    <h2 >{classes.title}</h2>                   
                    <div className='fullclasses__image '>
-                    <img src={classes.mainImage.asset.url} />
+                      <img src={classes.mainImage.asset.url} />
                    </div>                    
                   <Link to={"/fullclasses/"+ classes.slug.current } key={classes.slug.current}>
-                  <button className='btn '>read more</button>
+                     <button className='btn '>read more</button>
                   </Link>                                                     
-                </div>                                              
+                 </div>                                              
             </article>
             ))}    
         </div>        
