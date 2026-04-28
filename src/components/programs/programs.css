@@ -2,6 +2,7 @@
     background: var(--gradient-bg);
     }
 .programs__container {
+  margin-top: 4rem;
     display: flex;    
     flex-direction: column;
     gap: 4px;
