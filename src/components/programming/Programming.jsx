@@ -9,9 +9,10 @@ const Programming = () => {
   useEffect( () => {   
     const query =`*[_type == 'schedule'] 
   {
+     currentImage{asset->{ _id, url }},
+     posteriorImage{asset->{ _id, url }},
      current,
      posterior,
-     mainImage{asset->{ _id, url }},
      currentfile,
      posteriorfile
   }`      
@@ -27,7 +28,10 @@ const Programming = () => {
       <div className='container programming__container'>
         <div className='programming__left '>
             <div className='programming__image '>
-             <img src={urlFor(schedules.mainImage.asset.url)} alt="imagen" />               
+             <img src={urlFor(schedules.currentImage.asset.url)} alt="imagen" />               
+            </div>
+            <div className='programming__image '>
+             <img src={urlFor(schedules.posteriorImage.asset.url)} alt="imagen" />               
             </div>
         </div>                                                
         <div className='programming__right flex__center '>
