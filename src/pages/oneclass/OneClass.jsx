@@ -16,9 +16,7 @@ const OneClass = () => {
                description,
                mainGoal,
                price,
-               days,
-               time,
-               "instructorName":  instructor->{instructor} ,                                                                 
+              "instructorName":  instructor->{instructor} ,                                                                 
                mainImage{asset-> {_id,url} }              
               }`          
               
@@ -38,11 +36,7 @@ const OneClass = () => {
               <h1 >{oneclass.title}</h1>
               <PortableText  value={oneclass.mainGoal}/>             
               <PortableText value={oneclass.description}/>
-              <h3>INSTRUCTOR CARLOS RUEDA</h3>
-              <div className="aditional">
-                <h2>{oneclass.days}</h2>
-                <h2>{oneclass.time}</h2>  
-              </div>                                                                            
+              <h3>INSTRUCTOR : * CARLOS RUEDA *</h3>                                                                            
             </div>
           </div>                                         
         <CTA/> 

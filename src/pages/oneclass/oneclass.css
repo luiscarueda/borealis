@@ -24,6 +24,9 @@
   color: var(--blue-color);
   margin-left: 8rem;
 }
+.oneclass__right h3{
+  color: var(--blue-color);
+}
 .oneclass__right button{
     display: flex;
     flex-direction: column;

@@ -25,8 +25,8 @@ const Programming = () => {
    if (!schedules) return<div className='loading'>LOADING...</div>; 
    return (
     <section className='programming ' id='programming'>
-      <div className='container programming__container'>
-        <div className='programming__left '>
+      <div className='container programming__container '>
+        <div className='programming__schedule '>
             <div className='programming__image '>
              <img src={urlFor(schedules.currentImage.asset.url)} alt="imagen" />               
             </div>
@@ -34,7 +34,7 @@ const Programming = () => {
              <img src={urlFor(schedules.posteriorImage.asset.url)} alt="imagen" />               
             </div>
         </div>                                                
-        <div className='programming__right flex__center '>
+        <div className='programming__download flex__center '>
             <h3>Stay up to date with our monthly calendar, plus events and other activities we have for our entire community.</h3>
              <div className ='section '>
                 <h3>Download Schedule</h3>             

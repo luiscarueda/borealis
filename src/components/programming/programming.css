@@ -16,26 +16,26 @@
     margin: 1rem 2rem 1rem;
     padding: 1rem 3rem 2rem;
    }
-   .programming__left{
-    margin-top: 2rem;
+   .programming__schedule{
     display: flex;
+    margin-top: 2rem;
     flex-direction: row;
     gap: 1rem;
    }
 
-.programming__right{
+.programming__download{
 background: var(--gradient-bg);     
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
 padding: 1rem 2rem 2rem;
-margin: 1rem 4rem 1rem; 
+margin: -1rem 4rem 1rem; 
 border: solid 1px var(--color-gray-500);   
 border-radius: 1rem;  
 } 
 
-.programming__right h3{ 
+.programming__download h3{ 
     margin-bottom: 1rem;
     color: var(--gradient-bar-2);
     font-weight: 600;
@@ -45,8 +45,8 @@ border-radius: 1rem;
 
 .programming__image{
     width: 34rem;
-    height: 20rem;
-    margin-left: 4rem;
+    height: 18rem;
+    margin-left: 2rem;
  }
 .title{
     display: flex;
@@ -80,7 +80,8 @@ border-radius: 1rem;
         padding-bottom: 1rem;  
         margin-bottom: 2rem;    
      }
-     .programming__left{
+     .programming__schedule{
+        display: flex;
         justify-content: center;
         margin-left: 2rem;
         margin-top: 1rem;
@@ -90,7 +91,7 @@ border-radius: 1rem;
         height: 20rem;
         margin-left: 4rem;
      }
-     .programming__right{        
+     .programming__download{        
         width: fit-content;    
         margin: -12rem 1rem 2rem;        
         padding-bottom: 2rem;        
@@ -122,25 +123,33 @@ border-radius: 1rem;
    gap: 2rem; 
    height: 80%;     
 }
-.programming__left{
-    justify-content: center;
+
+.programming__schedule{
+    display: flex;
     margin-top: 2rem;
-    padding-bottom: 1rem;        
-}
+    flex-direction: column;
+    gap: 1.5rem;
+   }
 .programming__image{
     width: 20rem;
     height: 12rem;
     margin-left: -4rem;
 }
-.programming__right{
+.programming__download{
+    background: var(--gradient-bg);   
+    display: flex;
+    flex-direction: column;
+    
+
     margin-top: 2rem;
     margin-left: -2rem;      
     padding-bottom: 1rem;        
 }
-.programming__right h3{ 
+
+.programming__download h3{ 
     margin-bottom: 1rem;
     color: var(--gradient-bar-2);
     font-weight: 500;
     font-size: 1.1rem;
-} 
+ } 
 }    
