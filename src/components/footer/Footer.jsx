@@ -14,25 +14,25 @@ const Footer = () => {
              </Link>
              <SocialIcons/>         
           </article>           
-          <article className='footer__article'>
+          <article className='footer__article '>
            {FOOTERLINKS.map((section) =>(
-                <div key={section.title}>
+                <div  key={section.title}>
                   <h4>{section.title}</h4>
                   <ul>
-                  {section.links.map((link,index)=>(
-                    <li key={index}>    
+                    {section.links.map((link,index)=>(
+                     <li key={index}>    
                         <Link to={link.link} >
                             {link.name}
                         </Link>                    
-                    </li>
-                   ))}
-                 </ul>
+                     </li>
+                      ))}
+                  </ul>
                 </div>  
               ))}            
-           </article>
+          </article>
         </div>
         <div className="footer__copyright"> Developed by <a href='mailto:luiscrueda.ing@gmail.com'><span>L<strong>UIS</strong> C@RLOS RUEDA </span></a>
-      </div>
+       </div>
     </section>
   )
 }
