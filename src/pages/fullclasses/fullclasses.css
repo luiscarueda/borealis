@@ -57,7 +57,7 @@
         flex-direction: column;
         justify-content: start;
         align-content: start;
-        height: 70vh;
+        height: 80vh;
     }
 }    
 /*MEDIA QUERIES (small screens)*/
@@ -86,4 +86,12 @@
     .fullclasses__item h2{
        margin-bottom: 10rem;  
     }
+    .fullclasses__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: start;
+        height: 80vh;
+    }
+
 }  
