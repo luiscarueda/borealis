@@ -107,8 +107,13 @@
 }
 .footer__logo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 1rem;
     align-items: center;
+    margin-top: -12rem;
+    margin-bottom: 2rem;
+
+
 }
 .footer__article div ul:nth-child(2){
     margin-right: -6rem;  
