@@ -116,4 +116,7 @@
     align-items: start;
     gap: 1rem;
   }
+  .oneclass__right h1{
+    margin-left: 4rem;
+  }
 }    

@@ -25,4 +25,7 @@ section{
         display: flex;
         flex-direction: row;
     }
+    .sectionhead h2{
+        font-size: 1rem;
+    }
 }

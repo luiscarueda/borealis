@@ -2,7 +2,7 @@
     background: var(--gradient-bg);
     }
 .programs__container {
-  margin-top: 4rem;
+    margin-top: 4rem;
     display: flex;    
     flex-direction: column;
     gap: 4px;
@@ -25,19 +25,29 @@
 
 @media screen and (max-width:960px)
 {   
-.programs__container{
-   margin-top: 1rem;
-  
+  .programs__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
+  .programs__wrapper div :nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
 }
+
 /*MEDIA QUERIES (small screens)*/
 
 @media screen and (max-width:480px)
 {    
-  .programs__container{
-    margin-top: -4rem;
-    flex-wrap: nowrap;
-  }
+  .programs__wrapper{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
 }
  
     

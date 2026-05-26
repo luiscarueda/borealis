@@ -13,7 +13,7 @@ nav {
 .nav__container{
     height: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: relative;
 }

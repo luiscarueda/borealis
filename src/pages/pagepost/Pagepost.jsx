@@ -37,6 +37,7 @@ client.fetch(query)
                    <h4>{format(new Date(pagepost[0].publishedAt),'dd MMMM yyyy')}</h4>
                    <img src={urlFor(pagepost[0].mainImage.asset.url).width(440).height(440).blur(1).url()} alt="mainpost" />
                    <Link to={"/allposts/"+ pagepost[0].slug.current } key={pagepost[0].slug.current}>
+                    
                         <button className='btn'>read article</button>
                    </Link>                                                                             
                 </section>               

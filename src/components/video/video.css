@@ -1,9 +1,8 @@
 .video{
     display: flex;
-    justify-content: center;
-        
+    justify-content: center;  
     margin-top: 2rem;
-    margin-left: -2rem;
+    margin-left: -6rem;
     margin-bottom: 4rem;    
 }
 @keyframes fadeIn {

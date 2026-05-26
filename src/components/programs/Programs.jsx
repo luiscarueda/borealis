@@ -9,7 +9,7 @@ const Programs = () => {
     <section className='programs'>
       <div className="container programs__container">
         <SectionHead icon={<FaCrown/>} title='MONTHLY MEMBERSHIP'/>       
-         <div className='programs__wrapper '> 
+         <div className='programs__wrapper'> 
          {PROGRAMS.map((programs,index)=>(
             <div key={index} className='programs__card '>
                <ServicesCard 
@@ -20,7 +20,7 @@ const Programs = () => {
             </div>
             ))} 
          </div>
-         <div className='programs__wrapper '>
+         <div className='programs__wrapper'>
           {DROPIN.map((dropin,index)=>(
              <div key={index} className='programs__card '>
                <DropinCard

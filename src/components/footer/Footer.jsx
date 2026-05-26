@@ -7,14 +7,14 @@ import { SocialIcons } from '../../UI';
 const Footer = () => {
   return (
     <section className='footer'>
-        <div className="container footer__container">
-          <article className='footer__logo'>
+        <div className="container footer__container ">
+          <article className='footer__logo '>
              <Link to='/' className='logo'>
               <img src={Logo}  alt="footer logo" />
              </Link>
              <SocialIcons/>         
           </article>           
-          <article className='footer__article '>
+          <article className='footer__article'>
            {FOOTERLINKS.map((section) =>(
                 <div  key={section.title}>
                   <h4>{section.title}</h4>
