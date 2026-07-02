@@ -2,7 +2,7 @@
     background: var(--gradient-bg);
     }
 .programs__container {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;    
     flex-direction: column;
     gap: 4px;
@@ -45,9 +45,10 @@
     justify-content: start;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 3rem;
-    gap: 1rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
 }
+
 }
  
     

@@ -7,7 +7,7 @@ import { SocialIcons } from '../../UI';
 const Footer = () => {
   return (
     <section className='footer'>
-        <div className="container footer__container">
+        <div className="container footer__container ">
           <article className='footer__logo '>
              <Link to='/' className='logo'>
               <img src={Logo}  alt="footer logo" />

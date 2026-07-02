@@ -27,7 +27,7 @@ const Programming = () => {
     <section className='programming ' id='programming'>
       <div className='container programming__container '>
         <div className='programming__schedule'>
-            <div className='programming__image '>
+            <div className='programming__image' >
              <img src={urlFor(schedules.currentImage.asset.url)} alt="imagen" />               
             </div>
             <div className='programming__image '>
