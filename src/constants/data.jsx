@@ -4,6 +4,7 @@
     { label: "About",     path: '/about'   },    
     { label: "Schedule",  path: '/schedule'},     
     { label: "Enroll",    path: '/fullclasses'},
+    { label: "Register",  path: '/register'},
     { label: "Posts",     path: '/pagepost'},
     { label: "Contact",   path: '/contact' },            
    ];
@@ -44,6 +45,9 @@
        { title:'CONTACT',
          imgUrl:images.photo06,
        },
+       { title:'REGISTER FORM',
+         imgUrl:images.photo04,
+     },
     ] ; 
 
   export const ABOUT = [

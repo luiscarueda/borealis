@@ -11,7 +11,7 @@ const CTA = () => {
         </button>
         <h3>Start exploring the endless possibilities.</h3>
         <button className='btn ' >
-               <Link to={"/contact/" } >REGISTER NOW</Link>
+               <Link to={"/register/" } >REGISTER NOW</Link>
         </button>              
         </div>          
     </>
